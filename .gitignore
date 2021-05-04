@@ -130,3 +130,5 @@ dmypy.json
 
 csv_cleaner/venv/
 csv_cleaner/.idea/
+SAP PDF downloader/.idea
+SAP PDF Downloader.iml
