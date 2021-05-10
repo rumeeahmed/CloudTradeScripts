@@ -94,9 +94,9 @@ class ZendeskForwarder:
 
 
 file_path = '/Users/rumeeahmed/Documents/CloudTradeScripts/Mapping Requests'
-files = os.listdir(file_path)
+pdfs = os.listdir(file_path)
 
-for file in files:
-    if file.endswith('.pdf'):
-        zendesk = ZendeskForwarder('Test', f'{file_path}/{file}')
-        print(zendesk.send())
+for pdf in pdfs:
+    if pdf.endswith('.pdf'):
+        zendesk = ZendeskForwarder('Test', f'{file_path}/{pdf}')
+        zendesk.send()
