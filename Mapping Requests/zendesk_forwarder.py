@@ -91,3 +91,12 @@ class ZendeskForwarder:
         payload = json.dumps(self._data)
         response = requests.post(self.request_url, headers=self._headers, data=payload)
         return response.json()
+
+
+file_path = '/Users/rumeeahmed/Documents/CloudTradeScripts/Mapping Requests'
+files = os.listdir(file_path)
+
+for file in files:
+    if file.endswith('.pdf'):
+        zendesk = ZendeskForwarder('Test', f'{file_path}/{file}')
+        print(zendesk.send())
