@@ -43,8 +43,8 @@ class DiverseyPOCleaner:
         :return: A cleaned CSV for gratabase to ingest.
         """
 
-        now = datetime.now().strftime('%d %m %Y')
-        filename = f'Diversey PO Feed Cleaned {now}.csv'
+        self._now = datetime.now().strftime('%d %m %Y')
+        filename = f'Diversey PO Feed Cleaned {self._now}.csv'
 
         with open(f'{self.write_path}/{filename}', 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
@@ -57,7 +57,8 @@ class DiverseyPOCleaner:
         :return: A csv containing the rows that need to be removed from the PO feed.
         """
 
-        with open(f'{self.write_path}/Ariba PO feed lines removed.csv', 'w', newline='') as csv_file:
+        file_name = f'Diversey PO Feed Lines Removed {self._now}.csv'
+        with open(f'{self.write_path}/{file_name}', 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_not_cleaned:
                 csv_writer.writerow(row)
