@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DiverseyPOCleaner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diversey_feed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/written/Ariba PO feed lines removed.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/written/Diversey PO Feed Cleaned 13 05 2021.csv" afterDir="false" />
+    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed.">
+      <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +62,21 @@
       <option name="presentableId" value="Default" />
       <updated>1620921791967</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1620923286908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620923286908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed.">
+      <created>1620923500422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620923500422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed." />
   </component>
 </project>

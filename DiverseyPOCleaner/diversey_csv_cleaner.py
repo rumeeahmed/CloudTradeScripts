@@ -7,9 +7,10 @@ class DiverseyPOCleaner:
     """
     Object that cleans Diversey's PO feed.
     """
-    def __init__(self, directory_path: str, write_path: str):
+    def __init__(self, directory_path: str, clean_write_path: str, unclean_write_path: str):
         self.directory_path = directory_path
-        self.write_path = write_path
+        self.clean_write_path = clean_write_path
+        self.unclean_write_path = unclean_write_path
 
     def _clean(self):
         """
@@ -46,7 +47,7 @@ class DiverseyPOCleaner:
         self._now = datetime.now().strftime('%d %m %Y')
         filename = f'Diversey PO Feed Cleaned {self._now}.csv'
 
-        with open(f'{self.write_path}/{filename}', 'w', newline='') as csv_file:
+        with open(f'{self.clean_write_path}/{filename}', 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_cleaned:
                 csv_writer.writerow(row)
@@ -58,7 +59,7 @@ class DiverseyPOCleaner:
         """
 
         file_name = f'Diversey PO Feed Lines Removed {self._now}.csv'
-        with open(f'{self.write_path}/{file_name}', 'w', newline='') as csv_file:
+        with open(f'{self.unclean_write_path}/{file_name}', 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_not_cleaned:
                 csv_writer.writerow(row)
@@ -74,6 +75,8 @@ class DiverseyPOCleaner:
 
 
 directory_path = '/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner'
-write_path = 'written'
-po = DiverseyPOCleaner(directory_path, write_path)
+clean_write_path = 'cleaned'
+unclean_write_path = 'unclean'
+
+po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path)
 po.process_csv()
