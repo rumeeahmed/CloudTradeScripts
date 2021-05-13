@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed.">
+    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Object takes two write paths, one for the cleaned and the other for the uncleaned file.">
       <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620923500422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Object takes two write paths, one for the cleaned and the other for the uncleaned file.">
+      <created>1620924074781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620924074781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +101,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed." />
+    <MESSAGE value="Object takes two write paths, one for the cleaned and the other for the uncleaned file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Object takes two write paths, one for the cleaned and the other for the uncleaned file." />
   </component>
 </project>

@@ -8,6 +8,13 @@ class DiverseyPOCleaner:
     Object that cleans Diversey's PO feed.
     """
     def __init__(self, directory_path: str, clean_write_path: str, unclean_write_path: str):
+        """
+
+        :param directory_path: The directory that contains the csv.
+        :param clean_write_path: The directory to write the cleaned csv file to.
+        :param unclean_write_path: The directory to write the uncleaned csv file to.
+        """
+
         self.directory_path = directory_path
         self.clean_write_path = clean_write_path
         self.unclean_write_path = unclean_write_path
