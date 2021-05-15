@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Added docstring for the __init__">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/CloudTradeScripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/SAP Mapping Request ANID Extractor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/SAP Mapping Request New.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/SAP Mapping Requests c33dea08-3e63-4429-a67b-5f90132f9061.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/anid_extractor.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/mapping_reprocess/sap_ariba_network (inv 1).body.2021.04.21.04.47.35.722.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/mapping_reprocess/sap_ariba_network (inv 1).body.2021.04.21.04.47.41.519.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/mapping_reprocess/sap_ariba_network (inv 1).body.2021.04.21.04.47.48.473.pdf" afterDir="false" />
@@ -257,6 +244,8 @@
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/mapping_reprocess/sap_ariba_network (inv 1).body.2021.05.12.11.32.08.474.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/mapping_reprocess/sap_ariba_network (inv 1).body.2021.05.12.15.23.35.220.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/SAP Mapping Request New.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/SAP Mapping Request New.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/anid_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SAP Mapping Request ANID Extractor/anid_extractor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

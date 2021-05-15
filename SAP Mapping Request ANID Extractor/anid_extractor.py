@@ -17,6 +17,10 @@ class ANIDExtractor:
         self.write_path = write_path
 
     def _process_csv(self):
+        """
+        Open the csv and extract the data.
+        :return: list object containing all the rows in a csv.
+        """
         self._data = []
         with open(f'{self.file_path}', 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
@@ -25,6 +29,10 @@ class ANIDExtractor:
                 self._data.append(row)
 
     def _get_pdfs(self):
+        """
+        Make a get request on the URLs and download the pdf files.
+        :return: pdf files.
+        """
         for row in self._data:
             response = requests.get(row[-1])
             file = open(f'mapping_reprocess/{row[0]}.pdf', 'wb')
@@ -32,9 +40,13 @@ class ANIDExtractor:
             file.close()
 
     def _parse_anid(self):
+        """
+        Open up the pdfs and parse the supplier anids from the xml backing data.
+        :return: a list object containing the supplier anids
+        """
         files = os.listdir('mapping_reprocess')
+        self._supplier_anid = []
         for index, file in enumerate(files):
-            print(f'{index}: {file}')
             with open(f'mapping_reprocess/{file}', 'rb') as pdf_file:
                 try:
                     pdfReader = PyPDF2.PdfFileReader(pdf_file)
@@ -48,18 +60,25 @@ class ANIDExtractor:
                     supplier_anid = 'No ANID Found'
 
                 finally:
-                    if file == f'{self._data[index][0]}.pdf':
-                        print(supplier_anid)
+                    self._supplier_anid.append([supplier_anid])
 
     def _write_file(self):
-        with open(f'{self.write_path}/SAP Mapping Request New.csv', 'w', newline='') as csv_file:
+        """
+        Write the file containing the supplier anid
+        :return: a csv file
+        """
+        with open(f'{self.write_path}/SAP Mapping Request Affected ANIDs.csv', 'w', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
-            for row in self._data:
-                csv_writer.writerow(row)
+            for anid in self._supplier_anid:
+                csv_writer.writerow(anid)
 
     def execute(self):
+        """
+        Execute all the protected methods in one go.
+        :return: a csv file
+        """
         self._process_csv()
-        # self._get_pdfs()
+        self._get_pdfs()
         self._parse_anid()
         self._write_file()
 
