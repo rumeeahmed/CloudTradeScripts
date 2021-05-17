@@ -1,5 +1,6 @@
 import csv
 import os
+import shutil
 from datetime import datetime
 
 
@@ -7,17 +8,20 @@ class DiverseyPOCleaner:
     """
     Object that cleans Diversey's PO feed.
     """
-    def __init__(self, directory_path: str, clean_write_path: str, unclean_write_path: str):
+
+    def __init__(self, directory_path: str, clean_write_path: str, unclean_write_path: str, archive_path: str):
         """
 
         :param directory_path: The directory that contains the csv.
         :param clean_write_path: The directory to write the cleaned csv file to.
         :param unclean_write_path: The directory to write the uncleaned csv file to.
+        :param archive_path: The directory to move the original file to.
         """
 
         self.directory_path = directory_path
         self.clean_write_path = clean_write_path
         self.unclean_write_path = unclean_write_path
+        self.archive_path = archive_path
 
     def _clean(self):
         """
@@ -32,8 +36,9 @@ class DiverseyPOCleaner:
 
         files = os.listdir(self.directory_path)
         csvs = [file for file in files if file.endswith('.csv')]
+        self._original_file_name = csvs[0]
 
-        with open(f'{self.directory_path}/{csvs[0]}', 'r') as csv_file:
+        with open(f'{self.directory_path}/{self._original_file_name}', 'r', encoding="utf-8") as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
 
             for row in csv_reader:
@@ -54,7 +59,7 @@ class DiverseyPOCleaner:
         self._now = datetime.now().strftime('%d %m %Y')
         filename = f'Diversey PO Feed Cleaned {self._now}.csv'
 
-        with open(f'{self.clean_write_path}/{filename}', 'w', newline='') as csv_file:
+        with open(f'{self.clean_write_path}/{filename}', 'w', newline='', encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_cleaned:
                 csv_writer.writerow(row)
@@ -66,10 +71,17 @@ class DiverseyPOCleaner:
         """
 
         file_name = f'Diversey PO Feed Lines Removed {self._now}.csv'
-        with open(f'{self.unclean_write_path}/{file_name}', 'w', newline='') as csv_file:
+        with open(f'{self.unclean_write_path}/{file_name}', 'w', newline='', encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_not_cleaned:
                 csv_writer.writerow(row)
+
+    def _move_original_file(self):
+        """
+        Move the original file to an archived location
+        :return: None
+        """
+        shutil.move(self._original_file_name, self.archive_path)
 
     def process_csv(self):
         """
@@ -79,11 +91,13 @@ class DiverseyPOCleaner:
         self._clean()
         self._write_cleaned_csv()
         self._write_uncleaned_csv()
+        self._move_original_file()
 
 
-directory_path = '/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner'
-clean_write_path = 'cleaned'
-unclean_write_path = 'unclean'
+directory_path = r'D:\FTP\Diversey\Prod\AribaPOLookup'
+clean_write_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Cleaned Files'
+unclean_write_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Rejections'
+archive_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Archive'
 
-po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path)
+po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path, archive_path)
 po.process_csv()
