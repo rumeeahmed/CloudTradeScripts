@@ -1,15 +1,15 @@
-#Zendesk Forwarder
+# Zendesk Forwarder
 
 The purpose of this script is to bulk submit multiple pdfs into Zendesk as opposed to bulk submitting emails 
 as there are rate limits to the number of emails that can be sent from one email into the helpdesk per hour.
 
-##Usage
+## Usage
 This script is designed to send all files in a specified directory into Zendesk, when using this script ensure 
 that the filepath only contains mappings for the same customer. This script only searches for PDF files so
 any other file types will be ignored.
 
 Insert the path for the directory that contains all the pdfs on line 96 in the `file_path` variable and the `customer`
-variable..
+variable.
 ```python
 file_path = '/Users/rumeeahmed/Documents/Mapping Requests'
 customer_name = 'Test'

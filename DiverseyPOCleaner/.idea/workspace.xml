@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Archive path will move the file into an archive folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mapping Requests/zendesk_forwarder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/zendesk_forwarder.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updates Readme files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621267631319</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updates Readme files">
+      <created>1621347562715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621347562715</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +137,7 @@
     <MESSAGE value="Object takes two write paths, one for the cleaned and the other for the uncleaned file." />
     <MESSAGE value="Added docstring for the __init__" />
     <MESSAGE value="Archive path will move the file into an archive folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Archive path will move the file into an archive folder" />
+    <MESSAGE value="Updates Readme files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates Readme files" />
   </component>
 </project>

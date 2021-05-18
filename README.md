@@ -1,7 +1,6 @@
 # Python Directory
 This directory will contain all the Python scripts and programs for CloudTrade use only. Below is a detailed
 explanation on the structure and usage of this directory.
----
 
 ## Installation & Usage
 To execute any of these Python scripts an installation of `Python 3` is required which can be found from the following
@@ -10,7 +9,6 @@ easier. The standard to use is `Pycharm` which can be found [here](https://www.j
 scripts can be executed using `Visual Studio Code` but note that the Python module must be downloaded and installed
 from the marketplace. Both applications have a green play button in the top right corner that will allow execution of
 the file in question.
----
 
 ## Directory Structure
 ### Structure
@@ -37,4 +35,3 @@ can be found [here](https://pypi.org/)
 ```python
 pip install requests
 ```
----
