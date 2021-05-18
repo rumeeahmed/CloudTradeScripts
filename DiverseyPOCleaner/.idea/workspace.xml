@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Added docstring for the __init__">
+    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Archive path will move the file into an archive folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping Requests/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621100700739</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Archive path will move the file into an archive folder">
+      <created>1621267631319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621267631319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +133,7 @@
     <MESSAGE value="Updated the timestamp to be used as a class variable so it can be re-used for the unclean feed." />
     <MESSAGE value="Object takes two write paths, one for the cleaned and the other for the uncleaned file." />
     <MESSAGE value="Added docstring for the __init__" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added docstring for the __init__" />
+    <MESSAGE value="Archive path will move the file into an archive folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archive path will move the file into an archive folder" />
   </component>
 </project>

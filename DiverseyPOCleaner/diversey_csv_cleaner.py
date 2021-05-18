@@ -81,7 +81,7 @@ class DiverseyPOCleaner:
         Move the original file to an archived location
         :return: None
         """
-        shutil.move(self._original_file_name, self.archive_path)
+        shutil.move(f'{self.directory_path}/{self._original_file_name}', self.archive_path)
 
     def process_csv(self):
         """
