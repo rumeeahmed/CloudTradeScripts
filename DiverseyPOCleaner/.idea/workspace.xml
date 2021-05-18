@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Archive path will move the file into an archive folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mapping Requests/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping Requests/zendesk_forwarder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/zendesk_forwarder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
