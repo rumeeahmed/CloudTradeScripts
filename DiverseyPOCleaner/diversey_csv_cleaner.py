@@ -8,20 +8,26 @@ class DiverseyPOCleaner:
     """
     Object that cleans Diversey's PO feed.
     """
-
-    def __init__(self, directory_path: str, clean_write_path: str, unclean_write_path: str, archive_path: str):
+    def __init__(
+            self, directory_path: str,
+            clean_write_path: str,
+            unclean_write_path: str,
+            archive_path: str,
+            row_length: int
+    ):
         """
-
         :param directory_path: The directory that contains the csv.
         :param clean_write_path: The directory to write the cleaned csv file to.
         :param unclean_write_path: The directory to write the uncleaned csv file to.
         :param archive_path: The directory to move the original file to.
+        :param archive_path: The number of expected rows to clean the file by.
         """
 
         self.directory_path = directory_path
         self.clean_write_path = clean_write_path
         self.unclean_write_path = unclean_write_path
         self.archive_path = archive_path
+        self.row_length = row_length
 
     def _clean(self):
         """
@@ -45,10 +51,12 @@ class DiverseyPOCleaner:
                 while '' in row:
                     row.remove('')
 
-                if len(row) == 15:
+                if len(row) == int(row_length):
                     self._rows_cleaned.append(row)
                 else:
                     self._rows_not_cleaned.append(row)
+
+        self._move_original_file()
 
     def _write_cleaned_csv(self):
         """
@@ -57,7 +65,7 @@ class DiverseyPOCleaner:
         """
 
         self._now = datetime.now().strftime('%d %m %Y')
-        filename = f'Diversey PO Feed Cleaned {self._now}.csv'
+        filename = f"{self._original_file_name.strip('.csv')}_cleaned_{self._now}.csv"
 
         with open(f'{self.clean_write_path}/{filename}', 'w', newline='', encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
@@ -70,7 +78,7 @@ class DiverseyPOCleaner:
         :return: A csv containing the rows that need to be removed from the PO feed.
         """
 
-        file_name = f'Diversey PO Feed Lines Removed {self._now}.csv'
+        file_name = f"{self._original_file_name.strip('.csv')}_uncleaned_{self._now}.csv"
         with open(f'{self.unclean_write_path}/{file_name}', 'w', newline='', encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',')
             for row in self._rows_not_cleaned:
@@ -91,13 +99,14 @@ class DiverseyPOCleaner:
         self._clean()
         self._write_cleaned_csv()
         self._write_uncleaned_csv()
-        self._move_original_file()
 
 
-directory_path = r'D:\FTP\Diversey\Prod\AribaPOLookup'
-clean_write_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Cleaned Files'
-unclean_write_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Rejections'
-archive_path = r'D:\FTP\Diversey\Prod\AribaPOLookup\Archive'
+directory_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner'
+clean_write_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/cleaned'
+unclean_write_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/unclean'
+archive_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/archive'
+row_length = 15
 
-po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path, archive_path)
+po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path, archive_path, row_length)
 po.process_csv()
+
