@@ -90,7 +90,7 @@ class ZendeskForwarder:
         self._headers['Accept'] = 'application/json'
         payload = json.dumps(self._data)
         response = requests.post(self.request_url, headers=self._headers, data=payload)
-        return response.json()
+        return response.json(), response.headers
 
 
 file_path = '/Users/rumeeahmed/Documents/CloudTradeScripts/Mapping Requests'
@@ -100,4 +100,8 @@ pdfs = os.listdir(file_path)
 for pdf in pdfs:
     if pdf.endswith('.pdf'):
         zendesk = ZendeskForwarder(customer, f'{file_path}/{pdf}')
-        zendesk.send()
+        response = zendesk.send()
+        remaining_api_calls = int(response[1]['X-Rate-Limit-Remaining'])
+        if remaining_api_calls < 399:
+            print('Exceeding the API rate limit for this program')
+            break
