@@ -14,15 +14,6 @@ variable.
 file_path = '/Users/rumeeahmed/Documents/Mapping Requests'
 customer_name = 'Test'
 ```
-One thing to note is that the rate limit for the endpoint is 400 per second, so ensure that the number of pdf 
-files in the directory does not exceed 400. Whilst this is highly unlikely the below loop can be modified to slow
-down the POST requests to the API after every submission or after a certain number of submissions using the `time`
-module.
-```python
-import time
-for pdf in pdfs:
-    if pdf.endswith('.pdf'):
-        zendesk = ZendeskForwarder(customer, f'{file_path}\\{pdf}')
-        zendesk.send()
-        time.sleep(1)
-```
+One thing to note is that the rate limit for the endpoint is 400 per minute. To ensure that the limit is not used up 
+the program will stop sending files to the API when the limit is below 200. So ensure that the number of pdf files in 
+the directory does not exceed 200. If this does happen send the documents into the helpdesk in batches.
