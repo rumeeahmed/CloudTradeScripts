@@ -42,7 +42,7 @@ class DiverseyPOCleaner:
 
         files = os.listdir(self.directory_path)
         csvs = [file for file in files if file.endswith('.csv')]
-        self._original_file_name = csvs[0]
+        self._original_file_name = csvs[-1]
 
         with open(f'{self.directory_path}/{self._original_file_name}', 'r', encoding="utf-8") as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
@@ -56,15 +56,13 @@ class DiverseyPOCleaner:
                 else:
                     self._rows_not_cleaned.append(row)
 
-        self._move_original_file()
-
     def _write_cleaned_csv(self):
         """
         Write a CSV using the cleaned data.
         :return: A cleaned CSV for gratabase to ingest.
         """
 
-        self._now = datetime.now().strftime('%d %m %Y')
+        self._now = datetime.now().strftime('%d %m %Y %H %M %S')
         filename = f"{self._original_file_name.strip('.csv')}_cleaned_{self._now}.csv"
 
         with open(f'{self.clean_write_path}/{filename}', 'w', newline='', encoding="utf-8") as csv_file:
@@ -89,8 +87,14 @@ class DiverseyPOCleaner:
         Move the original file to an archived location
         :return: None
         """
-        shutil.move(f'{self.directory_path}/{self._original_file_name}', self.archive_path)
-
+        try:
+            shutil.move(f'{self.directory_path}/{self._original_file_name}', self.archive_path)
+        except shutil.Error:
+            shutil.move(
+                f'{self.directory_path}/{self._original_file_name}'
+                , f'{self.archive_path}/prexisting {self._now}{self._original_file_name}'
+            )
+        
     def process_csv(self):
         """
         Execute all the above commands in one go.
@@ -99,6 +103,7 @@ class DiverseyPOCleaner:
         self._clean()
         self._write_cleaned_csv()
         self._write_uncleaned_csv()
+        self._move_original_file()
 
 
 directory_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner'
