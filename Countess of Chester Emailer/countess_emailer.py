@@ -10,17 +10,19 @@ import os
 
 class Emailer:
 
-    def __init__(self, from_address: str, from_password: str, to_address: str, file_path: str):
+    def __init__(self, from_address: str, from_password: str, to_address: str, subject: str, file_path: str):
         """
 
         :param from_address: The email address to send the message from.
         :param from_password: The password associated with the sending email address.
         :param to_address: The email address to send the message to.
+        :param subject: The email subject to include in the header.
         :param file_path: The file path of any attachment to send.
         """
         self.from_address = from_address
         self.from_password = from_password
         self.to_address = to_address
+        self.subject = subject
         self.file_path = file_path
 
     def _prepare_mime(self):
@@ -33,7 +35,7 @@ class Emailer:
         self.msg = MIMEMultipart()
         self.msg['From'] = self.from_address
         self.msg['To'] = self.to_address
-        self.msg['Subject'] = 'New File'
+        self.msg['Subject'] = self.subject
         self.msg.attach(MIMEText('Please see attached file forwarded from the server'))
 
     def _attach_part(self):
@@ -50,7 +52,7 @@ class Emailer:
             part.set_payload(attachment_file.read())
 
         encoders.encode_base64(part)
-        part.add_header(f'Content-Disposition', 'attachment; filename="{}"'.format(Path(self.file_path).name))
+        part.add_header('Content-Disposition', f'attachment; filename="{Path(self.file_path).name}"')
         self.msg.attach(part)
 
     def send_email(self, host: str,  port: int):
@@ -77,8 +79,9 @@ files = os.listdir(attachment_directory)
 from_address = 'rumeeahmed.test@gmail.com'
 password = ''
 to_address = 'rumeeahmad@gmail.com'
+subject = 'Mitie Submission'
 
 for file in files:
-    emailer = Emailer(from_address, password, to_address, f'{attachment_directory}/{file}')
+    emailer = Emailer(from_address, password, to_address, subject, f'{attachment_directory}/{file}')
     emailer.send_email('smtp.gmail.com', 587)
     shutil.move(f'{attachment_directory}/{file}', move_path)
