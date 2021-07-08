@@ -17,9 +17,9 @@ class ZendeskForwarder:
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
     username = 'rumee.ahmed@cloud-trade.com'
-    token = ''
+    token = 'BPHF7BbMBXOPj8gk5jyir7fk99LJQHZbjmTewyWR'
 
-    def __init__(self, customer: str, filepath: str):
+    def __init__(self, username: str, customer: str, filepath: str):
         self.customer = customer
         self.filepath = filepath
         self._encode_authentication_details()
@@ -69,7 +69,7 @@ class ZendeskForwarder:
         }
         self._data = data
 
-    def _send_attachment(self) -> str:
+    def _send_attachment(self, filepath: str) -> str:
         """
         Post the attachment first prior to ticket creation to obtain a attachment token to be link the attachment and
         ticket together in Zendesk.
@@ -77,19 +77,19 @@ class ZendeskForwarder:
         """
         self._headers['Content-Type'] = 'application/pdf'
         self._headers['Accept'] = 'application/pdf'
-        files = {'file': open(self.filepath, 'rb')}
-        filename = os.path.basename(self.filepath)
+        files = {'file': open(filepath, 'rb')}
+        filename = os.path.basename(filepath)
         response = requests.post(f'{self.uploads_url}?filename={filename}', headers=self._headers, files=files)
         response.raise_for_status()
         content = response.json()
         return content['upload']['token']
 
-    def send(self) -> tuple:
+    def send(self, customer: str, filepath: str) -> tuple:
         """
         Make a POST request to the endpoint and create the ticket.
         :return: json API response object.
         """
-        attachment_token = self._send_attachment()
+        attachment_token = self._send_attachment(filepath)
         self._data['request']['comment']['uploads'] = [attachment_token]
         self._headers['Content-Type'] = 'application/json'
         self._headers['Accept'] = 'application/json'
@@ -97,6 +97,28 @@ class ZendeskForwarder:
         response = requests.post(self.request_url, headers=self._headers, data=payload)
         response.raise_for_status()
         return response.json(), response.headers
+
+    @staticmethod
+    def _get_now() -> tuple:
+        """
+        Get the current date time in separate values to use for querying the search API.
+        :return: a tuple containing the year, month and day in integer values.
+        """
+        now = datetime.now()
+        year = now.strftime('%Y')
+        month = now.strftime('%m')
+        day = now.strftime('%d')
+        return year, month, day
+
+    @staticmethod
+    def _process_tickets(tickets: dict) -> list:
+        """
+        Process the JSON returned from the API and return a list of ticket ID's.
+        :param tickets: the ticket JSON returned from the search API.
+        :return: A list of all the ticket ID's searched for.
+        """
+        ticket_ids = [str(ticket['id']) for ticket in tickets['results']]
+        return ticket_ids
 
     def _get_tickets(self, search_term: str) -> dict:
         """
@@ -110,34 +132,39 @@ class ZendeskForwarder:
         response.raise_for_status()
         return response.json()
 
-    def get_monthly_tickets(self) -> list:
+    def submit_monthly_tickets(self):
         """
-        Get the ticket id's for the monthly time tracking tickets.
-        :return: A list object containing all the ticket id's.
+        Perform a search on the search api and submit any ticket created since the 1st of the current month with the tag
+        `monthly_time_tracking`.
+        :return: None.
         """
-        now = datetime.now()
-        year = now.strftime('%Y')
-        month = now.strftime('%m')
+        year, month, day = self._get_now()
+        tickets = self._get_tickets(f'tags:monthly_time_tracking created>={year}-{month}-01 type:ticket status<solved')
+        ticket_ids = self._process_tickets(tickets)
+        self.bulk_submit_tickets(ticket_ids)
 
-        tickets = self._get_tickets(f'tags:monthly_time_tracking created>={year}-{month}-01 type:ticket status>solved')
-        ticket_ids = [str(ticket['id']) for ticket in tickets['results']]
-        return ticket_ids
-
-    def bulk_submit_tickets(self) -> dict:
+    def submit_junk_ariba_tickets(self):
         """
-        Bulk submit the tickets.
-        :return: A dictionary object containing the response message.
+        Perform a search on the search api for junk ariba tickets created on the current day and then submit them.
+        :return: None
         """
-        ticket_ids = self.get_monthly_tickets()
+        year, month, day = self._get_now()
+        tickets = self._get_tickets(
+            f'subject:"Your Ariba Request was Unable to be Processed" created>={year}-{month}-{day} '
+            f'type:ticket status<solved'
+        )
+        ticket_ids = self._process_tickets(tickets)
+        self.bulk_submit_tickets(ticket_ids)
 
+    def bulk_submit_tickets(self, ticket_ids: list) -> dict:
         if ticket_ids:
             params = ','.join(ticket_ids)
 
             data = {'tickets': []}
             for ticket in ticket_ids:
                 data['tickets'].append({'id': int(ticket), 'status': 'solved'})
-            data = json.dumps(data)
 
+            data = json.dumps(data)
             response = requests.put(f'{self.tickets_url}', headers=self._headers, params=params, data=data)
             response.raise_for_status()
             return response.json()
