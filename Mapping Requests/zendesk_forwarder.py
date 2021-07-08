@@ -141,32 +141,49 @@ class ZendeskForwarder:
         year, month, day = self._get_now()
         tickets = self._get_tickets(f'tags:monthly_time_tracking created>={year}-{month}-01 type:ticket status<solved')
         ticket_ids = self._process_tickets(tickets)
-        self.bulk_submit_tickets(ticket_ids)
+
+        data = {'tickets': []}
+        for ticket in ticket_ids:
+            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
+
+        return self.bulk_submit_tickets(ticket_ids, data)
 
     def submit_junk_ariba_tickets(self):
         """
         Perform a search on the search api for junk ariba tickets created on the current day and then submit them.
-        :return: None
+        :return: None.
         """
         year, month, day = self._get_now()
         tickets = self._get_tickets(
             f'subject:"Your Ariba Request was Unable to be Processed" created>={year}-{month}-{day} '
             f'type:ticket status<solved'
         )
+        print(tickets)
         ticket_ids = self._process_tickets(tickets)
-        self.bulk_submit_tickets(ticket_ids)
+        data = {'tickets': []}
+        for ticket in ticket_ids:
+            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
+        print(ticket_ids)
 
-    def bulk_submit_tickets(self, ticket_ids: list) -> dict:
+        return self.bulk_submit_tickets(ticket_ids, data)
+
+    def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> dict:
         if ticket_ids:
             params = ','.join(ticket_ids)
-
-            data = {'tickets': []}
-            for ticket in ticket_ids:
-                data['tickets'].append({'id': int(ticket), 'status': 'solved'})
-
             data = json.dumps(data)
             response = requests.put(f'{self.tickets_url}', headers=self._headers, params=params, data=data)
             response.raise_for_status()
             return response.json()
         else:
             print("No ticket ID's were found")
+
+    def get_ticket_fields(self):
+        response = requests.get(f'https://cloudtrade.zendesk.com/api/v2/ticket_fields', headers=self._headers)
+        response.raise_for_status()
+        return response.json()
+
+
+channel_partner_field = '360010677313'
+customer_partner_field = '360014557454'
+chargeable_field = '360014549894'
+non_ctissue = 59365948
