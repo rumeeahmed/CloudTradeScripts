@@ -7,7 +7,7 @@ import os
 
 class ZendeskForwarder:
     """
-    Object that creates a bulk Zendesk tickets.
+    Object that works with CloudTrade's Zendesk Api.
     """
 
     base_url = 'https://cloudtrade.zendesk.com/api/v2'
@@ -16,15 +16,16 @@ class ZendeskForwarder:
     search_url = f'{base_url}/search.json?'
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
-    username = 'rumee.ahmed@cloud-trade.com'
     token = 'BPHF7BbMBXOPj8gk5jyir7fk99LJQHZbjmTewyWR'
 
-    def __init__(self, username: str, customer: str, filepath: str):
-        self.customer = customer
-        self.filepath = filepath
+    def __init__(self, username: str):
+        """
+
+        :param username: a string value that represents the email username to use.
+        """
+        self.username = username
         self._encode_authentication_details()
         self._process_headers()
-        self._prepare_data()
 
     def _encode_authentication_details(self):
         """
@@ -50,7 +51,7 @@ class ZendeskForwarder:
         }
         self._headers = headers
 
-    def _prepare_data(self):
+    def _prepare_data(self, customer: str):
         """
         Prepare the data for the zendesk ticket.
         :return: data dict object
@@ -61,7 +62,7 @@ class ZendeskForwarder:
                     "email": "no-reply@cloutrade-zendesk.com",
                     'name': 'Noreply',
                 },
-                "subject": f"New {self.customer} Mapping",
+                "subject": f"New {customer} Mapping",
                 "comment": {
                     "body": "Please see attached file for mapping"
                 }
@@ -90,6 +91,7 @@ class ZendeskForwarder:
         :return: json API response object.
         """
         attachment_token = self._send_attachment(filepath)
+        self._prepare_data(customer)
         self._data['request']['comment']['uploads'] = [attachment_token]
         self._headers['Content-Type'] = 'application/json'
         self._headers['Accept'] = 'application/json'
@@ -150,7 +152,7 @@ class ZendeskForwarder:
 
     def submit_junk_ariba_tickets(self, subject: str):
         """
-        Perform a search on the search api for junk ariba tickets created on the current day and then submit them.
+        Perform a search on the search api for junk Ariba tickets created on the current day and then submit them.
         :param subject:
         :return: a dictionary object that contains the response data.
         """
@@ -167,9 +169,6 @@ class ZendeskForwarder:
         ]
         for ticket in data['tickets']:
             ticket['custom_fields'] = custom_fields
-
-        print(data)
-        print(ticket_ids)
 
         return self.bulk_submit_tickets(ticket_ids, data)
 
@@ -198,15 +197,10 @@ class ZendeskForwarder:
 
     def get_ticket_fields(self):
         """
-        This method will return all the possible ticket fields that are available in in the CloudTrade Zendesk API
+        This method will return all the possible ticket fields that are available in in the CloudTrade Zendesk API.
         :return: a dictionary object that contains the response data.
         """
         response = requests.get(f'https://cloudtrade.zendesk.com/api/v2/ticket_fields', headers=self._headers)
         response.raise_for_status()
         return response.json()
 
-
-channel_partner_field = '360010677313'
-customer_partner_field = '360014557454'
-chargeable_field = '360014549894'
-non_ctissue = 59365948

@@ -1,0 +1,4213 @@
+{
+  "ticket_fields": [
+    {
+      "url": "https://cloudtrade.zendesk.com/api/v2/ticket_fields/360022138278.json",
+      'id': 360022138278,
+      'type': 'text',
+      'title': "Form - Customer's Name",
+      'raw_title': "Form - Customer's Name",
+      'description': '',
+      'raw_description': '',
+      'position': 0,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Your Name',
+      'raw_title_in_portal': 'Your Name',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': True,
+      'tag': None,
+      'created_at': '2021-06-22T08:47:00Z',
+      'updated_at': '2021-06-22T08:49:19Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360022316657.json',
+      'id': 360022316657,
+      'type': 'text',
+      'title': "Form - Customer's Company",
+      'raw_title': "Form - Customer's Company",
+      'description': '',
+      'raw_description': '',
+      'position': 1,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Your Company',
+      'raw_title_in_portal': 'Your Company',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': True,
+      'tag': None,
+      'created_at': '2021-06-22T08:47:21Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595188.json',
+      'id': 23595188,
+      'type': 'priority',
+      'title': 'Priority',
+      'raw_title': 'Priority',
+      'description': '',
+      'raw_description': '',
+      'position': 2,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Priority',
+      'raw_title_in_portal': 'Priority',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:57Z',
+      'updated_at': '2021-06-22T08:57:56Z',
+      'removable': True,
+      'agent_description': None,
+      'system_field_options': [
+        {
+          'name': 'Low',
+          'value': 'low'
+        },
+        {
+          'name': 'Normal',
+          'value': 'normal'
+        },
+        {
+          'name': 'High',
+          'value': 'high'
+        },
+        {
+          'name': 'Urgent',
+          'value': 'urgent'
+        }
+      ],
+      'sub_type_id': 0
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595148.json',
+      'id': 23595148,
+      'type': 'subject',
+      'title': 'Subject',
+      'raw_title': 'Subject',
+      'description': 'Please enter a brief but descriptive / unique as possible to allow us to effectively track your requests.',
+      'raw_description': 'Please enter a brief but descriptive / unique as possible to allow us to effectively track your requests.',
+      'position': 3,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Subject',
+      'raw_title_in_portal': 'Subject',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': True,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:56Z',
+      'updated_at': '2021-07-06T13:23:07Z',
+      'removable': False,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595168.json',
+      'id': 23595168,
+      'type': 'status',
+      'title': 'Status',
+      'raw_title': 'Status',
+      'description': 'Request status',
+      'raw_description': 'Request status',
+      'position': 3,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Status',
+      'raw_title_in_portal': 'Status',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:57Z',
+      'updated_at': '2015-04-20T11:26:22Z',
+      'removable': False,
+      'agent_description': None,
+      'system_field_options': [
+        {
+          'name': 'Open',
+          'value': 'open'
+        },
+        {
+          'name': 'Pending',
+          'value': 'pending'
+        },
+        {
+          'name': 'On-hold',
+          'value': 'hold'
+        },
+        {
+          'name': 'Solved',
+          'value': 'solved'
+        }
+      ],
+      'sub_type_id': 1
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595158.json',
+      'id': 23595158,
+      'type': 'description',
+      'title': 'Description',
+      'raw_title': 'Description',
+      'description': 'Please enter the details of your request. Please include as much detail as possible, including document numbers, file names, sender email addresses, and times and dates. A member of our support staff will respond within two business days.',
+      'raw_description': 'Please enter the details of your request. Please include as much detail as possible, including document numbers, file names, sender email addresses, and times and dates. A member of our support staff will respond within two business days.',
+      'position': 4,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Description',
+      'raw_title_in_portal': 'Description',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': True,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:56Z',
+      'updated_at': '2021-06-22T08:57:56Z',
+      'removable': False,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/24037427.json',
+      'id': 24037427,
+      'type': 'tagger',
+      'title': 'Ticket Type',
+      'raw_title': 'Ticket Type',
+      'description': '',
+      'raw_description': '',
+      'position': 5,
+      'active': True,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Ticket Type',
+      'raw_title_in_portal': 'Ticket Type',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2014-12-02T11:37:21Z',
+      'updated_at': '2021-06-30T17:10:55Z',
+      'removable': True,
+      'agent_description': None,
+      'custom_field_options': [
+        {
+          'id': 360021121433,
+          'name': 'Account Calls::Account Call Meeting',
+          'raw_name': "Account Calls::Account Call Meeting",
+          'value': 'account_calls__account_call_meeting',
+          'default': False
+        },
+        {
+          'id': 360021121453,
+          'name': 'Account Calls::Account Call Prep',
+          'raw_name': 'Account Calls::Account Call Prep',
+          'value': 'account_calls__account_call_prep',
+          'default': False
+        },
+        {
+          'id': 360019222018,
+          'name': 'Administration::Escalation',
+          'raw_name': 'Administration::Escalation',
+          'value': 'administration__escalation',
+          'default': False
+        },
+        {
+          'id': 360021195158,
+          'name': 'Application Support::Adding EGS chain to database',
+          'raw_name': 'Application Support::Adding EGS chain to database',
+          'value': 'application_support__adding_egs_chain_to_database',
+          'default': False
+        },
+        {
+          'id': 360015145917,
+          'name': 'Application Support::Clearing Suspends',
+          'raw_name': 'Application Support::Clearing Suspends',
+          'value': 'systems__clearing_suspends',
+          'default': False
+        },
+        {
+          'id': 360015145957,
+          'name': 'Application Support::Expired Gramatica',
+          'raw_name': 'Application Support::Expired Gramatica',
+          'value': 'systems__expired_gramatica',
+          'default': False
+        },
+        {
+          'id': 360016807898,
+          'name': 'Application Support::In-Progress Documents',
+          'raw_name': 'Application Support::In-Progress Documents',
+          'value': 'application_support__in-progress_documents',
+          'default': False
+        },
+        {
+          'id': 360015146077,
+          'name': 'Application Support::Instance Maintenance::Duplicate Checker',
+          'raw_name': 'Application Support::Instance Maintenance::Duplicate Checker',
+          'value': 'systems__instance_maintenance__duplicate_checker',
+          'default': False
+        },
+        {
+          'id': 360015146097,
+          'name': 'Application Support::Instance Maintenance::Receiving/Transmitting',
+          'raw_name': 'Application Support::Instance Maintenance::Receiving/Transmitting',
+          'value': 'systems__instance_maintenance__receiving/transmitting',
+          'default': False
+        },
+        {
+          'id': 360016807878,
+          'name': 'Application Support::Mailbox Maintenance',
+          'raw_name': 'Application Support::Mailbox Maintenance',
+          'value': 'application_support__mailbox_maintenance',
+          'default': False
+        },
+        {
+          'id': 360021195178,
+          'name': 'Application Support::Morning restarts',
+          'raw_name': 'Application Support::Morning restarts',
+          'value': 'application_support__morning_restarts',
+          'default': False
+        },
+        {
+          'id': 360015146057,
+          'name': 'Application Support::New Instance Created',
+          'raw_name': 'Application Support::New Instance Created',
+          'value': 'systems__new_instance_created',
+          'default': False
+        },
+        {
+          'id': 360020420937,
+          'name': 'Application Support::Portal Lost Documents',
+          'raw_name': 'Application Support::Portal Lost Documents',
+          'value': 'application_support__portal_lost_documents',
+          'default': False
+        },
+        {
+          'id': 360015145937,
+          'name': 'Application Support::Prologger Monitoring',
+          'raw_name': 'Application Support::Prologger Monitoring',
+          'value': 'systems__prologger_monitoring',
+          'default': False
+        },
+        {
+          'id': 360015146017,
+          'name': 'Application Support::Updating Gramaticas',
+          'raw_name': 'Application Support::Updating Gramaticas',
+          'value': 'systems__updating_gramaticas',
+          'default': False
+        },
+        {
+          'id': 59307087,
+          'name': 'BAU::Document Query',
+          'raw_name': 'BAU::Document Query',
+          'value': 'invoice_configuration',
+          'default': False
+        },
+        {
+          'id': 51365448,
+          'name': 'BAU::Environment Adjustment',
+          'raw_name': 'BAU::Environment Adjustment',
+          'value': 'user_guidance',
+          'default': False
+        },
+        {
+          'id': 360008977353,
+          'name': 'BAU::Lookups Maintenance',
+          'raw_name': 'BAU::Lookups Maintenance',
+          'value': 'meeting__internal',
+          'default': False
+        },
+        {
+          'id': 114096707813,
+          'name': 'BAU::Mapping Adjustment',
+          'raw_name': 'BAU::Mapping Adjustment',
+          'value': 'general__enquiry__misc_query',
+          'default': False
+        },
+        {
+          'id': 114096707793,
+          'name': 'BAU::Mapping Issue',
+          'raw_name': 'BAU::Mapping Issue',
+          'value': 'general__enquiry__service_query',
+          'default': False
+        },
+        {
+          'id': 360007131933,
+          'name': 'BAU::Meeting',
+          'raw_name': 'BAU::Meeting',
+          'value': 'internal_request',
+          'default': False
+        },
+        {
+          'id': 360008599674,
+          'name': 'BAU::Missing / Delayed Docs',
+          'raw_name': 'BAU::Missing / Delayed Docs',
+          'value': 'internal_request__development',
+          'default': False
+        },
+        {
+          'id': 114096707833,
+          'name': 'BAU::New Customer',
+          'raw_name': 'BAU::New Customer',
+          'value': 'configuration__bespoke',
+          'default': False
+        },
+        {
+          'id': 47642687,
+          'name': 'BAU::New Mapping',
+          'raw_name': 'BAU::New Mapping',
+          'value': 'enquiry',
+          'default': False
+        },
+        {
+          'id': 360008253673,
+          'name': 'BAU::Portal Maintenance',
+          'raw_name': 'BAU::Portal Maintenance',
+          'value': 'internal_request__sales',
+          'default': False
+        },
+        {
+          'id': 360008977373,
+          'name': 'BAU::Report Review',
+          'raw_name': 'BAU::Report Review',
+          'value': 'meeting__external',
+          'default': False
+        },
+        {
+          'id': 360020157194,
+          'name': 'BAU::Service Query',
+          'raw_name': 'BAU::Service Query',
+          'value': 'bau__service_query',
+          'default': False
+        },
+        {
+          'id': 360011030253,
+          'name': 'BAU::Training ',
+          'raw_name': 'BAU::Training ',
+          'value': 'it_helpdesk',
+          'default': False
+        },
+        {
+          'id': 360017368513,
+          'name': 'Email Notification::DeployHQ',
+          'raw_name': 'Email Notification::DeployHQ',
+          'value': 'email_notification__deployhq',
+          'default': False
+        },
+        {
+          'id': 360024345673,
+          'name': 'Email Notification::Gramatica::Abnormal Gramatica Restarts',
+          'raw_name': 'Email Notification::Gramatica::Abnormal Gramatica Restarts',
+          'value': 'email_notification__gramatica__abnormal_gramatica_restarts',
+          'default': False
+        },
+        {
+          'id': 114095415574,
+          'name': 'Email Notification::Gramatica::Blacklisted Domain',
+          'raw_name': 'Email Notification::Gramatica::Blacklisted Domain',
+          'value': 'rules__customer_request__capture_adjustment',
+          'default': False
+        },
+        {
+          'id': 114096707673,
+          'name': 'Email Notification::Gramatica::Erroneous Mapping',
+          'raw_name': 'Email Notification::Gramatica::Erroneous Mapping',
+          'value': 'rules__maintenance__lookup_adjustment',
+          'default': False
+        },
+        {
+          'id': 114095415594,
+          'name': 'Email Notification::Gramatica::Test Email',
+          'raw_name': 'Email Notification::Gramatica::Test Email',
+          'value': 'rules__customer_request__new_lookup',
+          'default': False
+        },
+        {
+          'id': 360028244213,
+          'name': 'Email Notification::Mitie Files on SFTP',
+          'raw_name': 'Email Notification::Mitie Files on SFTP',
+          'value': 'email_notification__mitie_files_on_sftp',
+          'default': False
+        },
+        {
+          'id': 114095415554,
+          'name': 'Email Notification::Office 365::BCC',
+          'raw_name': 'Email Notification::Office 365::BCC',
+          'value': 'rules__customer_request__new_rule',
+          'default': False
+        },
+        {
+          'id': 47819548,
+          'name': 'Email Notification::Office 365::Incorrect Mailbox Rule',
+          'raw_name': 'Email Notification::Office 365::Incorrect Mailbox Rule',
+          'value': 'productionsupport',
+          'default': False
+        },
+        {
+          'id': 47819528,
+          'name': 'Email Notification::Office 365::Mailbox Notification',
+          'raw_name': 'Email Notification::Office 365::Mailbox Notification',
+          'value': 'productionrun',
+          'default': False
+        },
+        {
+          'id': 114096707693,
+          'name': 'Email Notification::Other::Marketing',
+          'raw_name': 'Email Notification::Other::Marketing',
+          'value': 'rules__rules_writing_support__basic_logic',
+          'default': False
+        },
+        {
+          'id': 114096707733,
+          'name': 'Email Notification::Other::Recruitment',
+          'raw_name': 'Email Notification::Other::Recruitment',
+          'value': 'rules__rules_writing_support__complicated_logic',
+          'default': False
+        },
+        {
+          'id': 114096707753,
+          'name': 'Email Notification::Other::Spam',
+          'raw_name': 'Email Notification::Other::Spam',
+          'value': 'rules__rules_writing_support__bespoke_scenario',
+          'default': False
+        },
+        {
+          'id': 360003589653,
+          'name': 'External Rules Writers::Environment Support',
+          'raw_name': 'External Rules Writers::Environment Support',
+          'value': 'sub-contractor__mitie__enquiry',
+          'default': False
+        },
+        {
+          'id': 47819538,
+          'name': 'External Rules Writers::Lookup Support',
+          'raw_name': 'External Rules Writers::Lookup Support',
+          'value': 'testingsupport',
+          'default': False
+        },
+        {
+          'id': 360007222934,
+          'name': 'External Rules Writers::Mapping Support',
+          'raw_name': 'External Rules Writers::Mapping Support',
+          'value': 'rules__rules_writing_support__virtual_machine',
+          'default': False
+        },
+        {
+          'id': 360009844358,
+          'name': 'External Rules Writers::RDE Support',
+          'raw_name': 'External Rules Writers::RDE Support',
+          'value': 'external_rules_writers__rde_support',
+          'default': False
+        },
+        {
+          'id': 360003589673,
+          'name': 'External Rules Writers::Server Support',
+          'raw_name': 'External Rules Writers::Server Support',
+          'value': 'sub-contractor__mitie__issue',
+          'default': False
+        },
+        {
+          'id': 360004925594,
+          'name': 'External Rules Writers::Syntax Error',
+          'raw_name': 'External Rules Writers::Syntax Error',
+          'value': 'rules__rules_writing_support__syntax_error',
+          'default': False
+        },
+        {
+          'id': 47832728,
+          'name': 'External Rules Writers::Training',
+          'raw_name': 'External Rules Writers::Training',
+          'value': 'timewasting',
+          'default': False
+        },
+        {
+          'id': 114096707713,
+          'name': 'External Rules Writers::Virtual Machine',
+          'raw_name': 'External Rules Writers::Virtual Machine',
+          'value': 'rules__rules_writing_support__lookup_logic',
+          'default': False
+        },
+        {
+          'id': 360017023637,
+          'name': 'Generic Capture Issue::Document Query',
+          'raw_name': 'Generic Capture Issue::Document Query',
+          'value': 'generic_capture_issue_document_query',
+          'default': False
+        },
+        {
+          'id': 360017023657,
+          'name': 'Generic Capture Issue::Environment Adjustment',
+          'raw_name': 'Generic Capture Issue::Environment Adjustment',
+          'value': 'generic_capture_issue_environment_adjustment',
+          'default': False
+        },
+        {
+          'id': 360017023617,
+          'name': 'Generic Capture Issue::Mapping Adjustment',
+          'raw_name': 'Generic Capture Issue::Mapping Adjustment',
+          'value': 'generic_capture_issue_mapping_adjustment',
+          'default': False
+        },
+        {
+          'id': 360000040333,
+          'name': 'Initial Project::Build',
+          'raw_name': 'Initial Project::Build',
+          'value': 'gramatica_email__blacklisted_domain',
+          'default': False
+        },
+        {
+          'id': 114096707633,
+          'name': 'Initial Project::Lookups Maintenance',
+          'raw_name': 'Initial Project::Lookups Maintenance',
+          'value': 'miss_handled_email__mailbox_notification',
+          'default': False
+        },
+        {
+          'id': 114096707593,
+          'name': 'Initial Project::Meeting',
+          'raw_name': 'Initial Project::Meeting',
+          'value': 'miss_handled_email__bcc',
+          'default': False
+        },
+        {
+          'id': 360017943793,
+          'name': 'Initial Project::New Mapping',
+          'raw_name': 'Initial Project::New Mapping',
+          'value': 'initial_project__new_mapping',
+          'default': False
+        },
+        {
+          'id': 114096707613,
+          'name': 'Initial Project::Portal Setup',
+          'raw_name': 'Initial Project::Portal Setup',
+          'value': 'miss_handled_email__incorrect_mailbox_rule',
+          'default': False
+        },
+        {
+          'id': 360000006134,
+          'name': 'Initial Project::Requirements',
+          'raw_name': 'Initial Project::Requirements',
+          'value': 'deployhq__failed_deployment',
+          'default': False
+        },
+        {
+          'id': 360000040353,
+          'name': 'Initial Project::Testing',
+          'raw_name': 'Initial Project::Testing',
+          'value': 'gramatica_email__erroneous_mapping',
+          'default': False
+        },
+        {
+          'id': 360000040373,
+          'name': 'Initial Project::Training',
+          'raw_name': 'Initial Project::Training',
+          'value': 'gramatica_email__test_email',
+          'default': False
+        },
+        {
+          'id': 360020027378,
+          'name': 'Innovation::Analysis',
+          'raw_name': 'Innovation::Analysis',
+          'value': 'innovation__analysis',
+          'default': False
+        },
+        {
+          'id': 360020027398,
+          'name': 'Innovation::Build',
+          'raw_name': 'Innovation::Build',
+          'value': 'innovation__build',
+          'default': False
+        },
+        {
+          'id': 360020026778,
+          'name': 'Innovation::New Ideas',
+          'raw_name': 'Innovation::New Ideas',
+          'value': 'innovation__new_ideas',
+          'default': False
+        },
+        {
+          'id': 360020027418,
+          'name': 'Innovation::Prioritisation',
+          'raw_name': 'Innovation::Prioritisation',
+          'value': 'innovation__prioritisation',
+          'default': False
+        },
+        {
+          'id': 360020027438,
+          'name': 'Innovation::Scope',
+          'raw_name': 'Innovation::Scope',
+          'value': 'innovation__scope',
+          'default': False
+        },
+        {
+          'id': 360020027458,
+          'name': 'Innovation::Testing',
+          'raw_name': 'Innovation::Testing',
+          'value': 'innovation__testing',
+          'default': False
+        },
+        {
+          'id': 360007222914,
+          'name': 'Internal::Demo Mappings',
+          'raw_name': 'Internal::Demo Mappings',
+          'value': 'portal__remove_user',
+          'default': False
+        },
+        {
+          'id': 360000949553,
+          'name': 'Internal::Demo Support',
+          'raw_name': 'Internal::Demo Support',
+          'value': 'portal__permissions_update',
+          'default': False
+        },
+        {
+          'id': 360011658157,
+          'name': 'Internal::Helping Other People',
+          'raw_name': 'Internal::Helping Other People',
+          'value': 'internal__helping_other_people',
+          'default': False
+        },
+        {
+          'id': 360007094918,
+          'name': 'Internal::Holiday/Sickness',
+          'raw_name': 'Internal::Holiday/Sickness',
+          'value': 'internal__holiday/sickness',
+          'default': False
+        },
+        {
+          'id': 114095397974,
+          'name': 'Internal::Internal Meeting',
+          'raw_name': 'Internal::Internal Meeting',
+          'value': 'on_boarding',
+          'default': False
+        },
+        {
+          'id': 114096707853,
+          'name': 'Internal::Internal Project',
+          'raw_name': 'Internal::Internal Project',
+          'value': 'configuration__misc',
+          'default': False
+        },
+        {
+          'id': 360017111273,
+          'name': 'Internal::Intervention',
+          'raw_name': 'Internal::Intervention',
+          'value': 'internal__intervention',
+          'default': False
+        },
+        {
+          'id': 360020036358,
+          'name': 'Internal::Marking Training',
+          'raw_name': 'Internal::Marking Training',
+          'value': 'internal__marking_training',
+          'default': False
+        },
+        {
+          'id': 114095354053,
+          'name': 'Internal::Portal Maintenance',
+          'raw_name': 'Internal::Portal Maintenance',
+          'value': 'portal__new_user',
+          'default': False
+        },
+        {
+          'id': 360011385617,
+          'name': 'Internal::Project Admin',
+          'raw_name': 'Internal::Project Admin',
+          'value': 'internal__project_admin',
+          'default': False
+        },
+        {
+          'id': 360015943597,
+          'name': 'Internal::SDD Migration',
+          'raw_name': 'Internal::SDD Migration',
+          'value': 'internal__sdd_migration',
+          'default': False
+        },
+        {
+          'id': 360000949533,
+          'name': 'Internal::Server Issues',
+          'raw_name': 'Internal::Server Issues',
+          'value': 'portal__locked_account',
+          'default': False
+        },
+        {
+          'id': 59307107,
+          'name': 'Internal::Suspends, Alerts, Expires',
+          'raw_name': 'Internal::Suspends, Alerts, Expires',
+          'value': 'order_configuration',
+          'default': False
+        },
+        {
+          'id': 360020391398,
+          'name': 'Internal::Training Assistance',
+          'raw_name': 'Internal::Training Assistance',
+          'value': 'internal__training_assistance',
+          'default': False
+        },
+        {
+          'id': 114095678574,
+          'name': 'Internal::Training Completion',
+          'raw_name': 'Internal::Training Completion',
+          'value': 'portal__enquiry',
+          'default': False
+        },
+        {
+          'id': 50464208,
+          'name': 'Internal::Training Creation',
+          'raw_name': 'Internal::Training Creation',
+          'value': 'portal_enquire',
+          'default': False
+        },
+        {
+          'id': 360022251118,
+          'name': 'Internal::Work Allocation',
+          'raw_name': 'Internal::Work Allocation',
+          'value': 'internal__work_allocation',
+          'default': False
+        },
+        {
+          'id': 360004925574,
+          'name': 'IT Helpdesk',
+          'raw_name': 'IT Helpdesk',
+          'value': 'rules__rules_writing_support__external_issue',
+          'default': False
+        },
+        {
+          'id': 59365948,
+          'name': 'Non-CloudTrade Issue',
+          'raw_name': 'Non-CloudTrade Issue',
+          'value': 'rules_writing_support',
+          'default': False
+        },
+        {
+          'id': 360008928713,
+          'name': 'Ramp Up::Environment Adjustment',
+          'raw_name': 'Ramp Up::Environment Adjustment',
+          'value': 'environment__environment_setup',
+          'default': False
+        },
+        {
+          'id': 114095397694,
+          'name': 'Ramp Up::Lookups Maintenance',
+          'raw_name': 'Ramp Up::Lookups Maintenance',
+          'value': 'environment__test__customer_change_request',
+          'default': False
+        },
+        {
+          'id': 360003589613,
+          'name': 'Ramp Up::Mapping Adjustment',
+          'raw_name': 'Ramp Up::Mapping Adjustment',
+          'value': 'email_notification__misc',
+          'default': False
+        },
+        {
+          'id': 114095397614,
+          'name': 'Ramp Up::Meeting',
+          'raw_name': 'Ramp Up::Meeting',
+          'value': 'environment__production__customer_change',
+          'default': False
+        },
+        {
+          'id': 360003589593,
+          'name': 'Ramp Up::New Mapping',
+          'raw_name': 'Ramp Up::New Mapping',
+          'value': 'email_notification__marketing',
+          'default': False
+        },
+        {
+          'id': 360003589633,
+          'name': 'Ramp Up::On-boarding',
+          'raw_name': 'Ramp Up::On-boarding',
+          'value': 'email_notification__recruitment',
+          'default': False
+        },
+        {
+          'id': 114095397714,
+          'name': 'Ramp Up::Portal Maintenance',
+          'raw_name': 'Ramp Up::Portal Maintenance',
+          'value': 'environment__test__bug_fix',
+          'default': False
+        },
+        {
+          'id': 360021892233,
+          'name': 'Ramp Up::Report Review',
+          'raw_name': 'Ramp Up::Report Review',
+          'value': 'ramp_up__report_review',
+          'default': False
+        },
+        {
+          'id': 114095397634,
+          'name': 'Ramp Up::Training',
+          'raw_name': 'Ramp Up::Training',
+          'value': 'environment__production__bug_fix',
+          'default': False
+        },
+        {
+          'id': 114095398014,
+          'name': 'Reports::New Report',
+          'raw_name': 'Reports::New Report',
+          'value': 'portal___user_guidance',
+          'default': False
+        },
+        {
+          'id': 360000040313,
+          'name': 'Reports::One-Off Report',
+          'raw_name': 'Reports::One-Off Report',
+          'value': 'reporting__scheduled_report__update',
+          'default': False
+        },
+        {
+          'id': 360008259073,
+          'name': 'Reports::Report Issues',
+          'raw_name': 'Reports::Report Issues',
+          'value': 'reporting__scheduled_report__issues',
+          'default': False
+        },
+        {
+          'id': 360000040293,
+          'name': 'Reports::Report Maintenance',
+          'raw_name': 'Reports::Report Maintenance',
+          'value': 'reporting__scheduled_report__new',
+          'default': False
+        },
+        {
+          'id': 360000040273,
+          'name': 'Reports::Update to Report',
+          'raw_name': 'Reports::Update to Report',
+          'value': 'reporting__one_time_report',
+          'default': False
+        },
+        {
+          'id': 360015146037,
+          'name': 'Systems::Installing Certificates',
+          'raw_name': 'Systems::Installing Certificates',
+          'value': 'systems__installing_certificates',
+          'default': False
+        },
+        {
+          'id': 360015145997,
+          'name': 'Systems::New FTP/SFTP',
+          'raw_name': 'Systems::New FTP/SFTP',
+          'value': 'systems__new_ftp/sftp',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360014557454.json',
+      'id': 360014557454,
+      'type': 'tagger',
+      'title': 'Customer',
+      'raw_title': 'Customer',
+      'description': '',
+      'raw_description': '',
+      'position': 6,
+      'active': True,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Customer',
+      'raw_title_in_portal': 'Customer',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2019-01-30T17:25:07Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Customer',
+      'custom_field_options': [
+        {
+          'id': 360017202334,
+          'name': 'Aberdeen City Council',
+          'raw_name': 'Aberdeen City Council',
+          'value': 'aberdeen_city_council',
+          'default': False
+        },
+        {
+          'id': 360017202354,
+          'name': 'Aberdeenshire Council',
+          'raw_name': 'Aberdeenshire Council',
+          'value': 'aberdeenshire_council',
+          'default': False
+        },
+        {
+          'id': 360017202374,
+          'name': 'Abertay University',
+          'raw_name': 'Abertay University',
+          'value': 'abertay_university',
+          'default': False
+        },
+        {
+          'id': 360017202394,
+          'name': 'Account NI',
+          'raw_name': 'Account NI',
+          'value': 'account_ni',
+          'default': False
+        },
+        {
+          'id': 360020189518,
+          'name': 'AIA',
+          'raw_name': 'AIA',
+          'value': 'aia',
+          'default': False
+        },
+        {
+          'id': 360017202414,
+          'name': 'AirBus',
+          'raw_name': 'AirBus',
+          'value': 'airbus',
+          'default': False
+        },
+        {
+          'id': 360021174497,
+          'name': 'AIRR',
+          'raw_name': 'AIRR',
+          'value': 'airr',
+          'default': False
+        },
+        {
+          'id': 360017202434,
+          'name': 'AlpsControls',
+          'raw_name': 'AlpsControls',
+          'value': 'alpscontrols_2',
+          'default': False
+        },
+        {
+          'id': 360004280577,
+          'name': 'AMAT',
+          'raw_name': 'AMAT',
+          'value': 'amat',
+          'default': False
+        },
+        {
+          'id': 360010463697,
+          'name': 'ANZ NZ',
+          'raw_name': 'ANZ NZ',
+          'value': 'anz_nz',
+          'default': False
+        },
+        {
+          'id': 360011107338,
+          'name': 'Appleton ',
+          'raw_name': 'Appleton ',
+          'value': 'appleton_',
+          'default': False
+        },
+        {
+          'id': 360015818338,
+          'name': 'Application Support',
+          'raw_name': 'Application Support',
+          'value': 'application_support',
+          'default': False
+        },
+        {
+          'id': 360017202454,
+          'name': 'Architectural Decorators',
+          'raw_name': 'Architectural Decorators',
+          'value': 'architectural_decorators',
+          'default': False
+        },
+        {
+          'id': 360017202474,
+          'name': 'Arco Ltd.',
+          'raw_name': 'Arco Ltd.',
+          'value': 'arco_ltd.',
+          'default': False
+        },
+        {
+          'id': 360017202494,
+          'name': 'Argyll & Bute',
+          'raw_name': 'Argyll & Bute',
+          'value': 'argyll___bute',
+          'default': False
+        },
+        {
+          'id': 360017202514,
+          'name': 'Ariba Network',
+          'raw_name': 'Ariba Network',
+          'value': 'ariba_network',
+          'default': False
+        },
+        {
+          'id': 360011187898,
+          'name': 'Arrow County Supplies',
+          'raw_name': 'Arrow County Supplies',
+          'value': 'arrow_county_supplies',
+          'default': False
+        },
+        {
+          'id': 360005196197,
+          'name': 'Atos',
+          'raw_name': 'Atos',
+          'value': 'atos',
+          'default': False
+        },
+        {
+          'id': 360014408678,
+          'name': 'Barnet, Enfield and Haringey Mental Health NHS Trust',
+          'raw_name': 'Barnet, Enfield and Haringey Mental Health NHS Trust',
+          'value': 'barnet__enfield_and_haringey_mental_health_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017202534,
+          'name': 'Bayer',
+          'raw_name': 'Bayer',
+          'value': 'bayer',
+          'default': False
+        },
+        {
+          'id': 360011107358,
+          'name': 'BBC',
+          'raw_name': 'BBC',
+          'value': 'bbc',
+          'default': False
+        },
+        {
+          'id': 360017202554,
+          'name': 'Bedford Hospital NHS Trust',
+          'raw_name': 'Bedford Hospital NHS Trust',
+          'value': 'bedford_hospital_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017202574,
+          'name': 'Bedfordshire Police',
+          'raw_name': 'Bedfordshire Police',
+          'value': 'bedfordshire_police',
+          'default': False
+        },
+        {
+          'id': 360017202594,
+          'name': 'Bio-Rad Laboratories Ltd.',
+          'raw_name': 'Bio-Rad Laboratories Ltd.',
+          'value': 'bio-rad_laboratories_ltd.',
+          'default': False
+        },
+        {
+          'id': 360005113197,
+          'name': 'Bio-Techne',
+          'raw_name': 'Bio-Techne',
+          'value': 'bio-techne',
+          'default': False
+        },
+        {
+          'id': 360014408698,
+          'name': 'Birmingham Community Healthcare NHS Trust',
+          'raw_name': 'Birmingham Community Healthcare NHS Trust',
+          'value': 'birmingham_community_healthcare_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017108893,
+          'name': 'Bosch',
+          'raw_name': 'Bosch',
+          'value': 'bosch',
+          'default': False
+        },
+        {
+          'id': 360014408718,
+          'name': 'Bournemouth and Poole Charitable Funds',
+          'raw_name': 'Bournemouth and Poole Charitable Funds',
+          'value': 'bournemouth_and_poole_charitable_funds',
+          'default': False
+        },
+        {
+          'id': 360017202614,
+          'name': 'Bournemouth University',
+          'raw_name': 'Bournemouth University',
+          'value': 'bournemouth_university',
+          'default': False
+        },
+        {
+          'id': 360015880357,
+          'name': 'BT',
+          'raw_name': 'BT',
+          'value': 'bt2',
+          'default': False
+        },
+        {
+          'id': 360007770038,
+          'name': 'Buckinghamshire Healthcare NHS Trust',
+          'raw_name': 'Buckinghamshire Healthcare NHS Trust',
+          'value': 'buckinghamshire_healthcare_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017202634,
+          'name': 'Caledonian MacBrayne',
+          'raw_name': 'Caledonian MacBrayne',
+          'value': 'caledonian_macbrayne',
+          'default': False
+        },
+        {
+          'id': 360017202654,
+          'name': 'Cambridgeshire Police',
+          'raw_name': 'Cambridgeshire Police',
+          'value': 'cambridgeshire_police',
+          'default': False
+        },
+        {
+          'id': 360017202674,
+          'name': 'Camden and Islington NHS Foundation Trust',
+          'raw_name': 'Camden and Islington NHS Foundation Trust',
+          'value': 'camden_and_islington_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017202694,
+          'name': 'Canterbury Christ Church University',
+          'raw_name': 'Canterbury Christ Church University',
+          'value': 'canterbury_christ_church_university',
+          'default': False
+        },
+        {
+          'id': 360017202714,
+          'name': 'CapVest',
+          'raw_name': 'CapVest',
+          'value': 'capvest',
+          'default': False
+        },
+        {
+          'id': 360019945157,
+          'name': 'CASS POC',
+          'raw_name': 'CASS POC',
+          'value': 'cass_poc',
+          'default': False
+        },
+        {
+          'id': 360019954153,
+          'name': 'Cegedim',
+          'raw_name': 'Cegedim',
+          'value': 'cegedim2',
+          'default': False
+        },
+        {
+          'id': 360020248198,
+          'name': 'Cellnex',
+          'raw_name': 'Cellnex',
+          'value': 'cellnex',
+          'default': False
+        },
+        {
+          'id': 360017202734,
+          'name': 'CES UK',
+          'raw_name': 'CES UK',
+          'value': 'ces_uk',
+          'default': False
+        },
+        {
+          'id': 360017104753,
+          'name': 'Cisbox',
+          'raw_name': 'Cisbox',
+          'value': 'cisbox_2',
+          'default': False
+        },
+        {
+          'id': 360024049013,
+          'name': 'Citizens Advice Scotland',
+          'raw_name': 'Citizens Advice Scotland',
+          'value': 'citizens_advice_scotland',
+          'default': False
+        },
+        {
+          'id': 360017202754,
+          'name': 'City Pub Company',
+          'raw_name': 'City Pub Company',
+          'value': 'city_pub_company',
+          'default': False
+        },
+        {
+          'id': 360017017137,
+          'name': 'Clares Office Supplies',
+          'raw_name': 'Clares Office Supplies',
+          'value': 'clares_office_supplies',
+          'default': False
+        },
+        {
+          'id': 360017202774,
+          'name': 'Colchester Borough Council',
+          'raw_name': 'Colchester Borough Council',
+          'value': 'colchester_borough_council',
+          'default': False
+        },
+        {
+          'id': 360010463717,
+          'name': 'Compass Group',
+          'raw_name': 'Compass Group',
+          'value': 'compass_group',
+          'default': False
+        },
+        {
+          'id': 360017202794,
+          'name': 'Converga',
+          'raw_name': 'Converga',
+          'value': 'converga_2',
+          'default': False
+        },
+        {
+          'id': 360005487858,
+          'name': 'COPFS',
+          'raw_name': 'COPFS',
+          'value': 'copfs',
+          'default': False
+        },
+        {
+          'id': 360007459317,
+          'name': 'Countess of Chester Hospital NHS Foundation Trust',
+          'raw_name': 'Countess of Chester Hospital NHS Foundation Trust',
+          'value': 'countess_of_chester_hospital_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017311813,
+          'name': 'Coventry and Warwickshire Partnership NHS Trust',
+          'raw_name': 'Coventry and Warwickshire Partnership NHS Trust',
+          'value': 'coventry_and_warwickshire_partnership_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017202814,
+          'name': 'Coventry City Council',
+          'raw_name': 'Coventry City Council',
+          'value': 'coventry_city_council',
+          'default': False
+        },
+        {
+          'id': 360025246514,
+          'name': 'Croydon NHS',
+          'raw_name': 'Croydon NHS',
+          'value': 'croydon_nhs',
+          'default': False
+        },
+        {
+          'id': 360017202834,
+          'name': 'Cumbria County Council',
+          'raw_name': 'Cumbria County Council',
+          'value': 'cumbria_county_council',
+          'default': False
+        },
+        {
+          'id': 360010772997,
+          'name': 'CXO Nexus',
+          'raw_name': 'CXO Nexus',
+          'value': 'cxo_nexus2',
+          'default': False
+        },
+        {
+          'id': 360017819917,
+          'name': 'DDEX ',
+          'raw_name': 'DDEX ',
+          'value': 'ddex_',
+          'default': False
+        },
+        {
+          'id': 360014423318,
+          'name': 'Deloitte',
+          'raw_name': 'Deloitte',
+          'value': 'deloitte',
+          'default': False
+        },
+        {
+          'id': 360017202854,
+          'name': 'Deltex Medical Limited',
+          'raw_name': 'Deltex Medical Limited',
+          'value': 'deltex_medical_limited',
+          'default': False
+        },
+        {
+          'id': 360005196217,
+          'name': 'Deutsche Telekom',
+          'raw_name': 'Deutsche Telekom',
+          'value': 'deutsche_telekom',
+          'default': False
+        },
+        {
+          'id': 360011833098,
+          'name': 'Development',
+          'raw_name': 'Development',
+          'value': 'development',
+          'default': False
+        },
+        {
+          'id': 360017819897,
+          'name': 'Distribution One',
+          'raw_name': 'Distribution One',
+          'value': 'distribution_one',
+          'default': False
+        },
+        {
+          'id': 360011675837,
+          'name': 'Diversey',
+          'raw_name': 'Diversey',
+          'value': 'diversey',
+          'default': False
+        },
+        {
+          'id': 360017871193,
+          'name': 'Dorset Healthcare University NHS Foundation Trust',
+          'raw_name': 'Dorset Healthcare University NHS Foundation Trust',
+          'value': 'dorset_healthcare_university_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017202874,
+          'name': 'Downer',
+          'raw_name': 'Downer',
+          'value': 'downer',
+          'default': False
+        },
+        {
+          'id': 360017202894,
+          'name': 'Dumfries & Galloway',
+          'raw_name': 'Dumfries & Galloway',
+          'value': 'dumfries___galloway',
+          'default': False
+        },
+        {
+          'id': 360017104773,
+          'name': 'Dunelm',
+          'raw_name': 'Dunelm',
+          'value': 'dunelm',
+          'default': False
+        },
+        {
+          'id': 360017202914,
+          'name': 'East Dunbartonshire Council',
+          'raw_name': 'East Dunbartonshire Council',
+          'value': 'east_dunbartonshire_council',
+          'default': False
+        },
+        {
+          'id': 360014408738,
+          'name': 'East Lancashire Charitable Funds',
+          'raw_name': 'East Lancashire Charitable Funds',
+          'value': 'east_lancashire_charitable_funds',
+          'default': False
+        },
+        {
+          'id': 360014408758,
+          'name': 'East Lancashire Hospitals NHS Trust',
+          'raw_name': 'East Lancashire Hospitals NHS Trust',
+          'value': 'east_lancashire_hospitals_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017202934,
+          'name': 'East Lothian Council',
+          'raw_name': 'East Lothian Council',
+          'value': 'east_lothian_council',
+          'default': False
+        },
+        {
+          'id': 360017202954,
+          'name': 'East Renfrewshire Council',
+          'raw_name': 'East Renfrewshire Council',
+          'value': 'east_renfrewshire_council',
+          'default': False
+        },
+        {
+          'id': 360017202974,
+          'name': 'EchoVera',
+          'raw_name': 'EchoVera',
+          'value': 'echovera_2',
+          'default': False
+        },
+        {
+          'id': 360011524017,
+          'name': 'Elanco',
+          'raw_name': 'Elanco',
+          'value': 'elanco',
+          'default': False
+        },
+        {
+          'id': 360015981977,
+          'name': 'Elcom ',
+          'raw_name': 'Elcom ',
+          'value': 'elcom_',
+          'default': False
+        },
+        {
+          'id': 360017202994,
+          'name': 'ELFS',
+          'raw_name': 'ELFS',
+          'value': 'elfs',
+          'default': False
+        },
+        {
+          'id': 360011107378,
+          'name': 'Emerson',
+          'raw_name': 'Emerson',
+          'value': 'emerson',
+          'default': False
+        },
+        {
+          'id': 360017203014,
+          'name': 'Envista',
+          'raw_name': 'Envista',
+          'value': 'envista_2',
+          'default': False
+        },
+        {
+          'id': 360019450394,
+          'name': 'Envista US',
+          'raw_name': 'Envista US',
+          'value': 'envista_us_2',
+          'default': False
+        },
+        {
+          'id': 360012273478,
+          'name': 'Episerver',
+          'raw_name': 'Episerver',
+          'value': 'episerver',
+          'default': False
+        },
+        {
+          'id': 360017203034,
+          'name': 'Epping Forest District Council',
+          'raw_name': 'Epping Forest District Council',
+          'value': 'epping_forest_district_council',
+          'default': False
+        },
+        {
+          'id': 360017203054,
+          'name': 'Essex County Council',
+          'raw_name': 'Essex County Council',
+          'value': 'essex_county_council',
+          'default': False
+        },
+        {
+          'id': 360018224698,
+          'name': 'Essilor',
+          'raw_name': 'Essilor',
+          'value': 'essilor',
+          'default': False
+        },
+        {
+          'id': 360017203074,
+          'name': 'ETM Group',
+          'raw_name': 'ETM Group',
+          'value': 'etm_group',
+          'default': False
+        },
+        {
+          'id': 360010836298,
+          'name': 'ExceleratedS2P',
+          'raw_name': 'ExceleratedS2P',
+          'value': 'excelerateds2p2',
+          'default': False
+        },
+        {
+          'id': 360010537537,
+          'name': 'Falkirk Council',
+          'raw_name': 'Falkirk Council',
+          'value': 'falkirk_council',
+          'default': False
+        },
+        {
+          'id': 360030781553,
+          'name': 'Fife College',
+          'raw_name': 'Fife College',
+          'value': 'fife_college',
+          'default': False
+        },
+        {
+          'id': 360017203094,
+          'name': 'Fife Council',
+          'raw_name': 'Fife Council',
+          'value': 'fife_council',
+          'default': False
+        },
+        {
+          'id': 360011833118,
+          'name': 'Finance',
+          'raw_name': 'Finance',
+          'value': 'finance',
+          'default': False
+        },
+        {
+          'id': 360017391893,
+          'name': 'Fourth',
+          'raw_name': 'Fourth',
+          'value': 'fourth_2',
+          'default': False
+        },
+        {
+          'id': 360013861698,
+          'name': 'Freight Management Inc.',
+          'raw_name': 'Freight Management Inc.',
+          'value': 'freight_management_inc2',
+          'default': False
+        },
+        {
+          'id': 360019289033,
+          'name': 'Freight Rover',
+          'raw_name': 'Freight Rover',
+          'value': 'freight_rover_2',
+          'default': False
+        },
+        {
+          'id': 360017203114,
+          'name': 'Frimley Health NHS Foundation Trust',
+          'raw_name': 'Frimley Health NHS Foundation Trust',
+          'value': 'frimley_health_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360027193513,
+          'name': 'Full Support',
+          'raw_name': 'Full Support',
+          'value': 'full_support',
+          'default': False
+        },
+        {
+          'id': 360007770058,
+          'name': 'George Elliot Hospital NHS Trust',
+          'raw_name': 'George Elliot Hospital NHS Trust',
+          'value': 'george_elliot_hospital_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360010537557,
+          'name': 'Glasgow Caledonian University',
+          'raw_name': 'Glasgow Caledonian University',
+          'value': 'glasgow_caledonian_university',
+          'default': False
+        },
+        {
+          'id': 360017203134,
+          'name': 'Glasgow City Council',
+          'raw_name': 'Glasgow City Council',
+          'value': 'glasgow_city_council',
+          'default': False
+        },
+        {
+          'id': 360019583434,
+          'name': 'Golda',
+          'raw_name': 'Golda',
+          'value': 'golda',
+          'default': False
+        },
+        {
+          'id': 360021530477,
+          'name': 'Gousto',
+          'raw_name': 'Gousto',
+          'value': 'gousto',
+          'default': False
+        },
+        {
+          'id': 360017203154,
+          'name': 'Great Ormond Street Hospital NHS Foundation Trust',
+          'raw_name': 'Great Ormond Street Hospital NHS Foundation Trust',
+          'value': 'great_ormond_street_hospital_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360011182758,
+          'name': 'GroupM',
+          'raw_name': 'GroupM',
+          'value': 'groupm',
+          'default': False
+        },
+        {
+          'id': 360017203174,
+          'name': 'Hedin Bil',
+          'raw_name': 'Hedin Bil',
+          'value': 'hedin_bil',
+          'default': False
+        },
+        {
+          'id': 360005969217,
+          'name': 'Heriot-Watt University ',
+          'raw_name': 'Heriot-Watt University ',
+          'value': 'heriot-watt_university_',
+          'default': False
+        },
+        {
+          'id': 360014408778,
+          'name': 'Hertfordshire Community NHS Trust',
+          'raw_name': 'Hertfordshire Community NHS Trust',
+          'value': 'hertfordshire_community_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360014408798,
+          'name': 'Hertfordshire Partnership NHS Foundation Trust',
+          'raw_name': 'Hertfordshire Partnership NHS Foundation Trust',
+          'value': 'hertfordshire_partnership_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017203194,
+          'name': 'Hertfordshire Police',
+          'raw_name': 'Hertfordshire Police',
+          'value': 'hertfordshire_police',
+          'default': False
+        },
+        {
+          'id': 360012042397,
+          'name': 'Hillingdon Hospitals',
+          'raw_name': 'Hillingdon Hospitals',
+          'value': 'hillingdon_hospitals',
+          'default': False
+        },
+        {
+          'id': 360017203214,
+          'name': 'HSCNI',
+          'raw_name': 'HSCNI',
+          'value': 'hscni',
+          'default': False
+        },
+        {
+          'id': 360014408818,
+          'name': 'Hull and East Yorkshire Hospitals NHS Trust',
+          'raw_name': 'Hull and East Yorkshire Hospitals NHS Trust',
+          'value': 'hull_and_east_yorkshire_hospitals_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360020021438,
+          'name': 'Humankind',
+          'raw_name': 'Humankind',
+          'value': 'humankind',
+          'default': False
+        },
+        {
+          'id': 360019954173,
+          'name': 'IBM',
+          'raw_name': 'IBM',
+          'value': 'ibm2',
+          'default': False
+        },
+        {
+          'id': 360017203234,
+          'name': 'Ikano',
+          'raw_name': 'Ikano',
+          'value': 'ikano',
+          'default': False
+        },
+        {
+          'id': 360017366033,
+          'name': 'ILG',
+          'raw_name': 'ILG',
+          'value': 'ilg',
+          'default': False
+        },
+        {
+          'id': 360014408838,
+          'name': 'Imperial College Healthcare NHS Trust',
+          'raw_name': 'Imperial College Healthcare NHS Trust',
+          'value': 'imperial_college_healthcare_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360005196237,
+          'name': 'Infineon',
+          'raw_name': 'Infineon',
+          'value': 'infineon',
+          'default': False
+        },
+        {
+          'id': 360011833138,
+          'name': 'Information Security',
+          'raw_name': 'Information Security',
+          'value': 'information_security',
+          'default': False
+        },
+        {
+          'id': 360010463737,
+          'name': 'Inghams',
+          'raw_name': 'Inghams',
+          'value': 'inghams',
+          'default': False
+        },
+        {
+          'id': 360017203254,
+          'name': 'InstaSupply',
+          'raw_name': 'InstaSupply',
+          'value': 'instasupply',
+          'default': False
+        },
+        {
+          'id': 360021712773,
+          'name': 'Institute of Cancer Research',
+          'raw_name': 'Institute of Cancer Research',
+          'value': 'institute_of_cancer_research',
+          'default': False
+        },
+        {
+          'id': 360014647038,
+          'name': 'Intelligent Audit',
+          'raw_name': 'Intelligent Audit',
+          'value': 'intelligent_audit',
+          'default': False
+        },
+        {
+          'id': 360017571454,
+          'name': 'Intuit',
+          'raw_name': 'Intuit',
+          'value': 'intuit',
+          'default': False
+        },
+        {
+          'id': 360005194857,
+          'name': 'ITC',
+          'raw_name': 'ITC',
+          'value': 'itc',
+          'default': False
+        },
+        {
+          'id': 360005196257,
+          'name': 'ITP',
+          'raw_name': 'ITP',
+          'value': 'itp',
+          'default': False
+        },
+        {
+          'id': 360010463757,
+          'name': 'JLL',
+          'raw_name': 'JLL',
+          'value': 'jll',
+          'default': False
+        },
+        {
+          'id': 360017203274,
+          'name': 'John Svensson Byggnadsfirma AB',
+          'raw_name': 'John Svensson Byggnadsfirma AB',
+          'value': 'john_svensson_byggnadsfirma_ab',
+          'default': False
+        },
+        {
+          'id': 360017203294,
+          'name': 'Keele University',
+          'raw_name': 'Keele University',
+          'value': 'keele_university',
+          'default': False
+        },
+        {
+          'id': 360021261657,
+          'name': 'Kettering General Hospital',
+          'raw_name': 'Kettering General Hospital',
+          'value': 'kettering_general_hospital',
+          'default': False
+        },
+        {
+          'id': 360011182778,
+          'name': 'King Arthur Flour',
+          'raw_name': 'King Arthur Flour',
+          'value': 'king_arthur_flour',
+          'default': False
+        },
+        {
+          'id': 360017203314,
+          'name': 'Kingston NHS Trust',
+          'raw_name': 'Kingston NHS Trust',
+          'value': 'kingston_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017203334,
+          'name': 'Kingston University',
+          'raw_name': 'Kingston University',
+          'value': 'kingston_university',
+          'default': False
+        },
+        {
+          'id': 360017203354,
+          'name': 'Knowsley Council',
+          'raw_name': 'Knowsley Council',
+          'value': 'knowsley_council',
+          'default': False
+        },
+        {
+          'id': 360005196277,
+          'name': 'KPMG',
+          'raw_name': 'KPMG',
+          'value': 'kpmg',
+          'default': False
+        },
+        {
+          'id': 360017203374,
+          'name': 'KSB',
+          'raw_name': 'KSB',
+          'value': 'ksb',
+          'default': False
+        },
+        {
+          'id': 360012571938,
+          'name': 'Lafayette',
+          'raw_name': 'Lafayette',
+          'value': 'lafayette',
+          'default': False
+        },
+        {
+          'id': 360017203394,
+          'name': 'Lancaster University',
+          'raw_name': 'Lancaster University',
+          'value': 'lancaster_university',
+          'default': False
+        },
+        {
+          'id': 360005196297,
+          'name': 'Land O Lakes',
+          'raw_name': 'Land O Lakes',
+          'value': 'land_o_lakes',
+          'default': False
+        },
+        {
+          'id': 360017203414,
+          'name': 'Lawyers Mutual',
+          'raw_name': 'Lawyers Mutual',
+          'value': 'lawyers_mutual_2',
+          'default': False
+        },
+        {
+          'id': 360017203434,
+          'name': 'LB Bexley',
+          'raw_name': 'LB Bexley',
+          'value': 'lb_bexley',
+          'default': False
+        },
+        {
+          'id': 360017203454,
+          'name': 'LB Croydon',
+          'raw_name': 'LB Croydon',
+          'value': 'lb_croydon',
+          'default': False
+        },
+        {
+          'id': 360017203474,
+          'name': 'Leeds Beckett University',
+          'raw_name': 'Leeds Beckett University',
+          'value': 'leeds_beckett_university',
+          'default': False
+        },
+        {
+          'id': 360017203494,
+          'name': 'Legoland',
+          'raw_name': 'Legoland',
+          'value': 'legoland',
+          'default': False
+        },
+        {
+          'id': 360017203514,
+          'name': 'Linde',
+          'raw_name': 'Linde',
+          'value': 'linde',
+          'default': False
+        },
+        {
+          'id': 360007769758,
+          'name': 'Liquid Power',
+          'raw_name': 'Liquid Power',
+          'value': 'liquid_power2',
+          'default': False
+        },
+        {
+          'id': 360014408858,
+          'name': 'London Ambulance Service',
+          'raw_name': 'London Ambulance Service',
+          'value': 'london_ambulance_service',
+          'default': False
+        },
+        {
+          'id': 360017203534,
+          'name': 'London Borough of Tower Hamlets',
+          'raw_name': 'London Borough of Tower Hamlets',
+          'value': 'london_borough_of_tower_hamlets',
+          'default': False
+        },
+        {
+          'id': 360017203554,
+          'name': 'Manchester Metropolitan University',
+          'raw_name': 'Manchester Metropolitan University',
+          'value': 'manchester_metropolitan_university',
+          'default': False
+        },
+        {
+          'id': 360017203574,
+          'name': 'MarketBoomer',
+          'raw_name': 'MarketBoomer',
+          'value': 'marketboomer_2',
+          'default': False
+        },
+        {
+          'id': 360010577258,
+          'name': 'Mercy University Hospital',
+          'raw_name': 'Mercy University Hospital',
+          'value': 'mercy_university_hospital',
+          'default': False
+        },
+        {
+          'id': 360017203594,
+          'name': 'Mersey Care NHS Foundation Trust',
+          'raw_name': 'Mersey Care NHS Foundation Trust',
+          'value': 'mersey_care_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017203614,
+          'name': 'Micron',
+          'raw_name': 'Micron',
+          'value': 'micron',
+          'default': False
+        },
+        {
+          'id': 360013762417,
+          'name': 'Mid and South Essex NHS Foundation Trust',
+          'raw_name': 'Mid and South Essex NHS Foundation Trust',
+          'value': 'mid_and_south_essex_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017203634,
+          'name': 'Mid Yorkshire Hospitals NHS Trust',
+          'raw_name': 'Mid Yorkshire Hospitals NHS Trust',
+          'value': 'mid_yorkshire_hospitals_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360024219413,
+          'name': 'Midlothian Council',
+          'raw_name': 'Midlothian Council',
+          'value': 'midlothian_council',
+          'default': False
+        },
+        {
+          'id': 360017203654,
+          'name': 'Mitie',
+          'raw_name': 'Mitie',
+          'value': 'mitie',
+          'default': False
+        },
+        {
+          'id': 360011107398,
+          'name': 'Moorfields Eye Hospital',
+          'raw_name': 'Moorfields Eye Hospital',
+          'value': 'moorfields_eye_hospital',
+          'default': False
+        },
+        {
+          'id': 360017203674,
+          'name': 'Moray Council',
+          'raw_name': 'Moray Council',
+          'value': 'moray_council',
+          'default': False
+        },
+        {
+          'id': 360017203694,
+          'name': 'MOTO Hospitality',
+          'raw_name': 'MOTO Hospitality',
+          'value': 'moto_hospitality',
+          'default': False
+        },
+        {
+          'id': 360012270778,
+          'name': 'NEOOPS ',
+          'raw_name': 'NEOOPS ',
+          'value': 'neoops_',
+          'default': False
+        },
+        {
+          'id': 360017203714,
+          'name': 'New Haven',
+          'raw_name': 'New Haven',
+          'value': 'new_haven',
+          'default': False
+        },
+        {
+          'id': 360017203734,
+          'name': 'Newcastle Upon Tyne Hospitals NHS Trust',
+          'raw_name': 'Newcastle Upon Tyne Hospitals NHS Trust',
+          'value': 'newcastle_upon_tyne_hospitals_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360017203754,
+          'name': 'NextGear Capital',
+          'raw_name': 'NextGear Capital',
+          'value': 'nextgear_capital',
+          'default': False
+        },
+        {
+          'id': 360017981957,
+          'name': 'NHS Ayrshire and Arran',
+          'raw_name': 'NHS Ayrshire and Arran',
+          'value': 'nhs_ayrshire_and_arran',
+          'default': False
+        },
+        {
+          'id': 360019699753,
+          'name': 'NHS Greater Glasgow & Clyde',
+          'raw_name': 'NHS Greater Glasgow & Clyde',
+          'value': 'nhs_greater_glasgow___clyde',
+          'default': False
+        },
+        {
+          'id': 360010079378,
+          'name': 'NHS Lothian',
+          'raw_name': 'NHS Lothian',
+          'value': 'nhs_lothian',
+          'default': False
+        },
+        {
+          'id': 360020446093,
+          'name': 'NHS Scotland',
+          'raw_name': 'NHS Scotland',
+          'value': 'nhs_scotland',
+          'default': False
+        },
+        {
+          'id': 360014024737,
+          'name': 'NHS Tayside',
+          'raw_name': 'NHS Tayside',
+          'value': 'nhs_tayside',
+          'default': False
+        },
+        {
+          'id': 360007459337,
+          'name': 'Norfolk & Norwich University Hospitals NHS Foundation Trust',
+          'raw_name': 'Norfolk & Norwich University Hospitals NHS Foundation Trust',
+          'value': 'norfolk___norwich_university_hospitals_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360014408878,
+          'name': 'North East London NHS Foundation Trust',
+          'raw_name': 'North East London NHS Foundation Trust',
+          'value': 'north_east_london_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017203774,
+          'name': 'North East Scotland Colleges',
+          'raw_name': 'North East Scotland Colleges',
+          'value': 'north_east_scotland_colleges',
+          'default': False
+        },
+        {
+          'id': 360006636178,
+          'name': 'North Lanarkshire Council',
+          'raw_name': 'North Lanarkshire Council',
+          'value': 'north_lanarkshire_council',
+          'default': False
+        },
+        {
+          'id': 360013762437,
+          'name': 'Northern Ireland Housing Executive',
+          'raw_name': 'Northern Ireland Housing Executive',
+          'value': 'northern_ireland_housing_executive',
+          'default': False
+        },
+        {
+          'id': 360011193358,
+          'name': 'Nottinghamshire Healthcare',
+          'raw_name': 'Nottinghamshire Healthcare',
+          'value': 'nottinghamshire_healthcare',
+          'default': False
+        },
+        {
+          'id': 360005196317,
+          'name': 'Novartis',
+          'raw_name': 'Novartis',
+          'value': 'novartis',
+          'default': False
+        },
+        {
+          'id': 360017203794,
+          'name': 'NTN SNR',
+          'raw_name': 'NTN SNR',
+          'value': 'ntn_snr',
+          'default': False
+        },
+        {
+          'id': 360017203814,
+          'name': 'NUI Galway',
+          'raw_name': 'NUI Galway',
+          'value': 'nui_galway',
+          'default': False
+        },
+        {
+          'id': 360017203834,
+          'name': 'Nuneaton and Bedworth Council',
+          'raw_name': 'Nuneaton and Bedworth Council',
+          'value': 'nuneaton_and_bedworth_council',
+          'default': False
+        },
+        {
+          'id': 360017203854,
+          'name': 'Nurmestili',
+          'raw_name': 'Nurmestili',
+          'value': 'nurmestili',
+          'default': False
+        },
+        {
+          'id': 360010463777,
+          'name': 'NZ Post',
+          'raw_name': 'NZ Post',
+          'value': 'nz_post',
+          'default': False
+        },
+        {
+          'id': 360017203874,
+          'name': 'Office 2 Office',
+          'raw_name': 'Office 2 Office',
+          'value': 'office_2_office',
+          'default': False
+        },
+        {
+          'id': 360017203894,
+          'name': 'Oldham Council',
+          'raw_name': 'Oldham Council',
+          'value': 'oldham_council',
+          'default': False
+        },
+        {
+          'id': 360017203914,
+          'name': 'OpenECX',
+          'raw_name': 'OpenECX',
+          'value': 'openecx_2',
+          'default': False
+        },
+        {
+          'id': 360017012313,
+          'name': 'Operations',
+          'raw_name': 'Operations',
+          'value': 'operations',
+          'default': False
+        },
+        {
+          'id': 360017941633,
+          'name': 'OpusCapita',
+          'raw_name': 'OpusCapita',
+          'value': 'opuscapita2',
+          'default': False
+        },
+        {
+          'id': 360017203934,
+          'name': 'Orchids Paper',
+          'raw_name': 'Orchids Paper',
+          'value': 'orchids_paper',
+          'default': False
+        },
+        {
+          'id': 360017203954,
+          'name': 'Original Bowling Co',
+          'raw_name': 'Original Bowling Co',
+          'value': 'original_bowling_co',
+          'default': False
+        },
+        {
+          'id': 360005196337,
+          'name': 'Osram',
+          'raw_name': 'Osram',
+          'value': 'osram',
+          'default': False
+        },
+        {
+          'id': 360017203974,
+          'name': 'Ossur UK Ltd.',
+          'raw_name': 'Ossur UK Ltd.',
+          'value': 'ossur_uk_ltd.',
+          'default': False
+        },
+        {
+          'id': 360017203994,
+          'name': 'Palette Software & Consulting AB',
+          'raw_name': 'Palette Software & Consulting AB',
+          'value': 'palette_software___consulting_ab',
+          'default': False
+        },
+        {
+          'id': 360017204014,
+          'name': 'Park Plaza Hotels Europe',
+          'raw_name': 'Park Plaza Hotels Europe',
+          'value': 'park_plaza_hotels_europe',
+          'default': False
+        },
+        {
+          'id': 360017204034,
+          'name': 'Parseq',
+          'raw_name': 'Parseq',
+          'value': 'parseq_2',
+          'default': False
+        },
+        {
+          'id': 360011310278,
+          'name': 'PDF Express',
+          'raw_name': 'PDF Express',
+          'value': 'pdf_express',
+          'default': False
+        },
+        {
+          'id': 360017204054,
+          'name': 'PEL Services',
+          'raw_name': 'PEL Services',
+          'value': 'pel_services',
+          'default': False
+        },
+        {
+          'id': 360014408898,
+          'name': 'Pennine Acute Hospitals NHS Trust',
+          'raw_name': 'Pennine Acute Hospitals NHS Trust',
+          'value': 'pennine_acute_hospitals_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360022213513,
+          'name': 'PEPPOL',
+          'raw_name': 'PEPPOL',
+          'value': 'peppol_2',
+          'default': False
+        },
+        {
+          'id': 360017204074,
+          'name': 'PepsiCo',
+          'raw_name': 'PepsiCo',
+          'value': 'pepsico',
+          'default': False
+        },
+        {
+          'id': 360017204094,
+          'name': 'Perth & Kinross Council',
+          'raw_name': 'Perth & Kinross Council',
+          'value': 'perth___kinross_council',
+          'default': False
+        },
+        {
+          'id': 360017351474,
+          'name': 'Phoenix Medical Supplies',
+          'raw_name': 'Phoenix Medical Supplies',
+          'value': 'phoenix_medical_supplies',
+          'default': False
+        },
+        {
+          'id': 360012843138,
+          'name': 'Pitney Bowes',
+          'raw_name': 'Pitney Bowes',
+          'value': 'pitney_bowes',
+          'default': False
+        },
+        {
+          'id': 360013762457,
+          'name': 'Police Scotland',
+          'raw_name': 'Police Scotland',
+          'value': 'police_scotland',
+          'default': False
+        },
+        {
+          'id': 360014408918,
+          'name': 'Poole Hospital NHS Foundation Trust',
+          'raw_name': 'Poole Hospital NHS Foundation Trust',
+          'value': 'poole_hospital_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360009751738,
+          'name': 'Proactis',
+          'raw_name': 'Proactis',
+          'value': 'proactis2',
+          'default': False
+        },
+        {
+          'id': 360004437617,
+          'name': 'Proagrica',
+          'raw_name': 'Proagrica',
+          'value': 'proagrica2',
+          'default': False
+        },
+        {
+          'id': 360010463797,
+          'name': 'Qantas Catering',
+          'raw_name': 'Qantas Catering',
+          'value': 'qantas_catering',
+          'default': False
+        },
+        {
+          'id': 360013252517,
+          'name': 'QC Supply',
+          'raw_name': 'QC Supply',
+          'value': 'qc_supply',
+          'default': False
+        },
+        {
+          'id': 360017204114,
+          'name': 'Qinetiq',
+          'raw_name': 'Qinetiq',
+          'value': 'qinetiq',
+          'default': False
+        },
+        {
+          'id': 360017204134,
+          'name': 'Reports',
+          'raw_name': 'Reports',
+          'value': 'reports',
+          'default': False
+        },
+        {
+          'id': 360017204154,
+          'name': 'Resia',
+          'raw_name': 'Resia',
+          'value': 'resia',
+          'default': False
+        },
+        {
+          'id': 360019236378,
+          'name': 'Resmed',
+          'raw_name': 'Resmed',
+          'value': 'resmed',
+          'default': False
+        },
+        {
+          'id': 360005196357,
+          'name': 'Roquette',
+          'raw_name': 'Roquette',
+          'value': 'roquette',
+          'default': False
+        },
+        {
+          'id': 360019615797,
+          'name': 'Royal Berkshire NHS Foundation Trust',
+          'raw_name': 'Royal Berkshire NHS Foundation Trust',
+          'value': 'royal_berkshire_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360014408938,
+          'name': 'Royal Bournemouth & Christchurch Hospitals NHS Foundation Trust',
+          'raw_name': 'Royal Bournemouth & Christchurch Hospitals NHS Foundation Trust',
+          'value': 'royal_bournemouth___christchurch_hospitals_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360010577278,
+          'name': 'Royal Brompton Hospital',
+          'raw_name': 'Royal Brompton Hospital',
+          'value': 'royal_brompton_hospital',
+          'default': False
+        },
+        {
+          'id': 360017204174,
+          'name': 'Royal Free Hospital',
+          'raw_name': 'Royal Free Hospital',
+          'value': 'royal_free_hospital',
+          'default': False
+        },
+        {
+          'id': 360017204194,
+          'name': 'RS Components',
+          'raw_name': 'RS Components',
+          'value': 'rs_components',
+          'default': False
+        },
+        {
+          'id': 360017699633,
+          'name': 'RTE',
+          'raw_name': 'RTE',
+          'value': 'rte',
+          'default': False
+        },
+        {
+          'id': 360017204214,
+          'name': 'Sagess',
+          'raw_name': 'Sagess',
+          'value': 'sagess',
+          'default': False
+        },
+        {
+          'id': 360017011173,
+          'name': 'Sales',
+          'raw_name': 'Sales',
+          'value': 'sales',
+          'default': False
+        },
+        {
+          'id': 360014408958,
+          'name': 'Salford Royal NHS Foundation Trust',
+          'raw_name': 'Salford Royal NHS Foundation Trust',
+          'value': 'salford_royal_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017204234,
+          'name': 'Sanofi',
+          'raw_name': 'Sanofi',
+          'value': 'sanofi',
+          'default': False
+        },
+        {
+          'id': 360029074853,
+          'name': 'Santa Barbara County Fire Department',
+          'raw_name': 'Santa Barbara County Fire Department',
+          'value': 'santa_barbara_county_fire_department',
+          'default': False
+        },
+        {
+          'id': 360017204254,
+          'name': 'Science Warehouse',
+          'raw_name': 'Science Warehouse',
+          'value': 'science_warehouse_2',
+          'default': False
+        },
+        {
+          'id': 360017204274,
+          'name': 'Scottish Fire and Rescue',
+          'raw_name': 'Scottish Fire and Rescue',
+          'value': 'scottish_fire_and_rescue',
+          'default': False
+        },
+        {
+          'id': 360021609894,
+          'name': 'Scottish Government',
+          'raw_name': 'Scottish Government',
+          'value': 'scottish_government',
+          'default': False
+        },
+        {
+          'id': 360013172037,
+          'name': 'Sherwood Forest NHS',
+          'raw_name': 'Sherwood Forest NHS',
+          'value': 'sherwood_forest_nhs',
+          'default': False
+        },
+        {
+          'id': 360005428197,
+          'name': 'Shetland Islands Council',
+          'raw_name': 'Shetland Islands Council',
+          'value': 'shetland_islands_council',
+          'default': False
+        },
+        {
+          'id': 360017759593,
+          'name': 'Siemens',
+          'raw_name': 'Siemens',
+          'value': 'siemens',
+          'default': False
+        },
+        {
+          'id': 360018203013,
+          'name': 'Smartlink',
+          'raw_name': 'Smartlink',
+          'value': 'smartlink',
+          'default': False
+        },
+        {
+          'id': 360017204294,
+          'name': 'Smith & Nephew UK',
+          'raw_name': 'Smith & Nephew UK',
+          'value': 'smith___nephew_uk',
+          'default': False
+        },
+        {
+          'id': 360009844378,
+          'name': 'Socoda',
+          'raw_name': 'Socoda',
+          'value': 'socoda',
+          'default': False
+        },
+        {
+          'id': 360017204314,
+          'name': 'Soho House UK',
+          'raw_name': 'Soho House UK',
+          'value': 'soho_house_uk',
+          'default': False
+        },
+        {
+          'id': 360017204334,
+          'name': 'South Lanarkshire Council',
+          'raw_name': 'South Lanarkshire Council',
+          'value': 'south_lanarkshire_council',
+          'default': False
+        },
+        {
+          'id': 360014408978,
+          'name': 'South Tees Hospitals NHS Foundation Trust',
+          'raw_name': 'South Tees Hospitals NHS Foundation Trust',
+          'value': 'south_tees_hospitals_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017204354,
+          'name': 'South Tyneside Council',
+          'raw_name': 'South Tyneside Council',
+          'value': 'south_tyneside_council',
+          'default': False
+        },
+        {
+          'id': 360007770078,
+          'name': 'South Warwickshire NHS Foundation Trust',
+          'raw_name': 'South Warwickshire NHS Foundation Trust',
+          'value': 'south_warwickshire_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360015880897,
+          'name': 'Southern Fasteners',
+          'raw_name': 'Southern Fasteners',
+          'value': 'southern_fasteners',
+          'default': False
+        },
+        {
+          'id': 360027193453,
+          'name': 'Speedcast Norway AS',
+          'raw_name': 'Speedcast Norway AS',
+          'value': 'speedcast_norway_as',
+          'default': False
+        },
+        {
+          'id': 360017204374,
+          'name': 'Staffordshire University',
+          'raw_name': 'Staffordshire University',
+          'value': 'staffordshire_university',
+          'default': False
+        },
+        {
+          'id': 360017204394,
+          'name': 'Stirling Council',
+          'raw_name': 'Stirling Council',
+          'value': 'stirling_council',
+          'default': False
+        },
+        {
+          'id': 360023149954,
+          'name': 'Stratas',
+          'raw_name': 'Stratas',
+          'value': 'stratas_2',
+          'default': False
+        },
+        {
+          'id': 360017204414,
+          'name': 'Sulzer',
+          'raw_name': 'Sulzer',
+          'value': 'sulzer',
+          'default': False
+        },
+        {
+          'id': 360015934497,
+          'name': 'Summit Medical Ltd.',
+          'raw_name': 'Summit Medical Ltd.',
+          'value': 'summit_medical_ltd.',
+          'default': False
+        },
+        {
+          'id': 360014674198,
+          'name': 'SupplyOn ',
+          'raw_name': 'SupplyOn ',
+          'value': 'supplyon_',
+          'default': False
+        },
+        {
+          'id': 360017204434,
+          'name': 'Swann-Morton Ltd.',
+          'raw_name': 'Swann-Morton Ltd.',
+          'value': 'swann-morton_ltd.',
+          'default': False
+        },
+        {
+          'id': 360012230657,
+          'name': 'Systems',
+          'raw_name': 'Systems',
+          'value': 'systems',
+          'default': False
+        },
+        {
+          'id': 360014408998,
+          'name': 'Tameside and Glossop Integrated Care NHS Foundation Trust',
+          'raw_name': 'Tameside and Glossop Integrated Care NHS Foundation Trust',
+          'value': 'tameside_and_glossop_integrated_care_nhs_foundation_trust',
+          'default': False
+        },
+        {
+          'id': 360017204454,
+          'name': 'Taulia',
+          'raw_name': 'Taulia',
+          'value': 'taulia_2',
+          'default': False
+        },
+        {
+          'id': 360031848393,
+          'name': 'TecAlliance',
+          'raw_name': 'TecAlliance',
+          'value': 'tecalliance',
+          'default': False
+        },
+        {
+          'id': 360017204474,
+          'name': 'Test',
+          'raw_name': 'Test',
+          'value': 'test',
+          'default': False
+        },
+        {
+          'id': 360018037433,
+          'name': 'The Highland Council',
+          'raw_name': 'The Highland Council',
+          'value': 'the_highland_council',
+          'default': False
+        },
+        {
+          'id': 360023747613,
+          'name': 'The Robert Gordon University',
+          'raw_name': 'The Robert Gordon University',
+          'value': 'the_robert_gordon_university',
+          'default': False
+        },
+        {
+          'id': 360017204494,
+          'name': 'Total',
+          'raw_name': 'Total',
+          'value': 'total',
+          'default': False
+        },
+        {
+          'id': 360017204514,
+          'name': 'Tower Hamlets Homes',
+          'raw_name': 'Tower Hamlets Homes',
+          'value': 'tower_hamlets_homes',
+          'default': False
+        },
+        {
+          'id': 360023414074,
+          'name': 'Traffic Tech',
+          'raw_name': 'Traffic Tech',
+          'value': 'traffic_tech',
+          'default': False
+        },
+        {
+          'id': 360025946614,
+          'name': 'Trax',
+          'raw_name': 'Trax',
+          'value': 'trax2',
+          'default': False
+        },
+        {
+          'id': 360020489337,
+          'name': 'Trenitalia',
+          'raw_name': 'Trenitalia',
+          'value': 'trenitalia',
+          'default': False
+        },
+        {
+          'id': 360017204534,
+          'name': 'Tunbridge Wells Borough Council',
+          'raw_name': 'Tunbridge Wells Borough Council',
+          'value': 'tunbridge_wells_borough_council',
+          'default': False
+        },
+        {
+          'id': 360010836318,
+          'name': 'Tungsten',
+          'raw_name': 'Tungsten',
+          'value': 'tungsten2',
+          'default': False
+        },
+        {
+          'id': 360005196377,
+          'name': 'Turner',
+          'raw_name': 'Turner',
+          'value': 'turner',
+          'default': False
+        },
+        {
+          'id': 360017204554,
+          'name': 'Unilever UAPL',
+          'raw_name': 'Unilever UAPL',
+          'value': 'unilever_uapl',
+          'default': False
+        },
+        {
+          'id': 360017204574,
+          'name': 'United Farmers',
+          'raw_name': 'United Farmers',
+          'value': 'united_farmers',
+          'default': False
+        },
+        {
+          'id': 360017204594,
+          'name': 'University College Cork',
+          'raw_name': 'University College Cork',
+          'value': 'university_college_cork',
+          'default': False
+        },
+        {
+          'id': 360017204614,
+          'name': 'University for the Creative Arts',
+          'raw_name': 'University for the Creative Arts',
+          'value': 'university_for_the_creative_arts',
+          'default': False
+        },
+        {
+          'id': 360014409018,
+          'name': 'University Hospital Dorset',
+          'raw_name': 'University Hospital Dorset',
+          'value': 'university_hospital_dorset',
+          'default': False
+        },
+        {
+          'id': 360007770098,
+          'name': 'University Hospital of Coventry and Warwickshire',
+          'raw_name': 'University Hospital of Coventry and Warwickshire',
+          'value': 'university_hospital_of_coventry_and_warwickshire',
+          'default': False
+        },
+        {
+          'id': 360017204634,
+          'name': 'University Hospitals Leicester',
+          'raw_name': 'University Hospitals Leicester',
+          'value': 'university_hospitals_leicester',
+          'default': False
+        },
+        {
+          'id': 360014409038,
+          'name': 'University Hospitals of North Midlands',
+          'raw_name': 'University Hospitals of North Midlands',
+          'value': 'university_hospitals_of_north_midlands',
+          'default': False
+        },
+        {
+          'id': 360017204654,
+          'name': 'University of Aberdeen',
+          'raw_name': 'University of Aberdeen',
+          'value': 'university_of_aberdeen',
+          'default': False
+        },
+        {
+          'id': 360017204674,
+          'name': 'University of East Anglia',
+          'raw_name': 'University of East Anglia',
+          'value': 'university_of_east_anglia',
+          'default': False
+        },
+        {
+          'id': 360017204694,
+          'name': 'University of Edinburgh',
+          'raw_name': 'University of Edinburgh',
+          'value': 'university_of_edinburgh',
+          'default': False
+        },
+        {
+          'id': 360017204714,
+          'name': 'University of Leeds',
+          'raw_name': 'University of Leeds',
+          'value': 'university_of_leeds',
+          'default': False
+        },
+        {
+          'id': 360017204734,
+          'name': 'University of West London',
+          'raw_name': 'University of West London',
+          'value': 'university_of_west_london',
+          'default': False
+        },
+        {
+          'id': 360017204754,
+          'name': 'University of Worcester',
+          'raw_name': 'University of Worcester',
+          'value': 'university_of_worcester',
+          'default': False
+        },
+        {
+          'id': 360017204774,
+          'name': 'US Bank',
+          'raw_name': 'US Bank',
+          'value': 'us_bank',
+          'default': False
+        },
+        {
+          'id': 360005196397,
+          'name': 'VDM',
+          'raw_name': 'VDM',
+          'value': 'vdm',
+          'default': False
+        },
+        {
+          'id': 360005196417,
+          'name': 'Viacom',
+          'raw_name': 'Viacom',
+          'value': 'viacom',
+          'default': False
+        },
+        {
+          'id': 360017204794,
+          'name': 'Victis',
+          'raw_name': 'Victis',
+          'value': 'victis',
+          'default': False
+        },
+        {
+          'id': 360011330518,
+          'name': 'Voxel',
+          'raw_name': 'Voxel',
+          'value': 'voxel2',
+          'default': False
+        },
+        {
+          'id': 360005196437,
+          'name': 'VWR',
+          'raw_name': 'VWR',
+          'value': 'vwr',
+          'default': False
+        },
+        {
+          'id': 360005196457,
+          'name': 'Walmart Canada',
+          'raw_name': 'Walmart Canada',
+          'value': 'walmart_canada',
+          'default': False
+        },
+        {
+          'id': 360020709957,
+          'name': 'Warner Media',
+          'raw_name': 'Warner Media',
+          'value': 'warner_media',
+          'default': False
+        },
+        {
+          'id': 360017204814,
+          'name': 'Warwickshire County Council',
+          'raw_name': 'Warwickshire County Council',
+          'value': 'warwickshire_county_council',
+          'default': False
+        },
+        {
+          'id': 360017204834,
+          'name': 'Watts Water',
+          'raw_name': 'Watts Water',
+          'value': 'watts_water',
+          'default': False
+        },
+        {
+          'id': 360018067258,
+          'name': 'Wealden District',
+          'raw_name': 'Wealden District',
+          'value': 'wealden_district',
+          'default': False
+        },
+        {
+          'id': 360005119838,
+          'name': 'Wesfarmers Industrial & Safety',
+          'raw_name': 'Wesfarmers Industrial & Safety',
+          'value': 'wesfarmers_industrial___safety',
+          'default': False
+        },
+        {
+          'id': 360017204854,
+          'name': 'West Dunbartonshire Council',
+          'raw_name': 'West Dunbartonshire Council',
+          'value': 'west_dunbartonshire_council',
+          'default': False
+        },
+        {
+          'id': 360017204874,
+          'name': 'West Lothian College',
+          'raw_name': 'West Lothian College',
+          'value': 'west_lothian_college',
+          'default': False
+        },
+        {
+          'id': 360017204894,
+          'name': 'West Lothian Council',
+          'raw_name': 'West Lothian Council',
+          'value': 'west_lothian_council',
+          'default': False
+        },
+        {
+          'id': 360016555377,
+          'name': 'Wokingham Council',
+          'raw_name': 'Wokingham Council',
+          'value': 'wokingham_council',
+          'default': False
+        },
+        {
+          'id': 360017204914,
+          'name': 'Wolverhampton City Council',
+          'raw_name': 'Wolverhampton City Council',
+          'value': 'wolverhampton_city_council',
+          'default': False
+        },
+        {
+          'id': 360017204934,
+          'name': 'Wolverhampton Homes',
+          'raw_name': 'Wolverhampton Homes',
+          'value': 'wolverhampton_homes',
+          'default': False
+        },
+        {
+          'id': 360017204954,
+          'name': 'WSH',
+          'raw_name': 'WSH',
+          'value': 'wsh',
+          'default': False
+        },
+        {
+          'id': 360007770118,
+          'name': 'Wye Valley NHS Trust',
+          'raw_name': 'Wye Valley NHS Trust',
+          'value': 'wye_valley_nhs_trust',
+          'default': False
+        },
+        {
+          'id': 360011718917,
+          'name': 'Yara',
+          'raw_name': 'Yara',
+          'value': 'yara',
+          'default': False
+        },
+        {
+          'id': 360017204974,
+          'name': 'YO! Sushi',
+          'raw_name': 'YO! Sushi',
+          'value': 'yo__sushi',
+          'default': False
+        },
+        {
+          'id': 360022977017,
+          'name': 'Ideal Med Ltd.',
+          'raw_name': 'Ideal Med Ltd.',
+          'value': 'ideal_med_ltd.',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595178.json',
+      'id': 23595178,
+      'type': 'tickettype',
+      'title': 'Type',
+      'raw_title': 'Type',
+      'description': 'Request type',
+      'raw_description': 'Request type',
+      'position': 6,
+      'active': False,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Type',
+      'raw_title_in_portal': 'Type',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:57Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None,
+      'system_field_options': [
+        {
+          'name': 'Question',
+          'value': 'question'
+        },
+        {
+          'name': 'Incident',
+          'value': 'incident'
+        },
+        {
+          'name': 'Problem',
+          'value': 'problem'
+        },
+        {
+          'name': 'Task',
+          'value': 'task'
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360010677313.json',
+      'id': 360010677313,
+      'type': 'tagger',
+      'title': 'Channel Partner',
+      'raw_title': 'Channel Partner',
+      'description': '',
+      'raw_description': '',
+      'position': 7,
+      'active': True,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Channel Partner',
+      'raw_title_in_portal': 'Channel Partner',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-11-02T16:22:14Z',
+      'updated_at': '2021-06-30T14:22:22Z',
+      'removable': True,
+      'agent_description': 'Channel Partner 2',
+      'custom_field_options': [
+        {
+          'id': 360011176973,
+          'name': 'Adaptris',
+          'raw_name': 'Adaptris',
+          'value': 'adaptris',
+          'default': False
+        },
+        {
+          'id': 360011176993,
+          'name': 'Advanced',
+          'raw_name': 'Advanced',
+          'value': 'advanced',
+          'default': False
+        },
+        {
+          'id': 360011177013,
+          'name': 'AlpsControls',
+          'raw_name': 'AlpsControls',
+          'value': 'alpscontrols',
+          'default': False
+        },
+        {
+          'id': 360015936057,
+          'name': 'Amazon',
+          'raw_name': 'Amazon',
+          'value': 'amazon',
+          'default': False
+        },
+        {
+          'id': 360013762477,
+          'name': 'Appleton',
+          'raw_name': 'Appleton',
+          'value': 'appleton',
+          'default': False
+        },
+        {
+          'id': 360011177033,
+          'name': 'Arco',
+          'raw_name': 'Arco',
+          'value': 'arco',
+          'default': False
+        },
+        {
+          'id': 360011177293,
+          'name': 'Avid',
+          'raw_name': 'Avid',
+          'value': 'avid',
+          'default': False
+        },
+        {
+          'id': 360011177053,
+          'name': 'BT',
+          'raw_name': 'BT',
+          'value': 'bt',
+          'default': False
+        },
+        {
+          'id': 360017569834,
+          'name': 'Capita',
+          'raw_name': 'Capita',
+          'value': 'capita',
+          'default': False
+        },
+        {
+          'id': 360019002638,
+          'name': 'CASS',
+          'raw_name': 'CASS',
+          'value': 'cass',
+          'default': False
+        },
+        {
+          'id': 360011177073,
+          'name': 'Cegedim',
+          'raw_name': 'Cegedim',
+          'value': 'cegedim',
+          'default': False
+        },
+        {
+          'id': 360016536274,
+          'name': 'CisBox',
+          'raw_name': 'CisBox',
+          'value': 'cisbox',
+          'default': False
+        },
+        {
+          'id': 360023469017,
+          'name': 'Clares Office Supplies ',
+          'raw_name': 'Clares Office Supplies ',
+          'value': 'clares_office_supplies_',
+          'default': False
+        },
+        {
+          'id': 360011177093,
+          'name': 'CloudTrade',
+          'raw_name': 'CloudTrade',
+          'value': 'cloudtrade',
+          'default': False
+        },
+        {
+          'id': 360011177113,
+          'name': 'Converga',
+          'raw_name': 'Converga',
+          'value': 'converga',
+          'default': False
+        },
+        {
+          'id': 360010772977,
+          'name': 'CXO Nexus',
+          'raw_name': 'CXO Nexus',
+          'value': 'cxo_nexus',
+          'default': False
+        },
+        {
+          'id': 360016807478,
+          'name': 'DDEX',
+          'raw_name': 'DDEX',
+          'value': 'ddex',
+          'default': False
+        },
+        {
+          'id': 360014438478,
+          'name': 'Deloitte ',
+          'raw_name': 'Deloitte ',
+          'value': 'deloitte_',
+          'default': False
+        },
+        {
+          'id': 360015189278,
+          'name': 'Distribution One ',
+          'raw_name': 'Distribution One ',
+          'value': 'distribution_1',
+          'default': False
+        },
+        {
+          'id': 360011718897,
+          'name': 'Diversey',
+          'raw_name': 'Diversey',
+          'value': 'diversey2',
+          'default': False
+        },
+        {
+          'id': 360011177253,
+          'name': 'DXC',
+          'raw_name': 'DXC',
+          'value': 'dxc',
+          'default': False
+        },
+        {
+          'id': 360011177133,
+          'name': 'EchoVera',
+          'raw_name': 'EchoVera',
+          'value': 'echovera',
+          'default': False
+        },
+        {
+          'id': 360011177153,
+          'name': 'Elcom',
+          'raw_name': 'Elcom',
+          'value': 'elcom',
+          'default': False
+        },
+        {
+          'id': 360011173097,
+          'name': 'Emerson',
+          'raw_name': 'Emerson',
+          'value': 'emerson2',
+          'default': False
+        },
+        {
+          'id': 360011177173,
+          'name': 'Envista',
+          'raw_name': 'Envista',
+          'value': 'envista',
+          'default': False
+        },
+        {
+          'id': 360019342073,
+          'name': 'Envista US',
+          'raw_name': 'Envista US',
+          'value': 'envista_us',
+          'default': False
+        },
+        {
+          'id': 360010836238,
+          'name': 'ExceleratedS2P',
+          'raw_name': 'ExceleratedS2P',
+          'value': 'excelerateds2p',
+          'default': False
+        },
+        {
+          'id': 360011177213,
+          'name': 'Fourth',
+          'raw_name': 'Fourth',
+          'value': 'fourth',
+          'default': False
+        },
+        {
+          'id': 360013861678,
+          'name': 'Freight Management Inc.',
+          'raw_name': 'Freight Management Inc.',
+          'value': 'freight_management_inc.',
+          'default': False
+        },
+        {
+          'id': 360019288993,
+          'name': 'Freight Rover',
+          'raw_name': 'Freight Rover',
+          'value': 'freight_rover',
+          'default': False
+        },
+        {
+          'id': 360011177273,
+          'name': 'IBM',
+          'raw_name': 'IBM',
+          'value': 'ibm',
+          'default': False
+        },
+        {
+          'id': 360014647058,
+          'name': 'Intelligent Audit ',
+          'raw_name': 'Intelligent Audit ',
+          'value': 'intelligent_audit_',
+          'default': False
+        },
+        {
+          'id': 360020021398,
+          'name': 'Lake',
+          'raw_name': 'Lake',
+          'value': 'lake',
+          'default': False
+        },
+        {
+          'id': 360011177313,
+          'name': 'Lawyers Mutual',
+          'raw_name': 'Lawyers Mutual',
+          'value': 'lawyers_mutual',
+          'default': False
+        },
+        {
+          'id': 360007769738,
+          'name': 'Liquid Power',
+          'raw_name': 'Liquid Power',
+          'value': 'liquid_power',
+          'default': False
+        },
+        {
+          'id': 360011177353,
+          'name': 'M-Hance',
+          'raw_name': 'M-Hance',
+          'value': 'm-hance',
+          'default': False
+        },
+        {
+          'id': 360011177333,
+          'name': 'MarketBoomer',
+          'raw_name': 'MarketBoomer',
+          'value': 'marketboomer',
+          'default': False
+        },
+        {
+          'id': 360012270758,
+          'name': 'NEOOPS',
+          'raw_name': 'NEOOPS',
+          'value': 'neoops',
+          'default': False
+        },
+        {
+          'id': 360011177233,
+          'name': 'OpenECX',
+          'raw_name': 'OpenECX',
+          'value': 'openecx',
+          'default': False
+        },
+        {
+          'id': 360020709937,
+          'name': 'OpenICS',
+          'raw_name': 'OpenICS',
+          'value': 'openics',
+          'default': False
+        },
+        {
+          'id': 360011177373,
+          'name': 'OpusCapita',
+          'raw_name': 'OpusCapita',
+          'value': 'opuscapita',
+          'default': False
+        },
+        {
+          'id': 360011177393,
+          'name': 'Oxygen',
+          'raw_name': 'Oxygen',
+          'value': 'oxygen',
+          'default': False
+        },
+        {
+          'id': 360011177433,
+          'name': 'Pagero',
+          'raw_name': 'Pagero',
+          'value': 'pagero',
+          'default': False
+        },
+        {
+          'id': 360011177413,
+          'name': 'Palette',
+          'raw_name': 'Palette',
+          'value': 'palette',
+          'default': False
+        },
+        {
+          'id': 360011177453,
+          'name': 'Parseq',
+          'raw_name': 'Parseq',
+          'value': 'parseq',
+          'default': False
+        },
+        {
+          'id': 360011177473,
+          'name': 'PEPPOL',
+          'raw_name': 'PEPPOL',
+          'value': 'peppol',
+          'default': False
+        },
+        {
+          'id': 360016536294,
+          'name': 'Phoenix Medical Supplies',
+          'raw_name': 'Phoenix Medical Supplies',
+          'value': 'phoenix_healthcare',
+          'default': False
+        },
+        {
+          'id': 360012843158,
+          'name': 'Pitney Bowes ',
+          'raw_name': 'Pitney Bowes ',
+          'value': 'pitney_bowes_',
+          'default': False
+        },
+        {
+          'id': 360011177493,
+          'name': 'Proactis',
+          'raw_name': 'Proactis',
+          'value': 'proactis',
+          'default': False
+        },
+        {
+          'id': 360004437597,
+          'name': 'Proagrica',
+          'raw_name': 'Proagrica',
+          'value': 'proagrica',
+          'default': False
+        },
+        {
+          'id': 360011177513,
+          'name': 'SAP',
+          'raw_name': 'SAP',
+          'value': 'sap',
+          'default': False
+        },
+        {
+          'id': 360011177533,
+          'name': 'Science Warehouse',
+          'raw_name': 'Science Warehouse',
+          'value': 'science_warehouse',
+          'default': False
+        },
+        {
+          'id': 360023149934,
+          'name': 'Stratas',
+          'raw_name': 'Stratas',
+          'value': 'stratas',
+          'default': False
+        },
+        {
+          'id': 360011177553,
+          'name': 'SupplyOn',
+          'raw_name': 'SupplyOn',
+          'value': 'supplyon',
+          'default': False
+        },
+        {
+          'id': 360011177573,
+          'name': 'Taulia',
+          'raw_name': 'Taulia',
+          'value': 'taulia',
+          'default': False
+        },
+        {
+          'id': 360032905254,
+          'name': 'TecAlliance',
+          'raw_name': 'TecAlliance',
+          'value': 'tecalliance2',
+          'default': False
+        },
+        {
+          'id': 360023027813,
+          'name': 'Traffic Tech',
+          'raw_name': 'Traffic Tech',
+          'value': 'traffic_tech_2',
+          'default': False
+        },
+        {
+          'id': 360025050933,
+          'name': 'Trax',
+          'raw_name': 'Trax',
+          'value': 'trax',
+          'default': False
+        },
+        {
+          'id': 360011078617,
+          'name': 'Tungsten',
+          'raw_name': 'Tungsten',
+          'value': 'tungsten',
+          'default': False
+        },
+        {
+          'id': 360011177193,
+          'name': 'Valtatech',
+          'raw_name': 'Valtatech',
+          'value': 'valtatech',
+          'default': False
+        },
+        {
+          'id': 360011330498,
+          'name': 'Voxel',
+          'raw_name': 'Voxel',
+          'value': 'voxel',
+          'default': False
+        },
+        {
+          'id': 360011177593,
+          'name': 'Wax Digital',
+          'raw_name': 'Wax Digital',
+          'value': 'wax_digital',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360001835634.json',
+      'id': 360001835634,
+      'type': 'integer',
+      'title': 'Total time spent (sec)',
+      'raw_title': 'Total time spent (sec)',
+      'description': 'Total time spent (sec)',
+      'raw_description': 'Total time spent (sec)',
+      'position': 8,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': '\\A[-+]?\\d+\\z',
+      'title_in_portal': 'Total time spent (sec)',
+      'raw_title_in_portal': 'Total time spent (sec)',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-02-28T15:55:49Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360001835654.json',
+      'id': 360001835654,
+      'type': 'integer',
+      'title': 'Time spent last update (sec)',
+      'raw_title': 'Time spent last update (sec)',
+      'description': 'Time spent last update (sec)',
+      'raw_description': 'Time spent last update (sec)',
+      'position': 9,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': '\\A[-+]?\\d+\\z',
+      'title_in_portal': 'Time spent last update (sec)',
+      'raw_title_in_portal': 'Time spent last update (sec)',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-02-28T15:55:49Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595198.json',
+      'id': 23595198,
+      'type': 'group',
+      'title': 'Group',
+      'raw_title': 'Group',
+      'description': 'Request group',
+      'raw_description': 'Request group',
+      'position': 9,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Group',
+      'raw_title_in_portal': 'Group',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:57Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': False,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360014549894.json',
+      'id': 360014549894,
+      'type': 'tagger',
+      'title': 'Chargeable / Non-Chargeable',
+      'raw_title': 'Chargeable / Non-Chargeable',
+      'description': '',
+      'raw_description': '',
+      'position': 10,
+      'active': True,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Chargeable / Non-Chargeable',
+      'raw_title_in_portal': 'Chargeable / Non-Chargeable',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2019-01-30T13:34:17Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Chargeable / Non-Chargeable',
+      'custom_field_options': [
+        {
+          'id': 360017157634,
+          'name': 'Charge Agreed',
+          'raw_name': 'Charge Agreed',
+          'value': 'charge_agreed',
+          'default': False
+        },
+        {
+          'id': 360017157654,
+          'name': 'Chargeable',
+          'raw_name': 'Chargeable',
+          'value': 'chargeable',
+          'default': False
+        },
+        {
+          'id': 360017157674,
+          'name': 'New Mapping',
+          'raw_name': 'New Mapping',
+          'value': 'new_mapping',
+          'default': False
+        },
+        {
+          'id': 360017157694,
+          'name': 'Non-Chargeable',
+          'raw_name': 'Non-Chargeable',
+          'value': 'non-chargeable',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/23595208.json',
+      'id': 23595208,
+      'type': 'assignee',
+      'title': 'Assignee',
+      'raw_title': 'Assignee',
+      'description': 'Agent assigned to your request',
+      'raw_description': 'Agent assigned to your request',
+      'position': 11,
+      'active': True,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Assignee',
+      'raw_title_in_portal': 'Assignee',
+      'visible_in_portal': True,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2013-11-01T12:04:57Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': False,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360010271998.json',
+      'id': 360010271998,
+      'type': 'tagger',
+      'title': 'Syntax Error Fault',
+      'raw_title': 'Syntax Error Fault',
+      'description': '',
+      'raw_description': '',
+      'position': 11,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Syntax Error Fault',
+      'raw_title_in_portal': 'Syntax Error Fault',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2020-09-23T08:47:09Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Syntax error fault for production mappings.',
+      'custom_field_options': [
+        {
+          'id': 360013450678,
+          'name': 'JavTech ',
+          'raw_name': 'JavTech ',
+          'value': 'javtech_',
+          'default': False
+        },
+        {
+          'id': 360013450698,
+          'name': 'NEOOPS  ',
+          'raw_name': 'NEOOPS  ',
+          'value': 'neoops__',
+          'default': False
+        },
+        {
+          'id': 360013450718,
+          'name': 'Opus ',
+          'raw_name': 'Opus ',
+          'value': 'opus_',
+          'default': False
+        },
+        {
+          'id': 360013450738,
+          'name': 'Taulia ',
+          'raw_name': 'Taulia ',
+          'value': 'taulia_',
+          'default': False
+        },
+        {
+          'id': 360013450758,
+          'name': 'CloudTrade ',
+          'raw_name': 'CloudTrade ',
+          'value': 'cloudtrade_',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360009553417.json',
+      'id': 360009553417,
+      'type': 'checkbox',
+      'title': 'JavTech syntax error?',
+      'raw_title': 'JavTech syntax error?',
+      'description': '',
+      'raw_description': '',
+      'position': 12,
+      'active': False,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'JavTech syntax error?',
+      'raw_title_in_portal': 'JavTech syntax error?',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': 'javtech_syntax_error',
+      'created_at': '2020-08-24T12:56:42Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': 'JavTech Syntax Error'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360005872378.json',
+      'id': 360005872378,
+      'type': 'multiselect',
+      'title': 'Third Party QC',
+      'raw_title': 'Third Party QC',
+      'description': '',
+      'raw_description': '',
+      'position': 12,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Third Party QC',
+      'raw_title_in_portal': 'Third Party QC',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2020-03-09T09:27:08Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': None,
+      'custom_field_options': [
+        {
+          'id': 360009649418,
+          'name': 'Address Capture Issue',
+          'raw_name': 'Address Capture Issue',
+          'value': 'address_capture_issue',
+          'default': False
+        },
+        {
+          'id': 360009649438,
+          'name': 'Incomplete Data Capture',
+          'raw_name': 'Incomplete Data Capture',
+          'value': 'incomplete_data_capture',
+          'default': False
+        },
+        {
+          'id': 360009649458,
+          'name': 'Incorrectly Identified as Failed Mapping Request',
+          'raw_name': 'Incorrectly Identified as Failed Mapping Request',
+          'value': 'incorrectly_identified_as_failed_mapping_request',
+          'default': False
+        },
+        {
+          'id': 360009649478,
+          'name': 'Inefficient Rules',
+          'raw_name': 'Inefficient Rules',
+          'value': 'inefficient_rules',
+          'default': False
+        },
+        {
+          'id': 360009649498,
+          'name': 'Layout of Rules',
+          'raw_name': 'Layout of Rules',
+          'value': 'layout_of_rules',
+          'default': False
+        },
+        {
+          'id': 360009649518,
+          'name': 'No Issues',
+          'raw_name': 'No Issues',
+          'value': 'no_issues',
+          'default': False
+        },
+        {
+          'id': 360010648297,
+          'name': 'Untested',
+          'raw_name': 'Untested',
+          'value': 'untested',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360011582498.json',
+      'id': 360011582498,
+      'type': 'tagger',
+      'title': 'Taulia Support Fault',
+      'raw_title': 'Taulia Support Fault',
+      'description': '',
+      'raw_description': '',
+      'position': 13,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Taulia Support Fault',
+      'raw_title_in_portal': 'Taulia Support Fault',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2020-12-11T14:28:16Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Taulia Support Fault',
+      'custom_field_options': [
+        {
+          'id': 360015403558,
+          'name': 'Taulia Team',
+          'raw_name': 'Taulia Team',
+          'value': 'taulia_team',
+          'default': False
+        },
+        {
+          'id': 360015403578,
+          'name': 'CT Team',
+          'raw_name': 'CT Team',
+          'value': 'ct_team',
+          'default': False
+        },
+        {
+          'id': 360015403598,
+          'name': 'Third Party',
+          'raw_name': 'Third Party',
+          'value': 'third_party',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360002998174.json',
+      'id': 360002998174,
+      'type': 'date',
+      'title': 'Due Date',
+      'raw_title': 'Due Date',
+      'description': '',
+      'raw_description': '',
+      'position': 14,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': '\\A([0-9]{4})-(1[0-2]|0[1-9])-(3[01]|[12][0-9]|0[1-9])\\z',
+      'title_in_portal': 'Due Date',
+      'raw_title_in_portal': 'Due Date',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-03-28T12:03:58Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Due Date'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360009553437.json',
+      'id': 360009553437,
+      'type': 'checkbox',
+      'title': 'NEOOPS syntax error?',
+      'raw_title': 'NEOOPS syntax error?',
+      'description': '',
+      'raw_description': '',
+      'position': 15,
+      'active': False,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'NEOOPS syntax error?',
+      'raw_title_in_portal': 'NEOOPS syntax error?',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': 'neoops_syntax_error',
+      'created_at': '2020-08-24T12:57:43Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': 'NEOOPS Syntax Error'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360016493713.json',
+      'id': 360016493713,
+      'type': 'checkbox',
+      'title': 'Training Issue',
+      'raw_title': 'Training Issue',
+      'description': '',
+      'raw_description': '',
+      'position': 15,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Training Issue',
+      'raw_title_in_portal': 'Training Issue',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': '',
+      'created_at': '2019-03-14T16:29:01Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Training Issue'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360009631198.json',
+      'id': 360009631198,
+      'type': 'checkbox',
+      'title': 'Mapping PDF Error?',
+      'raw_title': 'Mapping PDF Error?',
+      'description': '',
+      'raw_description': '',
+      'position': 16,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Mapping PDF Error?',
+      'raw_title_in_portal': 'Mapping PDF Error?',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': 'pdf_error',
+      'created_at': '2020-08-27T13:53:08Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Mapping PDF Error?'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360015544358.json',
+      'id': 360015544358,
+      'type': 'checkbox',
+      'title': 'Weekend Cover',
+      'raw_title': 'Weekend Cover',
+      'description': '',
+      'raw_description': '',
+      'position': 17,
+      'active': True,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Weekend Cover',
+      'raw_title_in_portal': 'Weekend Cover',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': 'weekend_cover',
+      'created_at': '2021-03-16T11:47:33Z',
+      'updated_at': '2021-06-22T08:48:09Z',
+      'removable': True,
+      'agent_description': 'Weekend Cover?'
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360006763333.json',
+      'id': 360006763333,
+      'type': 'text',
+      'title': 'Channel Partner',
+      'raw_title': 'Channel Partner',
+      'description': '',
+      'raw_description': '',
+      'position': 18,
+      'active': False,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Channel Partner',
+      'raw_title_in_portal': 'Channel Partner',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-07-02T12:18:25Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/25182858.json',
+      'id': 25182858,
+      'type': 'text',
+      'title': 'Customer',
+      'raw_title': 'Customer',
+      'description': 'Customer this ticket affects',
+      'raw_description': 'Customer this ticket affects',
+      'position': 22,
+      'active': False,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Customer',
+      'raw_title_in_portal': 'Customer',
+      'visible_in_portal': True,
+      'editable_in_portal': True,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2015-04-01T15:23:00Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360005872358.json',
+      'id': 360005872358,
+      'type': 'tagger',
+      'title': 'JavTech SAP Mapping',
+      'raw_title': 'JavTech SAP Mapping',
+      'description': '',
+      'raw_description': '',
+      'position': 23,
+      'active': False,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'JavTech SAP Mapping',
+      'raw_title_in_portal': 'JavTech SAP Mapping',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2020-03-09T09:22:30Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None,
+      'custom_field_options': [
+        {
+          'id': 360009649298,
+          'name': 'Address Capture Issue',
+          'raw_name': 'Address Capture Issue',
+          'value': 'address_capture_issue',
+          'default': False
+        },
+        {
+          'id': 360009649318,
+          'name': 'All Correct',
+          'raw_name': 'All Correct',
+          'value': 'all_correct',
+          'default': False
+        },
+        {
+          'id': 360009649338,
+          'name': 'Incomplete Data Capture',
+          'raw_name': 'Incomplete Data Capture',
+          'value': 'incomplete_data_capture',
+          'default': False
+        },
+        {
+          'id': 360009649358,
+          'name': 'Incorrectly Identified as Failed Mapping Request',
+          'raw_name': 'Incorrectly Identified as Failed Mapping Request',
+          'value': 'incorrectly_identified_as_failed_mapping_request',
+          'default': False
+        },
+        {
+          'id': 360009649378,
+          'name': 'Inefficient Rules',
+          'raw_name': 'Inefficient Rules',
+          'value': 'inefficient_rules',
+          'default': False
+        },
+        {
+          'id': 360009649398,
+          'name': 'Layout of Rules',
+          'raw_name': 'Layout of Rules',
+          'value': 'layout_of_rules',
+          'default': False
+        }
+      ]
+    },
+    {
+      'url': 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/45624827.json',
+      'id': 45624827,
+      'type': 'tagger',
+      'title': 'Time Taken (hours)',
+      'raw_title': 'Time Taken (hours)',
+      'description': '',
+      'raw_description': '',
+      'position': 24,
+      'active': False,
+      'required': True,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Time Taken (hours)',
+      'raw_title_in_portal': 'Time Taken (hours)',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2016-10-24T07:23:26Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': None,
+      'custom_field_options': [
+        {
+          'id': 68958288,
+          'name': '<0.5',
+          'raw_name': '<0.5',
+          'value': 'less_than_half_hour',
+          'default': False
+        },
+        {
+          'id': 68958308,
+          'name': '0.5',
+          'raw_name': '0.5',
+          'value': 'half_hour',
+          'default': False
+        },
+        {
+          'id': 62083787,
+          'name': '1',
+          'raw_name': '1',
+          'value': '1',
+          'default': False
+        },
+        {
+          'id': 62083807,
+          'name': '2',
+          'raw_name': '2',
+          'value': '2',
+          'default': False
+        },
+        {
+          'id': 67560508,
+          'name': '3',
+          'raw_name': '3',
+          'value': '3',
+          'default': False
+        },
+        {
+          'id': 62083827,
+          'name': '4',
+          'raw_name': '4',
+          'value': '4',
+          'default': False
+        },
+        {
+          'id': 67560528,
+          'name': '5',
+          'raw_name': '5',
+          'value': '5',
+          'default': False
+        },
+        {
+          'id': 62083847,
+          'name': '6',
+          'raw_name': '6',
+          'value': '6',
+          'default': False
+        },
+        {
+          'id': 67560548,
+          'name': '7',
+          'raw_name': '7',
+          'value': '7',
+          'default': False
+        },
+        {
+          'id': 62083867,
+          'name': '8',
+          'raw_name': '8',
+          'value': '8',
+          'default': True
+        },
+        {
+          'id': 67560488,
+          'name': '8+',
+          'raw_name': '8+',
+          'value': 'more_than_8',
+          'default': False
+        }
+      ]
+    },
+    {
+      "url": 'https://cloudtrade.zendesk.com/api/v2/ticket_fields/360011947774.json',
+      'id': 360011947774,
+      'type': 'text',
+      'title': 'Project',
+      'raw_title': 'Project',
+      'description': '',
+      'raw_description': '',
+      'position': 25,
+      'active': False,
+      'required': False,
+      'collapsed_for_agents': False,
+      'regexp_for_validation': None,
+      'title_in_portal': 'Project',
+      'raw_title_in_portal': 'Project',
+      'visible_in_portal': False,
+      'editable_in_portal': False,
+      'required_in_portal': False,
+      'tag': None,
+      'created_at': '2018-11-28T15:25:40Z',
+      'updated_at': '2021-03-16T11:47:40Z',
+      'removable': True,
+      'agent_description': 'Project Management App Field'
+    }
+  ],
+  'next_page': None,
+  'previous_page': None,
+  'count': 29}
