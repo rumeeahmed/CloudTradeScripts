@@ -7,8 +7,8 @@ pdfs = os.listdir(file_path)
 
 for pdf in pdfs:
     if pdf.endswith('.pdf'):
-        zendesk = ZendeskForwarder(customer, f'{file_path}\\{pdf}')
-        response = zendesk.send()
+        zendesk = ZendeskForwarder('no-reply@cloud-trade.com')
+        response = zendesk.send(customer, f'{file_path}\\{pdf}')
         remaining_api_calls = int(response[1]['X-Rate-Limit-Remaining'])
         if remaining_api_calls < 200:
             print('Exceeding the API rate limit for this program')

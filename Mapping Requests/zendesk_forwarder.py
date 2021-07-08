@@ -124,7 +124,7 @@ class ZendeskForwarder:
         """
         Make a get request on the search api to search for a specific ticket.
         :param search_term: The search term or parameters to use to narrow down or filter the search by.
-        :return: A dictionary object containing all the results.
+        :return: A dictionary object containing all the search results.
         """
         self._headers['Content-Type'] = 'application/json'
         self._headers['Accept'] = 'application/json'
@@ -148,26 +148,45 @@ class ZendeskForwarder:
 
         return self.bulk_submit_tickets(ticket_ids, data)
 
-    def submit_junk_ariba_tickets(self):
+    def submit_junk_ariba_tickets(self, subject: str):
         """
         Perform a search on the search api for junk ariba tickets created on the current day and then submit them.
-        :return: None.
+        :param subject:
+        :return: a dictionary object that contains the response data.
         """
         year, month, day = self._get_now()
-        tickets = self._get_tickets(
-            f'subject:"Your Ariba Request was Unable to be Processed" created>={year}-{month}-{day} '
-            f'type:ticket status<solved'
-        )
-        print(tickets)
+        tickets = self._get_tickets(f'subject:"{subject}" created>={year}-{month}-{day} type:ticket status<solved')
+
         ticket_ids = self._process_tickets(tickets)
-        data = {'tickets': []}
-        for ticket in ticket_ids:
-            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
+        data = self._create_solved_tickets_json_body(ticket_ids)
+        custom_fields = [
+            {'id': 360010677313, "value": "sap"},
+            {'id': 360014557454, "value": "ariba_network"},
+            {'id': 360014549894, "value": "non-chargeable"},
+            {"id": 24037427, "value": "rules_writing_support"}
+        ]
+        for ticket in data['tickets']:
+            ticket['custom_fields'] = custom_fields
+
+        print(data)
         print(ticket_ids)
 
         return self.bulk_submit_tickets(ticket_ids, data)
 
+    @staticmethod
+    def _create_solved_tickets_json_body(ticket_ids: list) -> dict:
+        data = {'tickets': []}
+        for ticket in ticket_ids:
+            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
+        return data
+
     def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> dict:
+        """
+        Take a list of ticket ID's and bulk submit all of the.
+        :param ticket_ids: a list object containing string values representing the ticket ID to update.
+        :param data: a dictionary object to post as a json file which include the details to update the ticket by.
+        :return: a dictionary object that contains the response data.
+        """
         if ticket_ids:
             params = ','.join(ticket_ids)
             data = json.dumps(data)
@@ -178,6 +197,10 @@ class ZendeskForwarder:
             print("No ticket ID's were found")
 
     def get_ticket_fields(self):
+        """
+        This method will return all the possible ticket fields that are available in in the CloudTrade Zendesk API
+        :return: a dictionary object that contains the response data.
+        """
         response = requests.get(f'https://cloudtrade.zendesk.com/api/v2/ticket_fields', headers=self._headers)
         response.raise_for_status()
         return response.json()
