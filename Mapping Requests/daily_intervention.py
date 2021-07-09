@@ -7,7 +7,8 @@ response, total_count = zendesk.submit_intervention_tickets()
 for count in range(total_count):
     response, total_count = zendesk.submit_intervention_tickets()
     remaining_api_calls = int(response.headers['X-Rate-Limit-Remaining'])
+    time.sleep(2)
     print(remaining_api_calls)
-    if remaining_api_calls < 250:
-        print('Exceeding the API rate limit for this program')
-        time.sleep(60)
+    if remaining_api_calls < 350:
+        print('Exceeding the API rate limit for this program, waiting 30 seconds.')
+        time.sleep(30)
