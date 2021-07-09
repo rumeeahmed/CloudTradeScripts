@@ -1,4 +1,5 @@
 from datetime import datetime
+from requests import Response
 import requests
 import base64
 import json
@@ -24,8 +25,21 @@ class CloudTradeZendesk:
         :param username: a string value that represents the email username to use.
         """
         self.username = username
+        self._process_ticket_fields()
         self._encode_authentication_details()
         self._process_headers()
+
+    def _process_ticket_fields(self):
+        """
+        Set objects properties as mandatory ID's for the custom ticket fields. Each ticket in CloudTrade's system needs
+        a value for channel partner, customer, chargeable and ticket type custom fields in the JSON that is posted to
+        the API.
+        :return: None
+        """
+        self.channel_partner_field = 360010677313
+        self.customer_field = 360014557454
+        self.chargeable_field = 360014549894
+        self.ticket_type_field = 24037427
 
     def _encode_authentication_details(self):
         """
@@ -166,15 +180,35 @@ class CloudTradeZendesk:
         ticket_ids = self._process_tickets(tickets)
         data = self._create_solved_tickets_json_body(ticket_ids)
         custom_fields = [
-            {'id': 360010677313, "value": "sap"},
-            {'id': 360014557454, "value": "ariba_network"},
-            {'id': 360014549894, "value": "non-chargeable"},
-            {"id": 24037427, "value": "rules_writing_support"}
+            {'id': self.channel_partner_field, "value": "sap"},
+            {'id': self.customer_field, "value": "ariba_network"},
+            {'id': self.chargeable_field, "value": "non-chargeable"},
+            {"id": self.ticket_type_field, "value": "rules_writing_support"}
         ]
         for ticket in data['tickets']:
             ticket['custom_fields'] = custom_fields
 
         return self.bulk_submit_tickets(ticket_ids, data)
+
+    def submit_intervention_tickets(self):
+        year, month, _ = self._get_now()
+        tickets = self._get_tickets(f'tags:internal__intervention created>={year}-{month}-01 type:ticket status<solved')
+        total_count = tickets['count']
+        ticket_ids = self._process_tickets(tickets)
+        tid = [ticket_ids[0]]
+        print(tid)
+
+        data = self._create_solved_tickets_json_body(tid)
+        custom_fields = [
+            {'id': self.channel_partner_field, "value": "cloudtrade"},
+            {'id': self.customer_field, "value": "operations"},
+            {'id': self.chargeable_field, "value": "non-chargeable"},
+            {"id": self.ticket_type_field, "value": "internal__intervention"}
+        ]
+        for ticket in data['tickets']:
+            ticket['custom_fields'] = custom_fields
+        print(data)
+        return self.bulk_submit_tickets(tid, data)
 
     @staticmethod
     def _create_solved_tickets_json_body(ticket_ids: list) -> dict:
@@ -187,10 +221,12 @@ class CloudTradeZendesk:
         """
         data = {'tickets': []}
         for ticket in ticket_ids:
-            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
+            data['tickets'].append(
+                {'id': int(ticket), 'status': 'solved'}
+            )
         return data
 
-    def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> dict:
+    def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> Response:
         """
         Take a list of ticket ID's and bulk submit all of the.
         :param ticket_ids: a list object containing string values representing the ticket ID to update.
@@ -202,7 +238,7 @@ class CloudTradeZendesk:
             data = json.dumps(data)
             response = requests.put(f'{self.tickets_url}', headers=self._headers, params=params, data=data)
             response.raise_for_status()
-            return response.json()
+            return response
         else:
             print("No ticket ID's were found")
 
