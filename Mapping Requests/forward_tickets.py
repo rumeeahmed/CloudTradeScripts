@@ -2,6 +2,7 @@ from cloudtrade_zendesk import CloudTradeZendesk
 import shutil
 import os
 
+username = ' ct6@cloud-trade.com'
 file_path = r'C:\Users\rumee.ahmed\Documents\Rules\Python\Mapping Requests'
 move_path = ''
 customer = 'Test'
@@ -9,7 +10,7 @@ pdfs = os.listdir(file_path)
 
 for pdf in pdfs:
     if pdf.endswith('.pdf'):
-        zendesk = CloudTradeZendesk('rumee.ahmed@cloud-trade.com')
+        zendesk = CloudTradeZendesk(username)
         response = zendesk.send_mapping(customer, f'{file_path}\\{pdf}')
         shutil.move(f'{file_path}\\{pdf}', move_path)
         remaining_api_calls = int(response[1]['X-Rate-Limit-Remaining'])
