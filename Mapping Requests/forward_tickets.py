@@ -2,9 +2,9 @@ from cloudtrade_zendesk import CloudTradeZendesk
 import shutil
 import os
 
-username = ' ct6@cloud-trade.com'
-file_path = r'C:\Users\rumee.ahmed\Documents\Rules\Python\Mapping Requests'
-move_path = ''
+username = 'ct6@cloud-trade.com'
+file_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\Mapping Requests\files'
+move_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\Mapping Requests\moved_files'
 customer = 'Test'
 pdfs = os.listdir(file_path)
 

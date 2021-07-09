@@ -58,14 +58,18 @@ class CloudTradeZendesk:
         """
         data = {
             'request': {
-                "requester": {
-                    "email": "no-reply@cloutrade-zendesk.com",
+                'requester': {
+                    'email': f'{customer}',
                     'name': 'Noreply',
                 },
-                "subject": f"New {customer} Mapping",
-                "comment": {
-                    "body": "Please see attached file for mapping"
-                }
+                'subject': f'New {customer} Mapping',
+                'comment': {
+                    'body': 'Please see attached file for mapping'
+                },
+                'custom_fields': [
+                    {'id': 360022138278, 'value': f'{customer}'},
+                    {'id': 360022316657, 'value': f'{customer}'},
+                ]
             }
         }
         self._data = data
@@ -88,7 +92,7 @@ class CloudTradeZendesk:
     def send_mapping(self, customer: str, filepath: str) -> tuple:
         """
         Make a POST request to the endpoint and create the ticket.
-        :return: json API response object.
+        :return: a dictionary object that contains the response data.
         """
         attachment_token = self._send_attachment(filepath)
         self._prepare_data(customer)
