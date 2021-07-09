@@ -195,7 +195,6 @@ class CloudTradeZendesk:
         tickets = self._get_tickets(f'tags:internal__intervention created>={year}-{month}-01 type:ticket status<solved')
         total_count = tickets['count']
         ticket_ids = self._process_tickets(tickets)
-        print(ticket_ids)
 
         data = self._create_solved_tickets_json_body(ticket_ids)
         custom_fields = [
