@@ -32,7 +32,7 @@ class ZendeskForwarder:
         Create a base64 encoded string out of the email and token parameters for the POST request. Convert the string
         into bytes, encode into a base64 encoded byte-string and then decode said byte-string to retrieve the string
         value of the email and token.
-        :return: base64 encoded string.
+        :return: base64 encoded string of the authentication parameters required for communicating with the Zendesk Api.
         """
         params_bytes = f'{self.username}/token:{self.token}'.encode('ascii')
         params_b64 = base64.b64encode(params_bytes)
@@ -41,8 +41,8 @@ class ZendeskForwarder:
 
     def _process_headers(self):
         """
-        Prepare the headers to be POSTED into the URL.
-        :return: headers dict object
+        Prepare the headers to be used with a request to the URL.
+        :return: a dictionary object that represents the HTTP headers.
         """
         headers = {
             'authorization': f'Basic {self._encoded_auth_params}',
@@ -54,7 +54,7 @@ class ZendeskForwarder:
     def _prepare_data(self, customer: str):
         """
         Prepare the data for the zendesk ticket.
-        :return: data dict object
+        :return: a dictionary object that represents a new ticket that is compatible with Zendesk's Api
         """
         data = {
             'request': {
@@ -74,7 +74,7 @@ class ZendeskForwarder:
         """
         Post the attachment first prior to ticket creation to obtain a attachment token to be link the attachment and
         ticket together in Zendesk.
-        :return: attachment token
+        :return: attachment token.
         """
         self._headers['Content-Type'] = 'application/pdf'
         self._headers['Accept'] = 'application/pdf'
@@ -85,7 +85,7 @@ class ZendeskForwarder:
         content = response.json()
         return content['upload']['token']
 
-    def send(self, customer: str, filepath: str) -> tuple:
+    def send_mapping(self, customer: str, filepath: str) -> tuple:
         """
         Make a POST request to the endpoint and create the ticket.
         :return: json API response object.
@@ -174,6 +174,13 @@ class ZendeskForwarder:
 
     @staticmethod
     def _create_solved_tickets_json_body(ticket_ids: list) -> dict:
+        """
+        Take a list of ticket ids and create a dictionary object that is compliant with the API which will be then used
+        to bulk update tickets.
+        :param ticket_ids: A list object containing the ticket IDs to bulk update.
+        :return: A dictionary object representing the tickets to update that is in the format required for the Zendesk
+        Api.
+        """
         data = {'tickets': []}
         for ticket in ticket_ids:
             data['tickets'].append({'id': int(ticket), 'status': 'solved'})
