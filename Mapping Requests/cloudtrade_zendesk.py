@@ -5,7 +5,7 @@ import json
 import os
 
 
-class ZendeskForwarder:
+class CloudTradeZendesk:
     """
     Object that works with CloudTrade's Zendesk Api.
     """
@@ -153,11 +153,11 @@ class ZendeskForwarder:
     def submit_junk_ariba_tickets(self, subject: str):
         """
         Perform a search on the search api for junk Ariba tickets created on the current day and then submit them.
-        :param subject:
+        :param subject: a string value that represents the search term to perform on the Api.
         :return: a dictionary object that contains the response data.
         """
         year, month, day = self._get_now()
-        tickets = self._get_tickets(f'subject:"{subject}" created>={year}-{month}-{day} type:ticket status<solved')
+        tickets = self._get_tickets(f'{subject} created>={year}-{month}-{day} type:ticket status<solved')
 
         ticket_ids = self._process_tickets(tickets)
         data = self._create_solved_tickets_json_body(ticket_ids)

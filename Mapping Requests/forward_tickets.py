@@ -1,4 +1,4 @@
-from zendesk_forwarder import ZendeskForwarder
+from cloudtrade_zendesk import CloudTradeZendesk
 import shutil
 import os
 
@@ -9,7 +9,7 @@ pdfs = os.listdir(file_path)
 
 for pdf in pdfs:
     if pdf.endswith('.pdf'):
-        zendesk = ZendeskForwarder('rumee.ahmed@cloud-trade.com')
+        zendesk = CloudTradeZendesk('rumee.ahmed@cloud-trade.com')
         response = zendesk.send_mapping(customer, f'{file_path}\\{pdf}')
         shutil.move(f'{file_path}\\{pdf}', move_path)
         remaining_api_calls = int(response[1]['X-Rate-Limit-Remaining'])
