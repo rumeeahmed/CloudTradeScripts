@@ -7,6 +7,8 @@ One thing to note that the rate limit for the endpoint is 400. To ensure that th
 adds a 2 second time delay per request and a 30 second time delay when the remaining Api calls fall below 350. Ensure
 that the program is not accidentally closed before it finishes execution.
 
+---
+
 ## Usage
 
 There are various different functionalty the `CloudTradeZendesk` object provides. Listed below are the functionality
@@ -29,6 +31,8 @@ move_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\Mapping Requests\
 customer = 'Test'
 ```
 
+---
+
 ### Closing Monthly Time Tracking Tickets
 
 This script will also close any tickets that has the tag `monthly_time_tracking` that have been created since the
@@ -44,5 +48,27 @@ zendesk = CloudTradeZendesk('rumee.ahmed@cloud-trade.com')
 zendesk.submit_monthly_tickets()
 ```
 
-**Note that the all the mandatory fields i.e., Channel Partner, `Customer`, `Ticket Type` and `Chargeable/Non-Chargeable`
+**Note that the all the mandatory fields `Channel Partner`, `Customer`, `Ticket Type` and `Chargeable/Non-Chargeable`
 must be filled out beforehand. Any tickets without these parameters will not be closed.**
+
+---
+
+### Closing Junk Ariba Tickets
+
+This script will also close any junk tickets coming from Ariba's customer support email. It will search for tickets
+with the following subjects:
+- subject "Your Service Requests have been closed"
+- subject "Your Ariba Request was Unable to be Processed
+
+These are the two main types of tickets that are sent as spam to the helpdesk. It is designed to be executed as a
+daily script. First instatiate the `CloudTradeZendesk` with an email which is an agent in the helpdesk. The use the
+`submit_junk_ariba_tickets` method and pass in the search query parameter, in this case the search is taking place
+by the contents of the tickets subject. The method will then find the tickets with the subject and then close them.
+
+```python
+zendesk = CloudTradeZendesk('rumee.ahmed@cloud-trade.com')
+zendesk.submit_junk_ariba_tickets('subject "Your Service Requests have been closed"')
+zendesk.submit_junk_ariba_tickets('subject "Your Ariba Request was Unable to be Processed"')
+```
+
+### Closing Intervention Tickets
