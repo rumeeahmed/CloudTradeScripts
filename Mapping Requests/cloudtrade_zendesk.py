@@ -103,7 +103,7 @@ class CloudTradeZendesk:
         content = response.json()
         return content['upload']['token']
 
-    def send_mapping(self, customer: str, filepath: str) -> tuple:
+    def send_mapping(self, customer: str, filepath: str) -> Response:
         """
         Make a POST request to the endpoint and create the ticket.
         :return: a dictionary object that contains the response data.
@@ -116,7 +116,7 @@ class CloudTradeZendesk:
         payload = json.dumps(self._data)
         response = requests.post(self.request_url, headers=self._headers, data=payload)
         response.raise_for_status()
-        return response.json(), response.headers
+        return response
 
     @staticmethod
     def _get_now() -> tuple:
@@ -218,9 +218,7 @@ class CloudTradeZendesk:
         """
         data = {'tickets': []}
         for ticket in ticket_ids:
-            data['tickets'].append(
-                {'id': int(ticket), 'status': 'solved'}
-            )
+            data['tickets'].append({'id': int(ticket), 'status': 'solved'})
         return data
 
     def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> Response:
@@ -239,12 +237,11 @@ class CloudTradeZendesk:
         else:
             print("No ticket ID's were found")
 
-    def get_ticket_fields(self):
+    def get_ticket_fields(self) -> Response:
         """
         This method will return all the possible ticket fields that are available in in the CloudTrade Zendesk API.
         :return: a dictionary object that contains the response data.
         """
         response = requests.get(f'https://cloudtrade.zendesk.com/api/v2/ticket_fields', headers=self._headers)
         response.raise_for_status()
-        return response.json()
-
+        return response
