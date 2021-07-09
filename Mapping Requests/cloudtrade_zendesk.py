@@ -17,7 +17,7 @@ class CloudTradeZendesk:
     search_url = f'{base_url}/search.json?'
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
-    token = os.environ.get('DISCORD_KEY')
+    token = 'BPHF7BbMBXOPj8gk5jyir7fk99LJQHZbjmTewyWR'
 
     def __init__(self, username: str):
         """
@@ -195,10 +195,9 @@ class CloudTradeZendesk:
         tickets = self._get_tickets(f'tags:internal__intervention created>={year}-{month}-01 type:ticket status<solved')
         total_count = tickets['count']
         ticket_ids = self._process_tickets(tickets)
-        tid = [ticket_ids[0]]
-        print(tid)
+        print(ticket_ids)
 
-        data = self._create_solved_tickets_json_body(tid)
+        data = self._create_solved_tickets_json_body(ticket_ids)
         custom_fields = [
             {'id': self.channel_partner_field, "value": "cloudtrade"},
             {'id': self.customer_field, "value": "operations"},
@@ -207,8 +206,7 @@ class CloudTradeZendesk:
         ]
         for ticket in data['tickets']:
             ticket['custom_fields'] = custom_fields
-        print(data)
-        return self.bulk_submit_tickets(tid, data)
+        return self.bulk_submit_tickets(ticket_ids, data), total_count
 
     @staticmethod
     def _create_solved_tickets_json_body(ticket_ids: list) -> dict:
