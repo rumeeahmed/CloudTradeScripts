@@ -17,7 +17,7 @@ class CloudTradeZendesk:
     search_url = f'{base_url}/search.json?'
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
-    token = os.environ.get('DISCORD_KEY')
+    token = 'BPHF7BbMBXOPj8gk5jyir7fk99LJQHZbjmTewyWR'
 
     def __init__(self, username: str):
         """
@@ -190,7 +190,11 @@ class CloudTradeZendesk:
 
         return self.bulk_submit_tickets(ticket_ids, data)
 
-    def submit_intervention_tickets(self):
+    def submit_intervention_tickets(self) -> tuple:
+        """
+        This will submit the intervention tickets
+        :return: a tuple object containing the response object and the total count of open intervention tickets.
+        """
         year, month, _ = self._get_now()
         tickets = self._get_tickets(f'tags:internal__intervention created>={year}-{month}-01 type:ticket status<solved')
         total_count = tickets['count']
