@@ -58,7 +58,7 @@ must be filled out beforehand. Any tickets without these parameters will not be 
 This script will also close any junk tickets coming from Ariba's customer support email. It will search for tickets
 with the following subjects:
 - subject "Your Service Requests have been closed"
-- subject "Your Ariba Request was Unable to be Processed
+- subject "Your Ariba Request was Unable to be Processed"
 
 These are the two main types of tickets that are sent as spam to the helpdesk. It is designed to be executed as a
 daily script. First instatiate the `CloudTradeZendesk` with an email which is an agent in the helpdesk. The use the
