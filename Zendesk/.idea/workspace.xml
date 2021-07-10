@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="">
+    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="Removed print statements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudtrade_zendesk.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloudtrade_zendesk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_intervention.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +85,21 @@
       <option name="presentableId" value="Default" />
       <updated>1625907293269</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated the intervention submission method to look for requester as opposed to ticket tag.">
+      <created>1625922846996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625922846996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed print statements">
+      <created>1625922873790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625922873790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated the intervention submission method to look for requester as opposed to ticket tag." />
+    <MESSAGE value="Removed print statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed print statements" />
   </component>
 </project>

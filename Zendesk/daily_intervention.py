@@ -12,4 +12,5 @@ for count in range(total_count):
         print('Exceeding the API rate limit for this program, waiting 30 seconds.')
         time.sleep(30)
     if total_count2 == 0:
+        print('No more tickets to close')
         break
