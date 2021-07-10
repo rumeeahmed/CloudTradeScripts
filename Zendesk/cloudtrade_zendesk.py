@@ -196,7 +196,9 @@ class CloudTradeZendesk:
         :return: a tuple object containing the response object and the total count of open intervention tickets.
         """
         year, month, _ = self._get_now()
-        tickets = self._get_tickets(f'tags:internal__intervention created>={year}-{month}-01 type:ticket status<solved')
+        tickets = self._get_tickets(
+            f'requester:intervention.queues@cloud-trade.com created>={year}-{month}-01 type:ticket status<solved'
+        )
         total_count = tickets['count']
         ticket_ids = self._process_tickets(tickets)
 

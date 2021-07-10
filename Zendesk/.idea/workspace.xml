@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Zendesk.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mapping Requests/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/daily_intervention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mapping Requests/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping Requests/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudtrade_zendesk.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloudtrade_zendesk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_intervention.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
