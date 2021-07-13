@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="added a print statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_intervention.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
   <component name="RunManager" selected="Python.daily_intervention">
     <configuration name="daily_intervention" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
