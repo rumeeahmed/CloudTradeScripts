@@ -152,7 +152,7 @@ class CloudTradeZendesk:
         response.raise_for_status()
         return response.json()
 
-    def submit_monthly_tickets(self):
+    def submit_monthly_tickets(self) -> Response:
         """
         Perform a search on the search api and submit any ticket created since the 1st of the current month with the tag
         `monthly_time_tracking`.
