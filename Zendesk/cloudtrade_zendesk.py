@@ -17,7 +17,7 @@ class CloudTradeZendesk:
     search_url = f'{base_url}/search.json?'
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
-    os.environ.get('DISCORD_KEY')
+    token = os.environ.get('DISCORD_KEY')
 
     def __init__(self, username: str):
         """
