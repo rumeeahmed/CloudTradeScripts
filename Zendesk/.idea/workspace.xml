@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="added a print statement">
+    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="updated type hint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_intervention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +12,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/daily_intervention.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloudtrade_zendesk.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1v7JevyGG0LrwNcaUKzLfOsmmTH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.daily_intervention" />
         <item itemvalue="Python.dummy_ariba_tickets" />
+        <item itemvalue="Python.daily_intervention" />
       </list>
     </recent_temporary>
   </component>
