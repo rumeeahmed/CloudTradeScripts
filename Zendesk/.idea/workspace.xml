@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="added a print statement">
+    <list default="true" id="665917e6-e882-4c4c-a13a-8289f1f1f959" name="Default Changelist" comment="Changed env variable to get the correct key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_intervention.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_intervention.py" afterDir="false" />
     </list>
@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
   </component>
-  <component name="RunManager" selected="Python.daily_intervention">
+  <component name="RunManager" selected="Python.dummy_ariba_tickets">
     <configuration name="daily_intervention" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Zendesk" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.daily_intervention" />
         <item itemvalue="Python.dummy_ariba_tickets" />
+        <item itemvalue="Python.daily_intervention" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625956218732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed env variable to get the correct key">
+      <created>1626191044440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626191044440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,7 @@
     <MESSAGE value="Updated the intervention submission method to look for requester as opposed to ticket tag." />
     <MESSAGE value="Removed print statements" />
     <MESSAGE value="added a print statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a print statement" />
+    <MESSAGE value="Changed env variable to get the correct key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed env variable to get the correct key" />
   </component>
 </project>

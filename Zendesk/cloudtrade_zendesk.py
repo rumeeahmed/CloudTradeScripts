@@ -227,7 +227,7 @@ class CloudTradeZendesk:
             data['tickets'].append({'id': int(ticket), 'status': 'solved'})
         return data
 
-    def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> Response:
+    def bulk_submit_tickets(self, ticket_ids: list, data: dict) -> Union[Response, str]:
         """
         Take a list of ticket ID's and bulk submit all of the.
         :param ticket_ids: a list object containing string values representing the ticket ID to update.
@@ -241,7 +241,7 @@ class CloudTradeZendesk:
             response.raise_for_status()
             return response
         else:
-            print("No ticket ID's were found")
+            return "No ticket ID's were found"
 
     def get_ticket_fields(self) -> Response:
         """
