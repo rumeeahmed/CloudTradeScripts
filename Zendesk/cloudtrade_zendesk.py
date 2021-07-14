@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Union
 from requests import Response
 import requests
 import base64
