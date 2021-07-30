@@ -1,0 +1,548 @@
+Purchasing Unit - Purchasing Unit ID,Ordered Date,Requester,Supplier - ERP Supplier,Supplier - ERP Supplier ID,Order Id,PO Line Number,Description,Line Closed Status,Unit Of Measure - Unit of Measure,Original Currency Code,sum(PO Quantity),"sum(if(PO Spend in Original Currency<=0.0,0.0,PO Quantity<=0.0,0.0,PO Spend in Original Currency))","sum(if(PO Quantity<=0.0,0.0,PO Quantity))",sum(PO Spend in Original Currency)
+186,20/07/2021,srinivasan jayaraman,CV AGIV JAYA MANDIRI,SEP+0000666744,PO1689,1,LABEL JIRIGEN 20 L,Open,each,IDR,1,"875,000.00",1,"875,000.00"
+186,20/07/2021,srinivasan jayaraman,CV AGIV JAYA MANDIRI,SEP+0000666744,PO1690,2,LABEL IBC,Open,each,IDR,1,"40,000.00",1,"40,000.00"
+186,20/07/2021,srinivasan jayaraman,CV AGIV JAYA MANDIRI,SEP+0000666744,PO1690,1,LABEL JIRIGEN 20 L,Open,each,IDR,1,"875,000.00",1,"875,000.00"
+186,20/07/2021,srinivasan jayaraman,CV AGIV JAYA MANDIRI,SEP+0000666744,PO1688,1,Carbonized Delivery Order (Blank Format for SAP),Open,each,IDR,1,"385,000.00",1,"385,000.00"
+186,20/07/2021,srinivasan jayaraman,CV AGIV JAYA MANDIRI,SEP+0000666744,PO1689,2,LABEL IBC,Open,each,IDR,1,"40,000.00",1,"40,000.00"
+186,20/07/2021,srinivasan jayaraman,PT SAHABAT UTAMA INDO..,SEP+0000119937,PO1691,1,Sales Freight Distribution SUI-2,Open,each,IDR,1,"2,165,000.00",1,"2,165,000.00"
+117,20/07/2021,srinivasan jayaraman,LZOC MARINE & LOGISTICS.,SEP+0000117183,PO1692,1,Logistics cost,Open,each,SGD,1,"90,000.00",1,"90,000.00"
+128,30/03/2021,srinivasan jayaraman,USA CLEAN INC,SEP+0000659750,PO1622,1,Coupling Flange,All Actions,each,USD,100,244,100,244
+128,28/02/2021,srinivasan jayaraman,USA CLEAN INC,SEP+0000659750,PO1581,1,Scenario 9,All Actions,each,USD,1,"10,000.00",1,"10,000.00"
+207,14/07/2021,srinivasan jayaraman,ORIX RENTAL CORPORATION.,SEP+0000667084,PO1677,3,2070023 Food & Beverages - A,Open,each,PHP,1,"33,102.11",1,"33,102.11"
+207,14/07/2021,srinivasan jayaraman,PAYROLL SERVICE PROVIDERS INC.,SEP+0000667101,PO1669,1,Philippines Payroll Services 2021 Full Year,Open,each,PHP,1,"113,450.00",1,"113,450.00"
+207,14/07/2021,srinivasan jayaraman,BPI CENTURY TOKYO RENTAL COROPRATIO,SEP+0000681160,PO1678,3,2070041 General Management,Open,each,PHP,1,"56,612.40",1,"56,612.40"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,4,2070044 FC Technical Customer,Open,each,PHP,1,"1,053.64",1,"1,053.64"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,6,2070056 FC Technical Custom,Open,each,PHP,1,"16,229.41",1,"16,229.41"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,1,2070005 Sourcing and Planning,Open,each,PHP,1,"1,567.94",1,"1,567.94"
+207,14/07/2021,srinivasan jayaraman,SYSTEM CLEANERS AS.,SEP+0000329464,PO1676,2,"ITEM CODE 55-200023 - Black low pressure valve,",Open,each,EUR,1,282.65,1,282.65
+207,14/07/2021,srinivasan jayaraman,ORIX RENTAL CORPORATION.,SEP+0000667084,PO1677,2,2070022 PH Food & Beverage,Open,each,PHP,1,"127,847.38",1,"127,847.38"
+207,14/07/2021,srinivasan jayaraman,"SCHENKER DISTRIBUTION SOLUTIONS, IN",SEP+0000685085,PO1671,1,"Fixed Management Fee- RUHALE WH
+600019180 April 2021",Open,each,PHP,1,"1,649,804.00",1,"1,649,804.00"
+207,14/07/2021,srinivasan jayaraman,BPI CENTURY TOKYO RENTAL COROPRATIO,SEP+0000681160,PO1678,2,2070022 PH Food & Beverage,Open,each,PHP,1,"219,239.26",1,"219,239.26"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,5,2070045 DC Technical Customer,Open,each,PHP,1,"13,879.08",1,"13,879.08"
+207,14/07/2021,srinivasan jayaraman,SYSTEM CLEANERS AS.,SEP+0000329464,PO1676,3,Handling charges  shipment & Wooden packing,Open,each,EUR,1,100,1,100
+207,14/07/2021,srinivasan jayaraman,BPI CENTURY TOKYO RENTAL COROPRATIO,SEP+0000681160,PO1678,5,2070095 Sourcing and Planning,Open,each,PHP,1,"42,616.83",1,"42,616.83"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,7,2070089 FINANCE - FP&A Function,Open,each,PHP,1,"1,202.69",1,"1,202.69"
+207,14/07/2021,srinivasan jayaraman,GOLDWIN PRESS,SEP+666876,PO1674,1,3 UNITS AUTO BURETTE (4100 PER PC),Open,each,PHP,1,"4,100.00",1,"4,100.00"
+207,14/07/2021,srinivasan jayaraman,ORIX RENTAL CORPORATION.,SEP+0000667084,PO1677,1,2070020 PH Professional Sale,Open,each,PHP,1,"214,277.21",1,"214,277.21"
+207,14/07/2021,srinivasan jayaraman,GOLDWIN PRESS,SEP+666876,PO1673,1,IPAF Forms,Open,each,PHP,1,"16,071.50",1,"16,071.50"
+207,14/07/2021,srinivasan jayaraman,"SCHENKER DISTRIBUTION SOLUTIONS, IN",SEP+0000685085,PO1672,1,2 pcs pressure regulating valve for Genosi,Open,each,EUR,1,187.17,1,187.17
+207,14/07/2021,srinivasan jayaraman,BPI CENTURY TOKYO RENTAL COROPRATIO,SEP+0000681160,PO1678,1,2070020 PH Professional Sale,Open,each,PHP,1,"374,623.20",1,"374,623.20"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,8,2070023 PH Food & Beverage-A,Open,each,PHP,1,"5,442.22",1,"5,442.22"
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,2,2070020 PH Professional Sale,Open,each,PHP,1,"106,582.59",1,"106,582.59"
+207,14/07/2021,srinivasan jayaraman,ORIX RENTAL CORPORATION.,SEP+0000667084,PO1677,4,2070044 FC Technical Customer,Open,each,PHP,1,"20,915.40",1,"20,915.40"
+207,14/07/2021,srinivasan jayaraman,BPI CENTURY TOKYO RENTAL COROPRATIO,SEP+0000681160,PO1678,4,2070045 DC Technical Customer,Open,each,PHP,1,"31,625.85",1,"31,625.85"
+207,14/07/2021,srinivasan jayaraman,ORIX RENTAL CORPORATION.,SEP+0000667084,PO1677,5,2070056 FC Technical Custom,Open,each,PHP,1,"23,258.78",1,"23,258.78"
+207,14/07/2021,srinivasan jayaraman,SYSTEM CLEANERS AS.,SEP+0000329464,PO1676,1,ITEM CODE 55-002502 - 25 M SS LIGHT BLUE HOSE <70°C E/E,Open,each,EUR,1,129.92,1,129.92
+207,14/07/2021,srinivasan jayaraman,PILIPINAS SHELL PETROLEUM CORP.,SEP+0000667132,PO1670,3,2070022 PH Food & Beverage,Open,each,PHP,1,"90,443.02",1,"90,443.02"
+128,12/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,C28-R1,1,item 1 delivered,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,28/01/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1351,1,TMS Testing,Open,each,USD,1,75,1,75
+4200,19/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1412,1,Main Item,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4200,19/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1409,1,Main Item,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4200,19/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1410,1,Main Item,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1433,1,Testing,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1436,1,Testing,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1434,1,Testing,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1432,1,Testing,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1435,1,Testing,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1439,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1437,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1438,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1440,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1440,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1440,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,04/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1443,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,03/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1440,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1444,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1445,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1444,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1444,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1444,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1452,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1449,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1453,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1449,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1453,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1452,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1452,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1449,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1453,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1449,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1453,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,08/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1452,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,09/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1459,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,09/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1459,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,09/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1459,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+4990,09/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1459,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,09/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1455,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,16/06/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1466,1,test item,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,17/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1468,1,Main Item for Remittance Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,17/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1470,1,Main line item 1,Open,each,USD,1,"2,000.00",1,"2,000.00"
+128,17/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1471,1,Main line item 1,Open,each,USD,1,"2,000.00",1,"2,000.00"
+4990,17/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1469,1,Main Item for Remittance Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1476,1,Main Item for Remittance Test,Open,each,USD,1,"2,000.00",1,"2,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1475,1,Main Item for Remittance Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1478,1,Main Item for Remittance Test,Open,each,USD,1,"11,000.00",1,"11,000.00"
+128,18/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1480,1,Main line item 1,Open,each,USD,1,"11,000.00",1,"11,000.00"
+128,18/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1472,1,Main line item 1,Open,each,USD,1,"2,000.00",1,"2,000.00"
+4200,19/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1482,1,Main line item 1,Open,each,EUR,1,"2,472.50",1,"2,472.50"
+4200,19/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1482,2,Line Item 2,Open,each,EUR,1,"2,361.89",1,"2,361.89"
+4200,19/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1482,3,Line Item 3,Open,each,EUR,1,"5,160.60",1,"5,160.60"
+4200,22/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1483,2,Line Item 2,Open,each,EUR,1,"2,361.89",1,"2,361.89"
+4200,22/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1483,3,Line Item 3,Open,each,EUR,1,"5,160.60",1,"5,160.60"
+4200,22/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1483,1,Main line item 1,Open,each,EUR,1,"2,472.50",1,"2,472.50"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1484,1,BL in transaction 1,Open,each,EUR,1,"2,472.50",1,"2,472.50"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1485,2,BL in transaction 2,Open,each,EUR,1,"2,361.89",1,"2,361.89"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1484,2,BL in transaction 2,Open,each,EUR,1,"2,361.89",1,"2,361.89"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1485,1,BL in transaction 1,Open,each,EUR,1,"2,472.50",1,"2,472.50"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1485,3,BL in transaction 3,Open,each,EUR,1,"5,160.60",1,"5,160.60"
+4200,22/06/2020,Prasanna Murugesan,ALTA S.R.L.,EPC+1055243,PO1484,3,BL in transaction 3,Open,each,EUR,1,"5,160.60",1,"5,160.60"
+186,24/06/2020,Prasanna Murugesan,PT ANTERO AGUNG JAYA,SEP+667162,PO1486,1,Household care product,Open,each,IDR,1,"2,754,556.80",1,"2,754,556.80"
+5420,08/07/2020,Prasanna Murugesan,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1491,1,Maintenance,Open,each,RUB,1,"2,472.50",1,"2,472.50"
+5420,08/07/2020,Prasanna Murugesan,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1491,2,Maintenance,Open,each,RUB,1,"2,361.89",1,"2,361.89"
+5420,08/07/2020,Prasanna Murugesan,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1491,3,Maintenance,Open,each,RUB,1,"5,160.60",1,"5,160.60"
+4699,12/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1528,5,"DETA86360 Veldhuis A F.2020.
+Social workers",Open,each,EUR,1,"1,266.04",1,"1,266.04"
+4699,12/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1528,1,"DETA007875 Boensma R. 2020
+Social workers",Open,each,EUR,1,"1,048.21",1,"1,048.21"
+4699,12/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1528,3,"DETA004014 Beddinkhaus MA 2020.
+Social",Open,each,EUR,1,"1,266.04",1,"1,266.04"
+281,07/12/2020,srinivasan jayaraman,EMPRESA ELECTRICA DE GUATEMALA S A,SEP+0000609796,PO1533,1,Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+817,07/12/2020,srinivasan jayaraman,PUNTO IMPRESO SAS,SEP+648633,PO1546,1,Visuales Proffesional Mayo 2020,Open,each,COP,1,"5,189,960.00",1,"5,189,960.00"
+817,07/12/2020,srinivasan jayaraman,CUNDITRANSPORTES LTDA,SEP+656693,PO1545,1,Orden de compra Ruta Empleados Octubre 2020,Open,each,COP,1,"6,500,000.00",1,"6,500,000.00"
+817,07/12/2020,srinivasan jayaraman,PUNTO IMPRESO SAS,SEP+648633,PO1546,2,Visuales F&B Mayo 2020,Open,each,COP,1,"656,270.00",1,"656,270.00"
+281,08/12/2020,srinivasan jayaraman,SERVICIOS INTEGRADOS CONTRAT S A,SEP+0000660285,PO1555,1,"Servicio de finanzas local -Josué Sisimit- empleado tercerizado del mes de octubre-2020
+
+Local finance service -Josué Sisimit- outsourced employee for the month of October 2020",Open,each,GTQ,1,"9,709.82",1,"9,709.82"
+429,10/03/2021,srinivasan jayaraman,JACO VERMAAK,SEP+655870,PO1599,1,Technical Service Feb 2021,Open,each,ZAR,1,"15,000.00",1,"15,000.00"
+118,10/03/2021,srinivasan jayaraman,D.A. RAMPLIN,SEP+663492,PO1591,1,"Shed Rental in NT by David Ramplin
+Rent for Jan 2021",Open,each,AUD,1,290,1,290
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1530,1,NA-US-Fort Mill Global HQ-EUC Hardware Headset Restock for the HQ,Open,each,USD,10,753.6,10,753.6
+181,27/04/2021,Coco Fang,TOP SYSTEM INDUSTRIAL (HK) LTD,SEP+0000684224,PO1625,1,testing-181,Open,each,HKD,1,"2,000.00",1,"2,000.00"
+223,27/04/2021,Yuhui Chen,EVER LUCKY CHEMICAL CORPTEST2.,SEP+0000684320,PO1626,1,Testing,Open,each,TWD,1,"3,000.00",1,"3,000.00"
+182,27/04/2021,Coco Fang,MALAYSIA STEELWOOL SDN. BHD.,SEP+0000684265,PO1630,1,Enter a description for this item.,Open,each,MOP,1,"2,000.00",1,"2,000.00"
+198,28/04/2021,Jihyun Park,OFFICEDEPOKOREA,SEP+0000684281,PO1631,1,test,Open,each,KRW,1,"54,000.00",1,"54,000.00"
+198,28/04/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1633,1,test인건비,Open,each,KRW,1,"500,000.00",1,"500,000.00"
+198,06/05/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1635,1,FDFDFD,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+198,09/05/2021,Jihyun Park,ILLSUNG TECH,SEP+0000684285,PO1640,1,Enter a description for this item.,Open,each,KRW,1,"130,000.00",1,"130,000.00"
+198,09/05/2021,Jihyun Park,ILLSUNG TECH,SEP+0000684285,PO1638,1,Enter a description for this item.,Open,each,KRW,1,"90,000.00",1,"90,000.00"
+198,09/05/2021,Jihyun Park,SNTJUBANG,SEP+0000684280,PO1639,1,Enter a description for this item.,Open,each,KRW,1,"99,000.00",1,"99,000.00"
+198,20/05/2021,Jihyun Park,KT,SEP+0000684306,PO1651,1,KT TEST 2,Open,each,KRW,1,"33,000.00",1,"33,000.00"
+198,20/05/2021,Jihyun Park,GIMPO DEALERSHIP,SEP+0000684269,PO1649,1,Enter a description for this item.,Open,each,KRW,1,"600,000.00",1,"600,000.00"
+198,20/05/2021,Jihyun Park,KT,SEP+0000684306,PO1650,1,Enter a description for this item.,Open,each,KRW,1,"46,000.00",1,"46,000.00"
+198,06/05/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1636,1,FDFDFD,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+198,13/05/2021,Jihyun Park,KT,SEP+0000684306,PO1642,1,전화비,Open,each,KRW,1,"50,000.00",1,"50,000.00"
+198,13/05/2021,Jihyun Park,KT,SEP+0000684306,PO1645,1,전기세,Open,each,KRW,1,"80,000.00",1,"80,000.00"
+198,13/05/2021,Jihyun Park,KT,SEP+0000684306,PO1646,1,전기세 세금na,Open,each,KRW,1,"40,000.00",1,"40,000.00"
+198,11/05/2021,Jihyun Park,(JU)POSEIDON,SEP+0000684290,PO1641,1,2105 채권추심 test,Open,each,KRW,1,"50,000.00",1,"50,000.00"
+198,13/05/2021,Jihyun Park,KT,SEP+0000684306,PO1644,1,전기세,Open,each,KRW,1,"70,000.00",1,"70,000.00"
+198,13/05/2021,Jihyun Park,KT,SEP+0000684306,PO1643,1,인터넷,Open,each,KRW,1,"60,000.00",1,"60,000.00"
+198,31/05/2021,Jihyun Park,KT,SEP+0000684306,PO1656,1,dddd,Open,each,KRW,1,"40,000.00",1,"40,000.00"
+198,01/06/2021,Jihyun Park,KT,SEP+0000684306,PO1660,1,KT SEOUL TEST (절사)-전화,Open,each,KRW,1,"17,768.00",1,"17,768.00"
+198,01/06/2021,Jihyun Park,KT,SEP+0000684306,PO1657,1,wh 전기 test (test 싸이트에 한전이 없어서 kt로 대신함),Open,each,KRW,1,"356,988.00",1,"356,988.00"
+198,01/06/2021,Jihyun Park,KT,SEP+0000684306,PO1660,2,KT SEOUL TEST (절사),Open,each,KRW,1,"385,306.00",1,"385,306.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1663,1,KT WH TEST (절사)-전화,Open,each,KRW,1,"31,996.00",1,"31,996.00"
+198,09/06/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1664,2,wh test 출장비,Open,each,KRW,1,"35,000.00",1,"35,000.00"
+198,09/06/2021,Jihyun Park,GIMPO DEALERSHIP,SEP+0000684269,PO1665,2,tax per line test-0%,Open,each,KRW,1,"71,373.00",1,"71,373.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1663,2,KT WH TEST (절사)-인터넷,Open,each,KRW,1,"137,900.00",1,"137,900.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1666,2,전력기금&원단위절사,Open,each,KRW,1,"13,016.00",1,"13,016.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1662,2,KT SEOUL TEST (절사),Open,each,KRW,1,"385,306.00",1,"385,306.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1666,1,전기요금계(공급가액) (test 싸이트에 한전이 없어서 kt로 대신함),Open,each,KRW,1,"352,113.00",1,"352,113.00"
+198,09/06/2021,Jihyun Park,KT,SEP+0000684306,PO1662,1,KT SEOUL TEST (절사)-전화,Open,each,KRW,1,"17,768.00",1,"17,768.00"
+198,09/06/2021,Jihyun Park,GIMPO DEALERSHIP,SEP+0000684269,PO1665,1,tax per line test-10%,Open,each,KRW,1,"451,786.00",1,"451,786.00"
+198,09/06/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1664,1,w/h test 인건비,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+113,30/10/2020,srinivasan jayaraman,GRAINGER 472,SEP+0000658477,PO1511,1,"[CAW362809961]TK1128562T The C740 System DTM Alkyd Enamels are designed for indoor and outdoor metal surfaces in mild to moderate commercial environments. Excellent resistance to general weathering, salt, air, mild chemical fumes and light abrasion. Not for use on galv",Open,gallon,CAD,1,83.18,1,83.18
+128,30/05/2020,srinivasan jayaraman,Integration Supplier_10,SEP+0000683206,PO1425,1,test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,08/10/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1504,1,test 1,Open,each,USD,1,100,1,100
+4990,30/04/2020,srinivasan jayaraman,3M Nederland B.V.,EPC+1001603,PO1397,1,Enter a description for this item.,Open,each,USD,1,"5,000.00",1,"5,000.00"
+223,27/04/2021,Yuhui Chen,EVER LUCKY CHEMICAL CORPTEST2.,SEP+0000684320,PO1628,1,Enter a description for this item.,Open,each,TWD,1,"3,000.00",1,"3,000.00"
+198,28/04/2021,Jihyun Park,3HS,SEP+0000684266,PO1632,1,Enter a description for this item.,Open,each,KRW,1,"300,000.00",1,"300,000.00"
+198,21/05/2021,Jihyun Park,KT,SEP+0000684306,PO1653,1,Enter a description for this item.,Open,each,KRW,1,"31,000.00",1,"31,000.00"
+291,31/03/2020,srinivasan jayaraman,Alicia Rosario Mujica,SEP+660684,PO1385,1,Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+765,15/12/2020,srinivasan jayaraman,A G FOLEY LIMITED,SEP+661874,PO1556,1,test,Open,each,NZD,1,"5,000.00",1,"5,000.00"
+181,15/03/2021,srinivasan jayaraman,WINDER'S TRADING CO.,SEP+0000684229,PO1586,1,test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,30/04/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1398,1,test,Open,each,USD,1,"3,000.00",1,"3,000.00"
+128,31/05/2020,srinivasan jayaraman,Integration Supplier_10,SEP+0000683206,C36-R1,1,test item,Open,each,USD,1,500,1,500
+291,01/04/2020,srinivasan jayaraman,ALEJANDRO GOMEZ LOZANO,SEP+655986,PO1389,1,Item 1,Open,each,MXN,1,"50,000.00",1,"50,000.00"
+291,01/04/2020,srinivasan jayaraman,ABASTECEDORA ELECTRICA INDUSTRIAL,SEP+647890,PO1388,1,Item 1,Open,each,MXN,1,"50,000.00",1,"50,000.00"
+128,01/04/2020,srinivasan jayaraman,TCS,SEP+683175,PO1387,1,Item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+113,01/04/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1386,1,Item 1,Change,each,USD,1,"10,000.00",1,"10,000.00"
+135,19/08/2020,srinivasan jayaraman,Adriana Bonzina,SEP+0000681317,PO1497,1,Item 1,Open,each,ARS,1,"50,000.00",1,"50,000.00"
+128,01/04/2021,srinivasan jayaraman,MCMASTER-CARR SUPPLY CO,SEP+356,PO1580,1,Item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,01/04/2020,srinivasan jayaraman,TCS,SEP+683175,PO1387,2,Item 2,Open,each,USD,1,"4,000.00",1,"4,000.00"
+4209,01/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1428,1,Testing,Open,each,USD,5,"250,000.00",5,"250,000.00"
+4209,02/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1431,1,Testing,Open,each,USD,100,"10,000.00",100,"10,000.00"
+128,12/06/2020,Prasanna Murugesan,ANDERSON PUMP & PROCESS,SEP+657793,PO1465,1,Shipping Charges,Open,each,USD,1,"7,500.00",1,"7,500.00"
+113,01/04/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1386,2,Item 2,Change,each,USD,1,"10,000.00",1,"10,000.00"
+281,20/10/2020,srinivasan jayaraman,"ACTUR, S.A.",SEP+0000684180,PO1506,1,Test Item 1,Open,each,GTQ,1,"25,000.00",1,"25,000.00"
+281,22/10/2020,srinivasan jayaraman,"ACTUR, S.A.",SEP+0000684180,PO1510,1,Test Item 1,Open,each,GTQ,1,"50,000.00",1,"50,000.00"
+128,17/06/2020,Prasanna Murugesan,Integration Supplier_10,SEP+0000683206,PO1448,1,Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,01/04/2021,srinivasan jayaraman,MCMASTER-CARR SUPPLY CO,SEP+356,PO1580,2,Item 2,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,16/12/2020,srinivasan jayaraman,WIP,SEP+0000684190,PO1557,1,Test for special handling,Open,each,USD,1,"5,000.00",1,"5,000.00"
+815,07/12/2020,srinivasan jayaraman,PAMELA CECILIA ALCAFUZ CARO,SEP+660328,PO1541,1,"Servicio Auditorias Walmart, gyn, Enjoy, Proveedor G&n, Aramarck Honorarios y Viaticos desde el 1 de enero hasta el 31 de diciembre de 2019.",Open,each,CLP,1,"17,016,120.00",1,"17,016,120.00"
+291,08/12/2020,srinivasan jayaraman,ENRIQUE PINTOR PRADO..,SEP+0000681816,PO1550,1,"Médico Laboral, 4 horas diarias de Lunes a Viernes.",Open,each,MXN,1,"243,000.00",1,"243,000.00"
+128,19/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1370,1,MP Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,21/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1342,1,2 way match,Open,each,USD,1,500,1,500
+128,24/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1345,1,2 way match,Open,each,USD,1,500,1,500
+128,31/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1353,2,Line Item (add charges + Tax on charges),All Actions,each,USD,1,"10,000.00",1,"10,000.00"
+128,21/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1342,2,Shipping charges,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,31/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1354,1,Line Item (add charges + Tax on charges),Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,06/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1359,1,MP Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,10/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1401,1,Main line item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,25/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1373,1,MP Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,17/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1365,1,3 Way match,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,17/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1366,1,3 Way match,Open,each,USD,1,"5,000.00",1,"5,000.00"
+291,19/02/2020,srinivasan jayaraman,ATLAS COPCO MEXICANA SA DE CV,SEP+664576,PO1371,1,MP Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+815,19/02/2020,srinivasan jayaraman,AEROSOL S.A,SEP+663018,PO1372,1,WHT test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,14/01/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1339,1,Test Line Item,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,16/01/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1341,1,Test Line Item,Open,each,USD,1,"2,500.00",1,"2,500.00"
+128,28/01/2020,srinivasan jayaraman,Wipro Limited 2,SEP+0000682460,PO1346,1,TMS,Open,each,USD,1,500,1,500
+128,28/01/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1350,1,TMS,Open,each,USD,1,75,1,75
+128,28/01/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1349,1,TMS,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,03/02/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1356,1,MP Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,17/03/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1375,1,Parcel Invoice Item,Open,each,USD,1,"10,000.00",1,"10,000.00"
+113,11/02/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1362,1,Parcel Invoice Item,Open,each,CAD,1,"7,500.00",1,"7,500.00"
+113,19/03/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1376,1,HST Testing,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,07/04/2020,srinivasan jayaraman,Smurfit Kappa MNL Golfkarton BV,EPC+1056042,PO1391,1,Test for VAT,Open,each,EUR,1,"4,426.05",1,"4,426.05"
+128,18/04/2020,srinivasan jayaraman,"Atlantis Valley Foods, LLC",SEP+0000683195,PO1393,1,Test PO for Ven1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+817,21/01/2020,srinivasan jayaraman,EULEN COLOMBIA SA,SEP+653735,PO1343,1,Test WHT,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4209,19/05/2020,srinivasan jayaraman,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1400,1,Testing,Open,each,USD,1,"20,000.00",1,"20,000.00"
+128,19/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1413,1,Main Item,Open,each,USD,1,250,1,250
+4200,19/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1411,1,Main Item,Open,each,USD,1,"1,000.00",1,"1,000.00"
+186,20/05/2020,srinivasan jayaraman,PT GLOBAL TEK INDO,SEP+667181,PO1417,1,Main Line Item 1,Open,each,IDR,1,"2,000,000.00",1,"2,000,000.00"
+4200,25/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1419,1,Main Item,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,25/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1418,1,Main line item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,28/05/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1422,1,Main Item,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,30/05/2020,srinivasan jayaraman,Integration Supplier_10,SEP+0000683206,C35-R1,1,test 1,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,18/04/2020,srinivasan jayaraman,VEN2,SEP+0000683196,PO1394,1,Test PO for Ven1,Open,each,USD,1,"7,500.00",1,"7,500.00"
+4990,01/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1429,1,Main Item for Conai Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,28/05/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1423,1,Main Item for Conai Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,01/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1430,1,Main line item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,03/06/2020,srinivasan jayaraman,3M Nederland B.V.,EPC+1001603,PO1442,1,Main LIne item 1,Open,each,EUR,1,"5,000.00",1,"5,000.00"
+4990,03/06/2020,srinivasan jayaraman,3M Nederland B.V.,EPC+1001603,PO1441,1,Main LIne item 1,Open,each,EUR,1,"5,000.00",1,"5,000.00"
+4909,11/05/2020,srinivasan jayaraman,ARP Schweiz AG,EPC+1038964,PO1404,1,ISR Reference Field Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1446,4,Main Item for shipping charges Test 4,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1446,2,Main Item for shipping charges Test 2,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1446,3,Main Item for shipping charges  3,Open,each,USD,1,250,1,250
+4990,05/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1446,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+128,08/06/2020,Prasanna Murugesan,Integration Supplier_10,SEP+0000683206,PO1451,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+128,08/06/2020,Prasanna Murugesan,Integration Supplier_10,SEP+0000683206,PO1450,1,Main Item for shipping charges Test,Open,each,USD,1,250,1,250
+128,11/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1463,1,Main line item 1,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4209,12/06/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1464,1,Testing,Open,each,USD,1,"6,000.00",1,"6,000.00"
+4990,16/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1458,2,Main Item for shipping charges Test 2,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,16/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1458,3,Main Item for shipping charges  3,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,16/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1458,4,Main Item for shipping charges Test 4,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,16/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1458,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,17/06/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1467,1,Main Item for shipping charges Test,Open,each,USD,1,"1,000.00",1,"1,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1477,1,Main Item for Remittance Test,Open,each,USD,1,"2,000.00",1,"2,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1479,1,Main Item for Remittance Test,Open,each,USD,1,"2,500.00",1,"2,500.00"
+128,18/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1473,1,Main line item 1,Open,each,USD,1,"4,000.00",1,"4,000.00"
+128,18/06/2020,Prasanna Murugesan,WIPRO LIMITED,SEP+0000628024,PO1474,1,Main line item 1,Open,each,USD,1,"4,000.00",1,"4,000.00"
+4909,20/05/2020,srinivasan jayaraman,ARP Schweiz AG,EPC+1038964,PO1415,1,ISR Reference Field Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4200,25/05/2020,4200REQUI1-Requisitioner,ALTA S.R.L.,EPC+1055243,PO1420,1,Item with additional charge with Tax,Open,each,USD,1,"5,000.00",1,"5,000.00"
+5420,08/07/2020,Prasanna Murugesan,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1490,1,Maintenance,Open,each,RUB,1,"5,000.00",1,"5,000.00"
+5420,06/07/2020,Prasanna Murugesan,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1489,1,Maintenance,Open,each,RUB,1,"5,000.00",1,"5,000.00"
+4990,18/06/2020,Prasanna Murugesan,Anticimex Benelux B.V.,EPC+0001002199,PO1481,1,Main Item for Remittance Test,Open,each,USD,1,"2,500.00",1,"2,500.00"
+5420,21/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1493,1,Item1,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+5420,26/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1494,3,Item3,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+5420,26/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1494,1,Item1,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+5420,26/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1494,2,Item2,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+4990,08/04/2020,srinivasan jayaraman,Smurfit Kappa MNL Golfkarton BV,EPC+1056042,PO1392,1,Test for VAT_1,Open,each,EUR,1,"5,000.00",1,"5,000.00"
+4990,30/07/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1454,1,Main Item for shipping charges Test,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,30/07/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1457,1,Main Item for shipping charges Test,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,30/07/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1454,3,Main Item for shipping charges  3,Open,each,USD,1,"10,000.00",1,"10,000.00"
+5420,21/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1492,1,Item1,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+5420,30/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1495,2,Item2,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+5420,30/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1495,1,Item1,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+4990,08/04/2020,srinivasan jayaraman,Smurfit Kappa MNL Golfkarton BV,EPC+1056042,PO1392,2,Test for VAT_2,Open,each,EUR,1,"7,500.00",1,"7,500.00"
+4990,30/07/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1454,4,Main Item for shipping charges Test 4,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4209,30/07/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1461,1,Testing,Open,each,USD,1,"10,000.00",1,"10,000.00"
+5420,30/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1495,3,Item3,Open,each,RUB,1,"50,000.00",1,"50,000.00"
+4990,30/07/2020,Prasanna Murugesan,Addikt,EPC+1080391,PO1456,1,Main Item for shipping charges Test,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,07/04/2020,srinivasan jayaraman,Smurfit Kappa MNL Golfkarton BV,EPC+1056042,PO1390,1,Test for VAT,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4209,30/07/2020,Prasanna Murugesan,A3 ARCHITETTI ASSOCIATI,EPC+7002010,PO1460,1,Testing,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,30/07/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1454,2,Main Item for shipping charges Test 2,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,19/08/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1496,3,Main Item for shipping charges  3,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,19/08/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1496,2,Main Item for shipping charges Test 2,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,19/08/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1496,1,Main Item for shipping charges Test,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4990,19/08/2020,srinivasan jayaraman,Addikt,EPC+1080391,PO1496,4,Main Item for shipping charges Test 4,Open,each,USD,1,"5,000.00",1,"5,000.00"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,1,"Servicio de suministrode gas LP 
+Comedor",Open,gallon (US),MXN,85.94,"2,469.03",85.94,"2,469.03"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,6,"Servicio de suministro de gas LP
+Calentador Planta",Open,gallon (US),MXN,81.29,"2,440.06",81.29,"2,440.06"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,7,"Servicio de suministro de gas LP
+Montacargas",Open,gallon (US),MXN,143.89,"4,319.47",143.89,"4,319.47"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,5,"Servicio de suministro de gas LP
+Montacargas",Open,gallon (US),MXN,"1,285.22","37,801.83","1,285.22","37,801.83"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,2,"Servicio de suministro de gas LP
+Montacargas",Open,gallon (US),MXN,105.91,"3,042.83",105.91,"3,042.83"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,3,"Servicio de suministro de gas LP
+Calentador Planta",Open,gallon (US),MXN,316.19,"9,299.91",316.19,"9,299.91"
+291,19/08/2020,srinivasan jayaraman,GAS IMPERIAL SA DE CV,SEP+612422,PO1498,4,"Servicio de suministro de gas LP
+Comedor",Open,gallon (US),MXN,262.96,"7,734.26",262.96,"7,734.26"
+817,23/04/2020,srinivasan jayaraman,EULEN COLOMBIA SA,SEP+653735,PO1395,1,Test WHT,Open,each,COP,1,"100,000.00",1,"100,000.00"
+812,12/05/2020,srinivasan jayaraman,AGIA TECHNOLOGY S.A.C,SEP+656550,PO1294,1,Test for exchange Rate field,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1502,1,Main Line Item 1,Open,each,USD,50,"5,000.00",50,"5,000.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1501,1,Main line 1,Open,each,USD,10,500,10,500
+812,21/10/2020,srinivasan jayaraman,AGIA TECHNOLOGY S.A.C,SEP+656550,PO1507,1,Test for VAT,Open,each,USD,1,"25,000.00",1,"25,000.00"
+812,21/10/2020,srinivasan jayaraman,AGIA TECHNOLOGY S.A.C,SEP+656550,PO1508,1,Test for VAT,Open,each,USD,1,"10,800.00",1,"10,800.00"
+4699,02/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1514,4,"DETA054753 Morsche HGJ 2020.
+Social workers",Open,each,EUR,100,"83,030.00",100,"83,030.00"
+4699,02/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1514,2,"DETA080686 Stoffels F. 2020
+Social workers",Open,each,EUR,100,"158,582.00",100,"158,582.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1500,1,Main line 1,Open,each,USD,10,500,10,500
+812,26/10/2020,srinivasan jayaraman,AGIA TECHNOLOGY S.A.C,SEP+656550,PO1509,1,Test for VAT,Open,each,USD,1,"100,000.00",1,"100,000.00"
+128,11/02/2020,srinivasan jayaraman,Arun,SEP+0000683174,PO1361,1,Test for uploading invoice,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4200,25/05/2020,4200REQUI1-Requisitioner,ALTA S.R.L.,EPC+1055243,PO1421,1,Item with additional charge with Tax,All Actions,each,EUR,1,"5,000.00",1,"5,000.00"
+4200,18/11/2020,4200REQUI1-Requisitioner,ALTA S.R.L.,EPC+1055243,PO1529,1,Item with additional charge with Tax,Open,each,EUR,1,"6,000.00",1,"6,000.00"
+4699,12/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1528,2,"DETA080686 Stoffels F. 2020
+Social workers",Open,each,EUR,1,"1,585.82",1,"1,585.82"
+4699,12/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1528,4,"DETA054753 Morsche HGJ 2020.
+Social workers",Open,each,EUR,1,830.3,1,830.3
+4990,02/11/2020,srinivasan jayaraman,Brenntag Nederland B.V.,EPC+1001683,PO1516,1,10 x 24 KG glycerine 12848045 batch 2 Brenntag,Open,each,EUR,"10,000.00","31,000.00","10,000.00","31,000.00"
+4990,02/11/2020,srinivasan jayaraman,Brenntag Nederland B.V.,EPC+1001683,PO1516,2,10 x 24 KG glycerine 12848045 batch 2 Brenntag,Open,each,EUR,"50,000.00","97,500.00","50,000.00","97,500.00"
+281,07/12/2020,srinivasan jayaraman,EMPRESA ELECTRICA DE GUATEMALA S A,SEP+0000609796,PO1536,1,"Servicio de energía eléctrica del mes de septiembre 2020
+Electric power service for the month of September 2020",Open,each,GTQ,1,"50,000.00",1,"50,000.00"
+128,09/02/2021,srinivasan jayaraman,WIP,SEP+0000684190,PO1560,1,Test for special handling,Open,each,USD,1,"3,000.00",1,"3,000.00"
+295,08/12/2020,srinivasan jayaraman,MARIO FONSECA CALVO...,SEP+0000682922,PO1548,1,Servicio técnico tercerizado Professional Julio 2020,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,16/12/2020,srinivasan jayaraman,WIP,SEP+0000684190,PO1558,1,Test for special handling,Open,each,USD,1,"3,000.00",1,"3,000.00"
+817,07/12/2020,srinivasan jayaraman,SERVISION DE COLOMBIA,SEP+0000622323,PO1544,1,SERVICIO DE VIGILANCIA Y MONITOREO DIVERSEY COLOMBIA 2020,Open,each,COP,1,"34,000,000.00",1,"34,000,000.00"
+291,08/12/2020,srinivasan jayaraman,TRANSPORTADORA Y LOGISTICA PEREZ,SEP+0000119263,PO1551,1,"Médico Laboral, 4 horas diarias de Lunes a Viernes.",Open,each,MXN,1,"1,500,000.00",1,"1,500,000.00"
+128,18/02/2021,srinivasan jayaraman,WIP,SEP+0000684190,PO1561,1,Test for special handling,Open,each,USD,1,"3,000.00",1,"3,000.00"
+128,14/01/2021,srinivasan jayaraman,WIP,SEP+0000684190,PO1559,1,Test for special handling,All Actions,each,USD,1,"3,000.00",1,"3,000.00"
+4200,24/02/2021,srinivasan jayaraman,ACR  S.R.L.,EPC+1033515,PO1562,1,Test for SPL Handling charge,Open,each,USD,1,"10,000.00",1,"10,000.00"
+4990,24/02/2021,srinivasan jayaraman,3M Nederland B.V.,EPC+1001603,PO1563,1,Test for SPL Handling charge,Open,each,EUR,1,"10,000.00",1,"10,000.00"
+128,28/02/2021,srinivasan jayaraman,CMA DISHMACHINES LLC,SEP+0000662289,PO1582,1,Scenario 12,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,28/02/2021,srinivasan jayaraman,Staples Promotion USA,SEP+0000200057,PO1572,1,Scenario 9,All Actions,each,USD,1,"10,000.00",1,"10,000.00"
+118,10/03/2021,srinivasan jayaraman,JOHN DEREK SECURITY PTY LIMITED,SEP+662665,PO1590,1,Kitkat's,Open,each,AUD,100,"1,000.00",100,"1,000.00"
+429,10/03/2021,srinivasan jayaraman,RICOH SOUTH AFRICA PTY LTD,SEP+327100,PO1607,1,Ricoh - Lease fee,Open,each,ZAR,1,"500,000.00",1,"500,000.00"
+429,10/03/2021,srinivasan jayaraman,WADEVILLE MICA HARDWARE AND,SEP+645833,PO1600,1,Ricoh - Lease fee,Open,each,ZAR,1,"500,000.00",1,"500,000.00"
+429,10/03/2021,srinivasan jayaraman,DANFORDS LAUNDRY INSTITUTE CC,SEP+645621,PO1606,1,Technical Service Feb 2021,Open,each,ZAR,1,"15,000.00",1,"15,000.00"
+110,28/02/2021,110REQUI2-Requisitioner,NORTHERN LAKE SERVICE INC,SEP+659087,PO1574,1,Scenario 1 without tax,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,28/02/2021,srinivasan jayaraman,AEROTEK INC,SEP+0000660818,PO1568,1,Scenario 5,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4209,12/03/2021,srinivasan jayaraman,TUTTO PER L'IMBALLO SPA,EPC+1034647,PO1610,1,FILM ESTENSIBILE AUTOMATICO PLS 81 CM. 50-23 MY COD. 81 prestiro 300% bobina 19 kg. Con anima 1 kg. ( 1 bancale nr. 40 bobine ) - MANULI - 40 bobine da 19 kg/cad per un totale di 760kg/bancale.,Open,pound,EUR,"33,069.34","24,750.00","33,069.34","24,750.00"
+181,15/03/2021,Mei Hung Wong,TNT EXPRESS WORLDWIDE (HK) LTD,SEP+0000684231,PO1611,1,Scenario 2,Open,each,HKD,1,"75,000.00",1,"75,000.00"
+429,10/03/2021,srinivasan jayaraman,SHROVACHKE M TRADING PTY LTD,SEP+683954,PO1605,1,Technical Service Feb 2021,Open,each,ZAR,1,"15,000.00",1,"15,000.00"
+128,16/03/2021,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1616,1,Test for pin point,Open,each,USD,1,"1,000.00",1,"1,000.00"
+118,10/03/2021,srinivasan jayaraman,MARKETBOOMER PTY LTD,SEP+662676,PO1594,1,AU Mobile Cost 2020,Open,each,AUD,1,"173,000.00",1,"173,000.00"
+113,28/02/2021,srinivasan jayaraman,RUBBERLINE PRODUCTS LIMITED KITCHEN,SEP+667797,PO1579,1,Scenario 7 - Credit Note with Tax,Open,each,CAD,1,"5,000.00",1,"5,000.00"
+110,28/02/2021,110REQUI2-Requisitioner,ID TECHNOLOGY,SEP+612846,PO1575,1,"Scenario 2 without tax, item 1",Open,each,USD,1,"5,000.00",1,"5,000.00"
+110,28/02/2021,110REQUI2-Requisitioner,ID TECHNOLOGY,SEP+612846,PO1575,2,"Scenario 2 without tax,item 2",Open,each,USD,1,"5,000.00",1,"5,000.00"
+765,17/03/2021,srinivasan jayaraman,PEAK STRATEGIES LTD..,SEP+684080,PO1598,1,Peak Strategies Ltd Commission on 2020 Bunnings NZ Sales,Open,each,AUD,"1,000.00","10,000.00","1,000.00","10,000.00"
+113,28/02/2021,srinivasan jayaraman,Staples Canada,SEP+0000200033,PO1577,1,HST Testing,Open,each,CAD,1,"5,000.00",1,"5,000.00"
+198,15/03/2021,srinivasan jayaraman,OFFICEDEPOKOREA,SEP+0000684281,PO1614,1,Scenario 2,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+128,29/03/2021,srinivasan jayaraman,STAPLES CONTRACT & COMMERCIAL INC,SEP+0000663160,PO1621,1,Test for pin point,Open,each,USD,1,"1,000.00",1,"1,000.00"
+118,10/03/2021,srinivasan jayaraman,CRABTREES REAL ESTATE PTY LTD,SEP+668089,PO1592,1,"Shed Rental in NT by David Ramplin
+Rent for Jan 2021",Open,each,AUD,1,"10,000.00",1,"10,000.00"
+223,15/03/2021,srinivasan jayaraman,JAS FORWARDING WORLDWIDE (TAIWAN) L,SEP+0000684204,PO1615,1,Scenario 5,Open,each,TWD,1,"50,000.00",1,"50,000.00"
+181,15/03/2021,Vita MacIntyre,TNT EXPRESS WORLDWIDE (HK) LTD,SEP+0000684231,PO1612,1,Scenario 2,Open,each,HKD,1,"50,000.00",1,"50,000.00"
+182,15/03/2021,Adrian Walker,MALAYSIA STEELWOOL SDN. BHD.,SEP+0000684265,PO1613,1,Scenario 2,Open,each,HKD,1,"50,000.00",1,"50,000.00"
+118,10/03/2021,srinivasan jayaraman,JANI-KING AUSTRALIA PTY LTD,SEP+682545,PO1595,1,AU Mobile Cost 2020,Open,each,AUD,1,"173,000.00",1,"173,000.00"
+429,10/03/2021,srinivasan jayaraman,COMPASS GROUP SOUTHERN AFRICA,SEP+645696,PO1604,1,Peak Strategies Ltd Commission on 2020 Bunnings NZ Sales,Open,each,ZAR,1,"4,859.08",1,"4,859.08"
+128,28/02/2021,srinivasan jayaraman,USA CLEAN INC,SEP+0000659750,PO1578,1,Scenario 6,Open,each,USD,1,"5,000.00",1,"5,000.00"
+198,29/04/2021,srinivasan jayaraman,OFFICEDEPOKOREA,SEP+0000684281,PO1634,1,Scenario 2,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+118,10/03/2021,srinivasan jayaraman,TELSTRA,SEP+663386,PO1593,1,AU Mobile Cost 2020,Open,each,AUD,1,"173,000.00",1,"173,000.00"
+765,10/03/2021,srinivasan jayaraman,SPARK NEW ZEALAND TRADING LIMITED,SEP+656280,PO1597,1,"Shed Rental in NT by David Ramplin
+Rent for Jan 2021",Open,each,AUD,1,"10,000.00",1,"10,000.00"
+429,16/03/2021,srinivasan jayaraman,ACUMEN LABORATORY CHEMICALS,SEP+681115,PO1608,4,Starch Indicator Powder,Open,each,ZAR,4,"1,680.00",4,"1,680.00"
+198,21/05/2021,Jihyun Park,KT,SEP+0000684306,PO1655,1,서울전화1,Open,each,KRW,1,"17,768.00",1,"17,768.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1499,1,Main Line Item 1,Open,each,USD,50,"5,000.00",50,"5,000.00"
+198,04/06/2021,Jihyun Park,KT,SEP+0000684306,PO1658,2,KT WH TEST (절사),Open,each,KRW,1,"500,000.00",1,"500,000.00"
+198,04/06/2021,Jihyun Park,KT,SEP+0000684306,PO1658,1,KT WH TEST (절사),Open,each,KRW,1,"200,000.00",1,"200,000.00"
+4209,02/11/2020,srinivasan jayaraman,TUTTO PER L'IMBALLO SPA,EPC+1034647,PO1523,1,FILM ESTENSIBILE AUTOMATICO PLS 81 CM. 50-23 MY COD. 81 prestiro 300% bobina 19 kg. Con anima 1 kg. ( 1 bancale nr. 40 bobine ) - MANULI - 40 bobine da 19 kg/cad per un totale di 760kg/bancale.,Open,pound,EUR,"33,069.34","24,750.00","33,069.34","24,750.00"
+429,17/05/2021,srinivasan jayaraman,EKURHULENI METROPOLITAN MUNICIPAL,SEP+513844,PO1624,1,Ekurhuleni Municipality 2021,Open,each,ZAR,1,"5,000.00",1,"5,000.00"
+429,17/05/2021,srinivasan jayaraman,EKURHULENI METROPOLITAN MUNICIPAL,SEP+513844,PO1624,2,Ekurhuleni Municipality 2021 - Production,Open,each,ZAR,1,"5,000.00",1,"5,000.00"
+2721,14/05/2021,srinivasan jayaraman,PAPREC CENTRE..,EPC+0001067913,PO1648,1,Location de benne et destruction des déchets 2021,Open,each,EUR,1,"3,000.00",1,"3,000.00"
+295,07/12/2020,srinivasan jayaraman,GRUPO TLA SA..,SEP+0000118230,PO1535,1,Flete Exclusivo de Costa Rica a Guatemala,Open,each,USD,1,"10,000.00",1,"10,000.00"
+815,07/12/2020,srinivasan jayaraman,DENISSE PE�ALOZAO SERV GRAF INT EMP,SEP+649117,PO1542,1,Talonarios de servicio tecnico Taski Costo Venta,Open,each,CLP,10,"46,000.00",10,"46,000.00"
+812,07/12/2020,srinivasan jayaraman,Red de Combustibles Líquidos S.A.C.,SEP+0000681311,PO1534,1,ABASTECIMIENTO DE COMBUSTIBLE DEL 21 AL 27 DE JULIO,Open,each,PEN,1,"10,000.00",1,"10,000.00"
+815,08/12/2020,srinivasan jayaraman,LETICIA DEL PILAR CARIQUEO,SEP+0000683042,PO1553,1,"Honorarios Viatico Auditorias Walmart, gyn, Tottus, Diego Honorarios y Viaticos desde el 1 de JULIO hasta el 31 de diciembre de 2019",Open,each,CLP,1,"4,200,000.00",1,"4,200,000.00"
+128,18/02/2020,srinivasan jayaraman,TCS,SEP+683175,PO1369,1,PO  Line item 1,Open,each,USD,1,500,1,500
+128,17/02/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1367,1,consulting work,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,17/02/2020,srinivasan jayaraman,ANDERSON PUMP & PROCESS,SEP+657793,PO1368,1,Installation work,Open,each,USD,1,"7,500.00",1,"7,500.00"
+128,28/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1348,1,PO Test Line Item 1,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,30/01/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1352,1,TM Fee,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,31/01/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1353,1,Line Item (add charges),All Actions,each,USD,1,"10,000.00",1,"10,000.00"
+113,03/02/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1355,1,Online Tax,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,06/02/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1358,1,2 way match item,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4209,31/03/2020,srinivasan jayaraman,ALTA S.R.L.,EPC+1055243,PO1384,1,Test for CC removal,Open,each,USD,1,"5,000.00",1,"5,000.00"
+113,19/03/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1377,1,GST & QST Testing,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,23/04/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1396,1,Test for Split Tax,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,11/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1402,1,Test for New Fields - Exchange Rate & Baseline Date,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,26/02/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1374,1,Header Tax in the Invoice,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,28/01/2020,srinivasan jayaraman,Wipro Limited 2,SEP+0000682460,PO1347,1,TMS_1,Open,each,USD,1,500,1,500
+128,23/01/2020,srinivasan jayaraman,ACCURATUS LAB SERVICES INC,SEP+657729,PO1344,1,test for currency,Open,each,BRL,1,"5,000.00",1,"5,000.00"
+113,19/03/2020,srinivasan jayaraman,Tax Test,SEP+0000683173,PO1378,1,"PST, GST & QST Testing",Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,24/03/2020,srinivasan jayaraman,WELLS FARGO FINANCIAL LEASING INC,SEP+0000683180,PO1379,1,TMS Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,25/03/2020,srinivasan jayaraman,TMS,SEP+0000683170,PO1380,1,TMS Original Supplier,Open,each,USD,1,"7,500.00",1,"7,500.00"
+128,27/03/2020,USAPPR1-Line Manager 1,WIPRO LIMITED,SEP+628024,PO1381,1,test for preparer,Open,each,USD,1,"1,000.00",1,"1,000.00"
+128,30/03/2020,srinivasan jayaraman,Multiple ID_2,SEP+0000683182,PO1383,1,PO2 - Test for Multiple IDs,Open,each,USD,1,"7,500.00",1,"7,500.00"
+128,30/03/2020,srinivasan jayaraman,Multiple ID_1,SEP+0000683181,PO1382,1,Test for Multiple IDs,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,04/05/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+0000628024,PO1399,1,Test for Tolerance,Open,each,USD,1,"1,000.00",1,"1,000.00"
+291,11/05/2020,srinivasan jayaraman,AGORA MEDIOS SA DE CV,SEP+642514,PO1403,1,New fields,Open,each,MXN,1,"10,000.00",1,"10,000.00"
+4909,28/04/2020,srinivasan jayaraman,Angst + Pfister AG,EPC+1037045,PO1304,1,PO test for SWISS,Open,each,USD,1,"10,000.00",1,"10,000.00"
+186,13/05/2020,srinivasan jayaraman,AGUSTINUS ANOM PRABOWO,SEP+666590,PO1408,1,Rounding Issue,Open,each,IDR,1,"500,000.00",1,"500,000.00"
+4200,19/05/2020,4200REQUI1-Requisitioner,ACR  S.R.L.,EPC+1033515,PO1414,1,Test for Approval,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,29/05/2020,Prasanna Murugesan,Integration Supplier_10,SEP+0000683206,PO1424,1,Test for Duplicate Supplier,Open,each,USD,100,"1,000.00",100,"1,000.00"
+291,12/05/2020,srinivasan jayaraman,ALEJANDRO GOMEZ LOZANO,SEP+655986,PO1406,1,Exchange Rate Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4002,11/05/2020,srinivasan jayaraman,Clean Key Oy,EPC+1051544,PO1405,1,Payment Reference Field Testing,Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,06/06/2020,srinivasan jayaraman,Integration Supplier_10,SEP+0000683206,C35-R2,1,main item,Open,each,USD,1,"5,000.00",1,"5,000.00"
+135,09/06/2020,srinivasan jayaraman,Argentina_10...,SEP+0000683215,C38-R1,1,test for new supplier,Open,each,USD,1,"1,000.00",1,"1,000.00"
+186,29/06/2020,Prasanna Murugesan,PT ANTERO AGUNG JAYA,SEP+667162,PO1487,1,Household care product,Open,each,IDR,1,"2,754,556.80",1,"2,754,556.80"
+4990,20/05/2020,srinivasan jayaraman,3M Nederland B.V.,EPC+1001603,PO1416,1,Main Line item 1,Open,each,USD,1,"10,000.00",1,"10,000.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1502,2,Main Line Item 2,Open,each,USD,25,"2,500.00",25,"2,500.00"
+128,25/09/2020,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1501,2,Main line 2,Open,each,USD,5,250,5,250
+281,09/10/2020,srinivasan jayaraman,EMPRESA ELECTRICA DE GUATEMALA S A,SEP+0000609796,PO1505,1,Indirect PO item 1,Open,each,GTQ,1,"10,000.00",1,"10,000.00"
+4509,02/11/2020,srinivasan jayaraman,"EUROEMBALAJE, S.A.",EPC+1006309,PO1526,1,3900 Cajas 250x250x250 s/oferta 20000396,Open,each,EUR,"10,000.00","8,000.00","10,000.00","8,000.00"
+4699,02/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1514,5,"DETA86360 Veldhuis A F.2020.
+Social workers",Open,each,EUR,100,"126,604.00",100,"126,604.00"
+4509,02/11/2020,srinivasan jayaraman,"EUROEMBALAJE, S.A.",EPC+1006309,PO1527,1,24 Cajas 250x250x250 +5 palets s/oferta 20000396,Open,each,EUR,10,415.8,10,415.8
+4699,02/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1514,3,"DETA004014 Beddinkhaus MA 2020.
+Social",Open,each,EUR,100,"126,604.00",100,"126,604.00"
+4699,02/11/2020,srinivasan jayaraman,Gemeente Enschede Detacheringen,EPC+1000784,PO1514,1,"DETA007875 Boensma R. 2020
+Social workers",Open,each,EUR,100,"104,821.00",100,"104,821.00"
+4990,02/11/2020,srinivasan jayaraman,Miles Consultancy,EPC+0001058783,PO1513,1,Consolidation of fleet invoices by TMC,Open,each,EUR,1,"2,500,000.00",1,"2,500,000.00"
+4200,02/11/2020,srinivasan jayaraman,STUDIO LEGALE TRIBUTARIO,EPC+0001079772,PO1522,1,"VAT III Q 2019 + ESTEROMETRO SETT OTT NOV DEC COMUNICAZIONE REVOCA BOLLO VIRTUALE
+CILIBRIZZI EY",Open,each,EUR,1,"25,000.00",1,"25,000.00"
+5200,02/11/2020,srinivasan jayaraman,KMG Maskinservice AB,EPC+1049309,PO1519,1,KMG  Sales fee 2020 Q3,Open,each,SEK,1,"200,000.00",1,"200,000.00"
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1531,3,"3rd Annual Payment
+5/1/20 - 4/30/21",Open,year,USD,1,"219,780.00",1,"219,780.00"
+2333,02/11/2020,srinivasan jayaraman,Baier Digitaldruck GmbH Mannheim,EPC+1043834,PO1518,3,Rote Mappe,All Actions,each,EUR,"2,500.00","123,750.00","2,500.00","123,750.00"
+2333,02/11/2020,srinivasan jayaraman,Baier Digitaldruck GmbH Mannheim,EPC+1043834,PO1518,1,Reinigungspläne A4,All Actions,each,EUR,"5,000.00","3,100.00","5,000.00","3,100.00"
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1531,4,"4rd Annual Payment
+5/1/21 - 4/30/22",Open,year,USD,1,"219,780.00",1,"219,780.00"
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1531,2,"2nd Annual Payment
+5/1/19 - 4/30/20",Open,year,USD,1,"219,780.00",1,"219,780.00"
+2333,02/11/2020,srinivasan jayaraman,Baier Digitaldruck GmbH Mannheim,EPC+1043834,PO1518,2,Reinigungspläne DIN A3,All Actions,each,EUR,"2,500.00","2,450.00","2,500.00","2,450.00"
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1531,5,"5th Annual Payment
+5/1/22 - 4/30/23",Open,year,USD,1,"219,780.00",1,"219,780.00"
+128,18/11/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1531,1,Citrix Workspace Premium Service,Open,each,USD,"1,200.00","219,780.00","1,200.00","219,780.00"
+4002,02/11/2020,srinivasan jayaraman,Posti Oy,EPC+1048773,PO1520,1,Daily letters and packages and mail pick-up,Open,each,EUR,1,"200,000.00",1,"200,000.00"
+2983,02/11/2020,srinivasan jayaraman,Lasaulec BV,EPC+0001001292,PO1515,1,Lasaulec Q2 2020,Open,each,EUR,"1,000,000.00","10,000.00","1,000,000.00","10,000.00"
+3166,02/11/2020,srinivasan jayaraman,EnerSys Motive Power,EPC+1020307,PO1512,1,Enersys 3rd party cost,Open,each,GBP,1,"100,000.00",1,"100,000.00"
+135,07/12/2020,srinivasan jayaraman,METANAV SRL,SEP+0000682921,PO1538,1,"TEM VALOR
+1 $ 1.485,00
+3 $ 1.200,00
+4 $ 3.600,00
+5 $ 2.310,00
+7 $ 350,00
+8 $ 1.450,00
+9 $ 300,00
+10 $ 120,00
+11 $ 660,00
+12 $ 1.740,00
+13 -$ 3.100,00 Aislamiento Térmico
+$ 10.115,00",Open,each,USD,1,"10,115.00",1,"10,115.00"
+4900,02/11/2020,srinivasan jayaraman,Swisscom Mobile AG,EPC+0001037949,PO1521,1,"BPO Swisscom Mobile for Company 4900 , 2019",Open,year,CHF,1,"250,000.00",1,"250,000.00"
+135,07/12/2020,srinivasan jayaraman,EXPRESO SANTA ROSA SA,SEP+0000118097,PO1540,1,FLETE REALIZADO STA ROSA,Open,each,ARS,1,"1,500,000.00",1,"1,500,000.00"
+4900,02/11/2020,srinivasan jayaraman,mamutec AG,EPC+0001037212,PO1517,1,4134313  Seil Paraloc Polyester weiss 3 mm,Open,meter,CHF,"1,000.00",360,"1,000.00",360
+291,08/12/2020,srinivasan jayaraman,ADMINISTRCION Y DESAROLLO,SEP+0000681124,PO1549,1,PANAMA SEPTIEMBRE (Incentivos de sergio de septiembre),Open,each,USD,1,"5,000.00",1,"5,000.00"
+291,07/12/2020,srinivasan jayaraman,RECICLAJE PROFESIONAL DE RESIDUOS S,SEP+657174,PO1537,1,"Recolección de residuos orgánicos e inorgánicos, 2 visitas semanales por mes en Planta Tlalnepantla para el año 2020.",Open,each,MXN,1,"200,000.00",1,"200,000.00"
+128,01/12/2020,srinivasan jayaraman,MORE DIRECT,SEP+600327,PO1532,1,Apple iPad IPAD 10.2IN WIFI 32GB SP GRAY 7TH GENERATION,Open,each,USD,50,"16,337.00",50,"16,337.00"
+135,07/12/2020,srinivasan jayaraman,CARTOCOR SA,SEP+646249,PO1539,1,Plancha antideslizante - R15301,Open,each,ARS,"2,100.00","134,106.00","2,100.00","134,106.00"
+135,08/12/2020,srinivasan jayaraman,EXPRESO JET S.R.L,SEP+0000118794,PO1552,1,FLETE REALIZADO JET,Open,each,ARS,1,"300,000.00",1,"300,000.00"
+812,08/12/2020,srinivasan jayaraman,COMBE VENEGAS HECTOR,SEP+0000651813,PO1547,1,ASESORIA LEGAL DE ABRIL A AGOSTO 2020,Open,each,USD,5,"25,000.00",5,"25,000.00"
+817,07/12/2020,srinivasan jayaraman,SODEXHO SOLUCIONES DE MOTIV,SEP+648470,PO1543,3,PLANTAS BOGOTA CLUB DE SANITIZADORES,Open,each,COP,1,"400,000.00",1,"400,000.00"
+817,07/12/2020,srinivasan jayaraman,SODEXHO SOLUCIONES DE MOTIV,SEP+648470,PO1543,1,PLANTAS MEDELLIN CLUB DE SANITIZADORES,Open,each,COP,1,"400,000.00",1,"400,000.00"
+817,07/12/2020,srinivasan jayaraman,SODEXHO SOLUCIONES DE MOTIV,SEP+648470,PO1543,2,COMISIÓN 1.5% DE LA TIQUERA MEDELLIN,Open,each,COP,1,"6,000.00",1,"6,000.00"
+817,07/12/2020,srinivasan jayaraman,SODEXHO SOLUCIONES DE MOTIV,SEP+648470,PO1543,4,COMISIÓN 1.5% DE LA TIQUERA BOGOTA,Open,each,COP,1,"6,000.00",1,"6,000.00"
+5410,02/11/2020,srinivasan jayaraman,"Česká pošta, s.p.",EPC+0001070512,PO1525,1,postage services,Open,each,CZK,1,"450,000.00",1,"450,000.00"
+281,08/12/2020,srinivasan jayaraman,MAGDA ANDREA CASTILLO..,SEP+0000648328,PO1554,1,Honorarios de Magda Castillo por renovación de 2 productos en Guatemala: 1) Diverfoam Alusafe y Divosan DB,Open,each,GTQ,1,"3,456.18",1,"3,456.18"
+5461,02/11/2020,srinivasan jayaraman,Promotrade Kft.,EPC+0001073527,PO1524,1,Pumphead bottle 2,Open,each,HUF,"3,000.00","7,500,000.00","3,000.00","7,500,000.00"
+113,28/02/2021,srinivasan jayaraman,PRECISION PRINT & LABEL INC,SEP+657647,PO1584,1,Currency Difference,Open,each,CAD,1,"5,000.00",1,"5,000.00"
+128,05/03/2021,srinivasan jayaraman,WIP,SEP+0000684190,PO1585,1,Test for Invoice Link in SAP,Open,each,USD,1,"3,000.00",1,"3,000.00"
+128,28/02/2021,srinivasan jayaraman,STAPLES CONTRACT & COMMERCIAL INC,SEP+0000663160,PO1576,1,Test for scenario 3,Open,each,USD,1,"10,000.00",1,"10,000.00"
+181,15/03/2021,srinivasan jayaraman,WINDER'S TRADING CO.,SEP+0000684229,PO1586,2,line 2,Open,each,USD,1,"1,000.00",1,"1,000.00"
+817,16/03/2021,srinivasan jayaraman,BIOTRENDS LABORATORIOS SAS,SEP+648487,PO1617,1,"Pruebas de microbiología en Biotrends Laboratorio para 3 productos de Ecuador:
+1) Spectak G
+2) Divos 80-2
+3) Oxivir TB wipes",Open,each,COP,1,"913,140.00",1,"913,140.00"
+429,10/03/2021,srinivasan jayaraman,MICROCHEM  LAB SERVICES PTY LTD,SEP+645714,PO1602,1,Swabs and sampling at Radisson Blu Sandton,Open,each,ZAR,1,"5,929.00",1,"5,929.00"
+110,28/02/2021,srinivasan jayaraman,ID TECHNOLOGY,SEP+612846,PO1583,1,Tax with Freight,Open,each,USD,1,"5,000.00",1,"5,000.00"
+4909,19/03/2021,srinivasan jayaraman,Dell Computer SA,EPC+1039634,PO1619,1,test for german language,Open,each,USD,1,100,1,100
+429,10/03/2021,srinivasan jayaraman,VRM ENGINEERING CC,SEP+645831,PO1603,1,25M - Silicone Tubing 10id x 17od - 60 Shore [Clear],Open,each,ZAR,1,"4,347.00",1,"4,347.00"
+429,10/03/2021,srinivasan jayaraman,DSB PACKAGING & INDUSTRIAL SUPPLIES,SEP+645633,PO1601,1,450MM X 400M X 15MICRON CLEAR STRETCH WRAP NORMAL CORE,Open,each,ZAR,1,"25,000.00",1,"25,000.00"
+128,19/03/2021,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1618,1,test for tax code,Open,each,USD,1,"1,000.00",1,"1,000.00"
+429,10/03/2021,srinivasan jayaraman,ACUMEN LABORATORY CHEMICALS,SEP+681115,PO1609,1,250 tablets EDTA,Open,each,ZAR,3,"1,987.65",3,"1,987.65"
+765,01/04/2021,srinivasan jayaraman,OFFICEMAX NEW ZEALAND LIMITED,SEP+604485,PO1623,3,"Fellowes 8mm Binding Coil 21 Ring Blue, Box of 100",Open,each,NZD,1,11.8,1,11.8
+765,01/04/2021,srinivasan jayaraman,OFFICEMAX NEW ZEALAND LIMITED,SEP+604485,PO1623,4,"Fellowes 8mm Binding Coils 21 Ring Black, Box of 100",Open,each,NZD,1,11.8,1,11.8
+765,01/04/2021,srinivasan jayaraman,OFFICEMAX NEW ZEALAND LIMITED,SEP+604485,PO1623,2,Bostik Blu-Tack Reusable Adhesive 75g Blue,Open,each,NZD,2,9.58,2,9.58
+765,01/04/2021,srinivasan jayaraman,OFFICEMAX NEW ZEALAND LIMITED,SEP+604485,PO1623,1,"Zebra E104523111 Blank Security PVC ID Card, Box of 500",Open,each,NZD,1,99.95,1,99.95
+128,01/04/2021,srinivasan jayaraman,MCMASTER-CARR SUPPLY CO,SEP+356,PO1580,3,"lip -On Thermometer, 8
+"" Long Stem, 3
+"" Dial
+Diameter, 0 Degree F to 140 Degree F
+Temperature",Open,each,USD,1,"5,000.00",1,"5,000.00"
+128,25/04/2021,srinivasan jayaraman,WIPRO LIMITED,SEP+628024,PO1620,1,"Lean Support Team- Feb- Dec 2020
+Command Center Ext- Jan to Dec 2020
+Program Manager Onsite - Feb to Jun 2020
+Business Analyst (1) Feb to Jun 2020
+Business Analyst (1) Feb to Dec 2020
+Business Analyst Onsite (1) Feb to Jun 2020
+Architect (1)- Feb to Jun 2020
+Architect (1) - Feb to Dec 2020
+DevOps Eng- Feb - Dec 2020",Open,each,USD,1,"2,000,000.00",1,"2,000,000.00"
+182,27/04/2021,Coco Fang,MALAYSIA STEELWOOL SDN. BHD.,SEP+0000684265,PO1627,1,testing-182,Open,each,MOP,1,"2,000.00",1,"2,000.00"
+181,27/04/2021,Coco Fang,TOP SYSTEM INDUSTRIAL (HK) LTD,SEP+0000684224,PO1629,1,testing-181,Open,each,HKD,1,"2,000.00",1,"2,000.00"
+429,16/03/2021,srinivasan jayaraman,ACUMEN LABORATORY CHEMICALS,SEP+681115,PO1608,2,Chlorine Dioxide STRIPS,Open,each,ZAR,8,"2,844.64",8,"2,844.64"
+429,16/03/2021,srinivasan jayaraman,ACUMEN LABORATORY CHEMICALS,SEP+681115,PO1608,1,"HYDROCHLORIC ACID 0,1N (",Open,each,ZAR,8,"1,200.00",8,"1,200.00"
+429,16/03/2021,srinivasan jayaraman,ACUMEN LABORATORY CHEMICALS,SEP+681115,PO1608,3,Potassium Chromate Indicator,Open,each,ZAR,10,"1,860.00",10,"1,860.00"
+198,06/05/2021,Jihyun Park,WIN&WIN,SEP+0000684305,PO1637,1,FDFDFD,Open,each,KRW,1,"100,000.00",1,"100,000.00"
+198,20/05/2021,Jihyun Park,(JU)POSEIDON,SEP+0000684290,PO1652,1,9650test,Open,each,KRW,1,"60,000.00",1,"60,000.00"
+198,21/05/2021,Jihyun Park,KT,SEP+0000684306,PO1654,2,인터넷,Open,each,KRW,1,"137,900.00",1,"137,900.00"
+198,21/05/2021,Jihyun Park,KT,SEP+0000684306,PO1654,1,전화,Open,each,KRW,1,"31,996.00",1,"31,996.00"
+198,21/05/2021,Jihyun Park,KT,SEP+0000684306,PO1655,2,서울인터넷,Open,each,KRW,1,"385,306.00",1,"385,306.00"
+198,01/06/2021,Jihyun Park,KT,SEP+0000684306,PO1659,1,KT CS TEST (절사)-인터넷,Open,each,KRW,1,"31,000.00",1,"31,000.00"
+3166,16/02/2020,srinivasan jayaraman,Dell Computer Corporation Ltd,EPC+1016520,PO1363,1,Base;Latitude 5300 XCTO Base,Open,each,GBP,1,688.72,1,688.72
+3166,16/02/2020,srinivasan jayaraman,Dell Computer Corporation Ltd,EPC+1016520,PO1363,2,Delivery,Open,each,GBP,1,20,1,20
+128,06/01/2020,srinivasan jayaraman,TAYLOR COMMUNICATIONS INC,SEP+668136,PO1338,1,Men's LS Easy Care Fine Twill,Open,each,USD,1,56.85,1,56.85
+128,04/02/2020,srinivasan jayaraman,DELL COMPUTER CORPORATION - US,SEP+136,PO1357,1,Base;Latitude 5300 XCTO Base,Open,each,USD,1,885,1,885
+3166,17/02/2020,srinivasan jayaraman,Dell Computer Corporation Ltd,EPC+1016520,PO1364,1,Base;Latitude 5300 XCTO Base,Open,each,GBP,1,688.72,1,688.72
+3166,17/02/2020,srinivasan jayaraman,Dell Computer Corporation Ltd,EPC+1016520,PO1364,3,Delivery,Open,each,GBP,1,64,1,64
+3166,17/02/2020,srinivasan jayaraman,Dell Computer Corporation Ltd,EPC+1016520,PO1364,2,PowerEdge R440;PowerEdge R440 Server,Open,each,GBP,1,"2,574.30",1,"2,574.30"
+5300,14/05/2021,srinivasan jayaraman,Agnieszka Borkowska..,EPC+0001080039,PO1647,1,"Sales Agent, Agnieszka Borkowska services in Q1 2021",Open,each,PLN,1,"14,233.00",1,"14,233.00"
+198,02/07/2021,srinivasan jayaraman,KNOELLKOREA,SEP+0000684298,PO1667,1,test for 198,Open,each,USD,1,"5,000.00",1,"5,000.00"
+5420,03/07/2020,srinivasan jayaraman,Agentstvo Odezhda dlya raboti LLC,EPC+1080161,PO1488,1,Maintenance,Open,each,RUB,1,"5,000.00",1,"5,000.00"
+128,13/07/2021,srinivasan jayaraman,USA CLEAN INC,SEP+0000659750,PO1668,1,Coupling Flange,Open,each,USD,100,244,100,244
+117,15/07/2021,srinivasan jayaraman,ALAMPATA LOGISTICS.,SEP+0000683973,PO1679,1,"Alampata freight payment for Aug, Sep and Nov",Open,each,USD,1,"100,000.00",1,"100,000.00"
+117,15/07/2021,srinivasan jayaraman,LZOC MARINE & LOGISTICS.,SEP+0000117183,PO1686,1,Lzoc sERVICES Inbound,Open,each,SGD,1,"5,000.00",1,"5,000.00"
+117,15/07/2021,srinivasan jayaraman,EXXONMOBIL CHEMICAL ASIA PACIFIC.,SEP+0000214009,PO1680,3,Petrol for S & M Building Service Contract,Open,each,SGD,1,"2,205.00",1,"2,205.00"
+117,15/07/2021,srinivasan jayaraman,LZOC MARINE & LOGISTICS.,SEP+0000117183,PO1683,1,"Alampata freight payment for Aug, Sep and Nov",Open,each,USD,1,"100,000.00",1,"100,000.00"
+117,15/07/2021,srinivasan jayaraman,EXXONMOBIL CHEMICAL ASIA PACIFIC.,SEP+0000214009,PO1680,2,Petrol for OPCO Sales & Marketing,Open,each,SGD,1,"1,171.43",1,"1,171.43"
+117,15/07/2021,srinivasan jayaraman,EXXONMOBIL CHEMICAL ASIA PACIFIC.,SEP+0000214009,PO1680,5,Petrol for OPCO Sales Force,Open,each,SGD,1,"3,310.07",1,"3,310.07"
+117,15/07/2021,srinivasan jayaraman,EXXONMOBIL CHEMICAL ASIA PACIFIC.,SEP+0000214009,PO1680,4,Petrol for OPCO Technical Customer Service,Open,each,SGD,1,"16,951.20",1,"16,951.20"
+117,15/07/2021,srinivasan jayaraman,EXXONMOBIL CHEMICAL ASIA PACIFIC.,SEP+0000214009,PO1680,1,"Alampata freight payment for Aug, Sep and Nov",Open,each,SGD,1,"1,108.22",1,"1,108.22"
+117,15/07/2021,srinivasan jayaraman,ALAMPATA LOGISTICS.,SEP+0000683973,PO1685,1,"Alampata freight payment for Aug, Sep and Nov",All Actions,each,USD,1,"100,000.00",1,"100,000.00"
+117,15/07/2021,srinivasan jayaraman,LZOC MARINE & LOGISTICS.,SEP+0000117183,PO1681,1,Lzoc sERVICES Inbound,Open,each,SGD,1,"5,000.00",1,"5,000.00"
+117,15/07/2021,srinivasan jayaraman,SINGTEL..,SEP+0000326550,PO1687,1,Lzoc sERVICES Inbound,Open,each,SGD,1,"31,000.00",1,"31,000.00"
+130,21/07/2021,srinivasan jayaraman,ASAITHAMBY ENTERPRISE,SEP+0000119869,PO1720,1,TRANSPORT CHARGERS,Open,month,MYR,1,"9,000.00",1,"9,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,1,Brokerage Fee - Div Guangdong,Open,quarter (of a year),MYR,1,"40,000.00",1,"40,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,2,Brokerage Fee - Div Korea,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,3,Brokerage Fee - Div Inc,Open,quarter (of a year),MYR,1,"15,000.00",1,"15,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,4,Brokerage Fee - Solvay,Open,quarter (of a year),MYR,1,"20,000.00",1,"20,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,5,Brokerage Fee - Daego,Open,quarter (of a year),MYR,1,"2,000.00",1,"2,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,6,Brokerage Fee - Div Ind,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,7,Brokerage Fee - Div Eu (Germany),Open,quarter (of a year),MYR,1,"4,000.00",1,"4,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,8,Brokerage Fee - Div Eu (Belgium),Open,quarter (of a year),MYR,1,"5,000.00",1,"5,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1716,9,Brokerage - Hydro,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1717,1,Stock Transfer from 5064 to 5068 vice versa,Open,quarter (of a year),MYR,1,"45,000.00",1,"45,000.00"
+130,21/07/2021,srinivasan jayaraman,ASAITHAMBY ENTERPRISE,SEP+0000119869,PO1722,1,MY C&C team,Open,year,MYR,1,"55,965.00",1,"55,965.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,1,Brokerage Fee - Div Guangdong,Open,quarter (of a year),MYR,1,"40,000.00",1,"40,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,2,Brokerage Fee - Div Korea,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,3,Brokerage Fee - Div Inc,Open,quarter (of a year),MYR,1,"15,000.00",1,"15,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,4,Brokerage Fee - Solvay,Open,quarter (of a year),MYR,1,"20,000.00",1,"20,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,5,Brokerage Fee - Daego,Open,quarter (of a year),MYR,1,"2,000.00",1,"2,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,6,Brokerage Fee - Div Ind,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,7,Brokerage Fee - Div Eu (Germany),Open,quarter (of a year),MYR,1,"4,000.00",1,"4,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,8,Brokerage Fee - Div Eu (Belgium),Open,quarter (of a year),MYR,1,"5,000.00",1,"5,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,9,Brokerage - Hydro,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,ASAITHAMBY ENTERPRISE,SEP+0000119869,PO1721,1,TRANSPORT CHARGERS,Open,quarter (of a year),MYR,1,"69,000.00",1,"69,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,1,Brokerage Fee - Div Guangdong,Open,quarter (of a year),MYR,1,"50,000.00",1,"50,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,2,Brokerage Fee - Div Korea,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,3,Brokerage Fee - Div Inc,Open,quarter (of a year),MYR,1,"15,000.00",1,"15,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,4,Brokerage Fee - Solvay,Open,quarter (of a year),MYR,1,"20,000.00",1,"20,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,5,Brokerage Fee - Daego,Open,quarter (of a year),MYR,1,"2,000.00",1,"2,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,6,Brokerage Fee - Div Ind,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,7,Brokerage Fee - Div Eu (Germany),Open,quarter (of a year),MYR,1,"4,000.00",1,"4,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,8,Brokerage Fee - Div Eu (Belgium),Open,quarter (of a year),MYR,1,"5,000.00",1,"5,000.00"
+130,21/07/2021,srinivasan jayaraman,USHAMAS FORWARDING (M) SDN.,SEP+0000119964,PO1718,9,Brokerage - Hydro,Open,quarter (of a year),MYR,1,"3,000.00",1,"3,000.00"

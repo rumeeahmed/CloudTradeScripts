@@ -106,10 +106,10 @@ class DiverseyPOCleaner:
         self._move_original_file()
 
 
-directory_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner'
-clean_write_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/cleaned'
-unclean_write_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/unclean'
-archive_path = r'/Users/rumeeahmed/Documents/CloudTradeScripts/DiverseyPOCleaner/archive'
+directory_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\DiverseyPOCleaner'
+clean_write_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\DiverseyPOCleaner\cleaned'
+unclean_write_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\DiverseyPOCleaner\unclean'
+archive_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\DiverseyPOCleaner\archive'
 row_length = 15
 
 po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path, archive_path, row_length)

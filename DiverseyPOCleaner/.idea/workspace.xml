@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updates Readme files" />
+    <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updates Readme files">
+      <change afterPath="$PROJECT_DIR$/cleaned/diversey_feed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diversey_feed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zendesk/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Zendesk/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +18,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2021.1/python_stubs/-1199943124/builtins.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1sUKaO4fjyyM7uyfmbeAxtnXBTV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -129,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
