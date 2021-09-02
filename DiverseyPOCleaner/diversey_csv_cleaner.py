@@ -91,8 +91,8 @@ class DiverseyPOCleaner:
             shutil.move(f'{self.directory_path}/{self._original_file_name}', self.archive_path)
         except shutil.Error:
             shutil.move(
-                f'{self.directory_path}/{self._original_file_name}'
-                , f'{self.archive_path}/prexisting {self._now}{self._original_file_name}'
+                f'{self.directory_path}/{self._original_file_name}',
+                f'{self.archive_path}/prexisting {self._now}{self._original_file_name}'
             )
         
     def process_csv(self):
@@ -114,4 +114,3 @@ row_length = 15
 
 po = DiverseyPOCleaner(directory_path, clean_write_path, unclean_write_path, archive_path, row_length)
 po.process_csv()
-

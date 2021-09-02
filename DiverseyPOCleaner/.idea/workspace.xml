@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bf2c0733-0b52-435c-87d3-5910c6bb6f6d" name="Default Changelist" comment="Updates Readme files">
-      <change afterPath="$PROJECT_DIR$/cleaned/diversey_feed.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diversey_csv_cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/diversey_csv_cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diversey_feed.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zendesk/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Zendesk/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zendesk" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
