@@ -1,19 +1,22 @@
-from datetime import datetime
+import os
 import csv
+import shutil
 
 
 class CSVModifier:
     """
     Object that handles Distribution One's CSV output.
     """
-    def __init__(self, filepath: str, move_path: str):
+    def __init__(self, filepath: str, move_path: str, archive_path: str):
         """
 
         :param filepath: the file name of the csv.
-        :param move_path: the directory to write the new csv file in.
+        :param move_path: the directory to write the new csv file to.
+        :param archive_path: the directory to move the original csv file to.
         """
         self.filepath = filepath
         self.move_path = move_path
+        self.archive_path = archive_path
         self.lines = []
 
     def process_csv(self) -> None:
@@ -27,14 +30,15 @@ class CSVModifier:
                 self.lines.append(line)
 
         self._write_csv()
+        shutil.move(self.filepath, self.archive_path)
 
     def _write_csv(self) -> None:
         """
         Write a csv file with extracted values in `self.lines`.
         :return: None
         """
-        now = datetime.now().strftime('%Y-%m-%d-%H-%M-%S.%f')
-        with open(f'{self.move_path}\\distribution_one_{now}.csv', 'w', newline='', encoding="utf-8") as csv_file:
+        name = os.path.basename(self.filepath)
+        with open(f'{self.move_path}\\{name}', 'w', newline='', encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter='|')
             for line in self.lines:
                 csv_writer.writerow(line)
