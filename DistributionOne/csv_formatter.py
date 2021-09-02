@@ -8,6 +8,11 @@ class CSVModifier:
     Object that handles Distribution One's CSV output.
     """
     def __init__(self, file_directory: str, move_path: str):
+        """
+
+        :param file_directory: the directory of the original csv file.
+        :param move_path: the directory to write the new csv file in.
+        """
         self.file_directory = file_directory
         self.move_path = move_path
         self.lines = []
