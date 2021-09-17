@@ -244,6 +244,27 @@ class CloudTradeZendesk:
         else:
             return "No ticket ID's were found"
 
+    def submit_ticket(self, subject: str):
+        """
+        Generic method to submit a ticket based on the subject of the ticket.
+        :param subject: a string object that represents the subject of the ticket in question.
+        :return:
+        """
+        year, month, day = self._get_now()
+        tickets = self._get_tickets(f'{subject} created>={year}-{month}-01 type:ticket status<solved')
+        ticket_ids = self._process_tickets(tickets)
+        data = self._create_solved_tickets_json_body(ticket_ids)
+        custom_fields = [
+            {'id': self.channel_partner_field, "value": "cloudtrade"},
+            {'id': self.customer_field, "value": "operations"},
+            {'id': self.chargeable_field, "value": "non-chargeable"},
+            {"id": self.ticket_type_field, "value": "rules_writing_support"}
+        ]
+        for ticket in data['tickets']:
+            ticket['custom_fields'] = custom_fields
+
+        return self.bulk_submit_tickets(ticket_ids, data)
+
     def get_ticket_fields(self) -> Response:
         """
         This method will return all the possible ticket fields that are available in in the CloudTrade Zendesk API.
