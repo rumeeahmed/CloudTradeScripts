@@ -18,7 +18,7 @@ class CloudTradeZendesk:
     search_url = f'{base_url}/search.json?'
     tickets_url = f'{base_url}/tickets/update_many.json?'
 
-    token = os.environ.get('ZENDESK_KEY')
+    token = 'BPHF7BbMBXOPj8gk5jyir7fk99LJQHZbjmTewyWR'
 
     def __init__(self, username: str):
         """
@@ -95,8 +95,8 @@ class CloudTradeZendesk:
         ticket together in Zendesk.
         :return: attachment token.
         """
-        self._headers['Content-Type'] = 'application/pdf'
-        self._headers['Accept'] = 'application/pdf'
+        self._headers['Content-Type'] = 'application/binary'
+        self._headers['Accept'] = 'application/binary'
         files = {'file': open(filepath, 'rb')}
         filename = os.path.basename(filepath)
         response = requests.post(f'{self.uploads_url}?filename={filename}', headers=self._headers, files=files)
@@ -251,7 +251,7 @@ class CloudTradeZendesk:
         :return:
         """
         year, month, day = self._get_now()
-        tickets = self._get_tickets(f'{subject} created>={year}-{month}-01 type:ticket status<solved')
+        tickets = self._get_tickets(f'{subject} created>={year}-{month}-{day} type:ticket status<solved')
         ticket_ids = self._process_tickets(tickets)
         data = self._create_solved_tickets_json_body(ticket_ids)
         custom_fields = [
