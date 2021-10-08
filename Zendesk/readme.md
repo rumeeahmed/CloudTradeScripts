@@ -31,6 +31,22 @@ move_path = r'C:\Users\rumee.ahmed\Documents\CloudTradeScripts\Mapping Requests\
 customer = 'Test'
 ```
 
+### Bulk Submitting .zip files
+
+The program also has the ability to bulk submit zipped folders in a directory into the helpdesk but
+the `forward_tickets` file needs to be modified.
+
+First change the below line of code for the desired file-type to send into Zendesk:
+
+```python
+if file.endswith('.zip'):
+```
+
+Note that the zip files are actually broken and cannot be read or opened by Windows. In order to
+extract this download a tool called `7zip`. Once installed, right click on the zipped file and then
+navigate to `7zip -> open archive -> zip`, this will open a window with the zip file and the contents
+can be extracted.
+
 ---
 
 ### Closing Monthly Time Tracking Tickets
